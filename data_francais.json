@@ -1,0 +1,1843 @@
+{"intents": [
+    {"tag": " ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Reformulez votre question autrement"],
+	"context": []
+},
+{"tag": "salut",
+	"patterns": ["hey","salam","bonjour","salut","slt","bnj"],
+	"responses": ["bonjour","Salut"],
+	"context": []
+},
+{"tag": "cv",
+	"patterns": ["vas-tu bien"," comment ca va","comment cv","comment vas-tu","cv"],
+	"responses": ["Oui,Ca va"],
+	"context": []
+},
+
+
+  {"tag": " ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Reformulez votre question autrement"],
+	"context": []
+},
+{"tag": "  ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Reformulez votre question autrement"],
+	"context": []
+},
+{"tag": "   ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Reformulez votre question autrement"],
+	"context": []
+},
+
+   
+{"tag": "je veux aller au maroc",
+	"patterns": ["je veux aller au maroc pour le tourisme, pourriez-vous m'aider a en savoir plus sur tourisme dans ce pays","je veux que vous m'aidiez a connaitre les destinations touristiques au Maroc","je veux que vous m'aidiez à connaitre les villes touristiques au maroc"],
+	"responses": ["Oui, Je suis la pour vous aider avec plaisir"],
+	"context": []
+},
+
+{"tag": "transport",
+	"patterns": ["quels sont les types de transport au Maroc","Parlez-moi des transports au maroc","qu'en est-il des transports au maroc","transports au maroc","je veux que vous me parliez des types de transports au maroc"],
+	"responses": ["il existe de nombreux moyens de transport au Maroc. si vous souhaitez vous deplacer d'une ville à une autre, vous devez soit prendre un train à grande vitesse, un train, un bus, ou louer une voitures de location. si vous souhaitez vous deplacer dans les villes , il y a les tramways ou un petit ou grand taxi dont la couleur change selon les villes et enfin, il y a les transports traditionnels, comme les balades en caleche, qui ne sont que dans les zones touristiques comme jemaa el-fna"],
+	"context": []
+},
+
+{"tag": "hebergement",
+	"patterns": ["quel type d'hebergement recommandez-vous","et quel type d'hebergement recommandez-vous","je veux que vous me recommandiez un type d'hebergement"],
+	"responses": ["pour un sejour de confort et de luxe, choisissez Les maisons d’hotes, les riads et les hotels & resorts,et pour une decouverte et une reconnexion à la nature, optez pour les auberges, les gites, les campings et les bivouacs de luxe!"],
+	"context": []
+},
+{"tag": "types de residence",
+	"patterns": ["quels sont les types de residence au maroc","qu'en est-il des types de residence au maroc","parlez-moi des types de residence au maroc","je veux que vous me parliez des types de residence au maroc"," types de résidence au Maroc"],
+	"responses": ["les auberges, les gites, les campings et les bivouacs de luxe, riyadh, hotels, resorts"],
+	"context": []
+},
+{"tag": "nourriture au maroc",
+	"patterns": ["parlez-moi de la nourriture au maroc", "la nourriture au maroc", "je veux que vous me parliez de la nourriture au maroc", "qu'en est-il de la nourriture au maroc", "parlez-moi de la nourriture marocaine la plus celebre", "le la nourriture marocaine la plus celebre"],
+	"responses": ["il existe de nombreux bons plats marocains, tels que le couscous marocain, la harira, le tajine, la pastilla, meshoui, le rafisa, la tanjia, le pain marocain"],
+	"context": []
+},
+{"tag": "gateaux au maroc ",
+	"patterns": [" gateaux marocains ", " quels sont les gateaux marocains les plus celebres ", " parlez-moi des gateaux marocains ", " qu'en est-il des gateaux marocains "],
+	"responses": ["il y a beaucoup de bons gateaux marocains ,tels que, ghriba, chebakia, qaab el ghazal, fakkas"],
+	"context": []
+},
+{"tag": "boissons marocaines",
+	"patterns": ["parlez-moi des boissons celebres au maroc", "boissons marocaines", "quelles sont les boissons marocaines les plus connues", "les boissons marocaines les plus connues", "qu'en est-il des boissons marocaines"],
+	"responses": ["au maroc, il existe toutes sortes de boissons, mais il existe plusieurs boissons speciales comme le the marocain, le cafe a la marocaine, toutes sortes de jus de fruits."],
+	"context": []
+},
+
+{"tag": "transport en dehors des villes",
+	"patterns": ["parlez-moi des transports hors de la ville", "qu'en est-il des transports hors de la ville", "les moyens de transport hors de la ville", "je veux que vous me parliez des moyens de transport qui existent pour les transports hors de la ville" ," quels sont les types de transport pour le transport hors de la ville "," types de transport pour se deplacer entre les villes "],
+	"responses": ["pour le transport en dehors de la ville, il y a des trains, des trains à grande vitesse, de gros bus"],
+	"context": []
+},
+
+{"tag": "transport intra-urbain",
+	"patterns": ["parlez-moi des transports en ville","qu'en est-il des transports en ville","les moyens de transport en ville","je veux que vous me parliez des moyens de transport en ville","quels sont les types de transports intra-urbains","types de moyens transports intra-urbains"],
+	"responses": ["Si vous voulez vous balader dans les villes, il y a un tramway ou un petit ou grand taxi dont la couleur change selon la ville, les gros bus de transport, et il y a aussi les transports traditionnels comme les charrettes conduites par des chevaux, ils ne sont qu'en  des quartiers touristique comme la place jemaa el-fna"],
+	"context": []
+},
+{"tag": "tourisme au maroc",
+	"patterns": ["maroc","parlez-moi du tourisme au maroc","qu'en est-il du tourisme au maroc","tourisme au maroc","parlez-moi du tourisme au maroc","le tourisme au maroc"],
+	"responses": ["Le tourisme au maroc est un pays de beauté et de tourisme paysager unique.le tourisme au maroc est devenu une destination mondiale grace aux ingredients qu'il possede pour y parvenir."],
+	"context": []
+},
+{"tag": "avantages du tourisme",
+	"patterns": ["qu'en est-il du tourisme au maroc","qu'est-ce qui distingue le tourisme au maroc","parlez-moi des avantages du tourisme au maroc","quels sont les avantages du tourisme au maroc","avantages du tourisme au maroc"],
+	"responses": ["Le tourisme au maroc se caracterise par sa diversite, car il contient de nombreux types de tourisme, notamment le tourisme de montagne, le tourisme des villes anciennes, le tourisme religieux et le tourisme sportif."],
+	"context": []
+},
+
+{"tag": "saisons touristiques",
+	"patterns": ["saisons touristiques au maroc","les meilleurs mois pour le tourisme au maroc","Les meilleurs mois de tourisme au maroc","quelles sont les meilleures saisons pour le tourisme au maroc","parlez-moi des saisons du tourisme au maroc","qu'en est-il des saisons touristiques au maroc"],
+	"responses": ["Les meilleures saisons du tourisme au maroc s'etendent de mars a mai, car cette periode est caracterisee par le temps doux et beau dans les villes du maroc, ou tombent de legeres pluies, en plus d'un temps chaud et confortable pour le tourisme en general."],
+	"context": []
+},
+
+{"tag": "casablanca",
+	"patterns": ["casablanca","ville de casablanca","Parlez-moi de casablanca","qu'en est-il de casablanca","qu'en est-il de la ville de casablanca"],
+	"responses": ["Casablanca est la plus grande ville du maroc, la plus belle ville avec vue sur l'ocean, et la capitale economique du pays."],
+	"context": []
+},
+
+
+{"tag": "marrakech",
+	"patterns": ["marakesh","marakech","marrakesh","marrakech","marrakech ville","parlez-moi de marrakech","qu'en est-il de marrakech","qu'en est-il de la ville marrakech"],
+	"responses": ["Marrakech est consideree comme l'une des villes touristiques les plus importantes du maroc et la capitale de l'empire andalou, qui se caracterise par sa beaute et sa nature pittoresque. il a l'harmonie et le melange entre la beaute du present et la splendeur du passe. marrakech comprend de nombreux murs historiques, des batiments et des jardins geants"],
+	"context": []
+},
+
+
+{"tag": "rabat",
+	"patterns": ["rabat","ville de rabat","parlez-moi de rabat","qu'en est-il de rabat","qu'en est-il de la ville de rabat"],
+	"responses": ["Rabat est la capitale marocaine et la deuxieme plus grande ville du maroc.elle se caracterise par sa belle situation sur une grande plaine surplombant l'ocean atlantique, et au milieu de celle-ci passe le fleuve bouregreg."],
+	"context": []
+},
+
+
+{"tag": "fes",
+	"patterns": ["fes","ville de fes","parlez-moi de fes","qu'en est-il de fes","qu'en est-il de la ville de fes"],
+	"responses": ["La ville de fes est la deuxième ville du maroc en termes de population.La ville de fes se distingue en ce qu'elle est la plus grande zone sans voiture au monde, et donc son environnement est tres propre."],
+	"context": []
+},
+
+{"tag": "tanger",
+	"patterns": ["tanger","ville de tanger","parlez-moi de tanger","qu'en est-il de la ville de tanger","qu'en est-il de tanger"],
+	"responses": ["Tanger est considérée comme l'une des sixièmes plus grandes villes touristiques du maroc et l'une des villes les plus importantes du pays, car elle recoit chaque année de nombreux touristes étrangers venant se renseigner sur les meilleurs endroits du tourisme au Maroc en raison de ses attractions touristiques de premier plan."],
+	"context": []
+},
+
+{"tag": "tetouan",
+	"patterns": ["tetouan","ville de tetouan","parlez-moi de tetouan","parlez-moi de la ville de tetouan","qu'en est-il de tetouan","qu'en est-il de la ville de tetouan"],
+	"responses": ["Tétouan est une ville marocaine au caractère rural côtier avec une touche andalouse antique surplombant la côte méditerranée, avec vue sur les montagnes du Rif et la Darsa.La ville de Tétouan a des éléments qui font l'une des meilleures zones touristiques du Maroc"],
+	"context": []
+},
+
+{"tag": "al hoceima",
+	"patterns": ["hoceima","al hocaima","hocaima","al hoceima","la ville d'al hoceima","parlez-moi d'al hoceima","parlez-moi de la ville d'al hoceima","qu'en est-il d'al hoceima","qu'en est-il de la ville d'al hoceima"],
+	"responses": ["La ville d'Al Hoceima est l'une des plus belles villes touristiques du Maroc, la plus populaire et attire l'attention des touristes locaux, arabes et étrangers, en raison de ses belles plages montagneuses claires et de ses grands sites archéologiques et religieux historiques"],
+	"context": []
+},
+
+{"tag": "meknes",
+	"patterns": ["mekness","meknes","la ville de meknes","Tourisme à meknes","parlez-moi de meknes","qu'en est-il de meknes","qu'en est-il de la ville de meknes"],
+	"responses": ["La ville touristique de Meknès au Maroc a une longue histoire qui raconte ses murs, ses tours et ses lieux historiques qui ont conservé sa gloire et ses monuments. Elle est à juste titre considérée comme la ville de la civilisation arabo-islamique et de l'histoire brillante"],
+	"context": []
+},
+
+{"tag": "ifrane",
+	"patterns": ["ifran","ifrane","ville d'ifrane","arlez-moi d'ifrane","parlez-moi de la ville d'ifrane","qu'en est-il de ifrane","qu'en est-il de la ville d'ifrane"],
+	"responses": ["Ifrane, ou comme ils l'appellent la Suisse du Maroc, est l'une des attractions touristiques du Maroc, située entre les villes de Fès et Meknès avec une longue histoire, alors qu'elle est dominée par une belle nature qui apparaît dans ses parcs, forêts, cascades et montagnes enneigées, jetant une ombre sur ses maisons traditionnelles et ses hôtels de luxe"],
+	"context": []
+},
+
+{"tag": "chefchaouen",
+	"patterns": ["chefchaouan","chefchaouen","ville de chefchaouen","parlez-moi de chefchaouen","parlez-moi de la ville chefchaouen","qu'en est-il de chefchaouen","qu'en est-il de la ville de chefchaouen"],
+	"responses": ["Chefchaouen comprend de nombreuses attractions qui font une destination pour de nombreux touristes, notamment des cascades, des lieux naturels et des monuments historiques."],
+	"context": []
+},
+
+{"tag": "agadir",
+	"patterns": ["agadir","ville d'agadir","parlez-moi d'agadir","parlez-moi de la ville d'agadir","qu'en est-il d'agadir","qu'en est-il de la ville d'agadir"],
+	"responses": ["Agadir est l'une des villes touristiques du Maroc, située au bord de l'océan Atlantique près des montagnes de l'Atlantique"],
+	"context": []
+},
+
+{"tag": "tourisme a casablanca",
+	"patterns": ["tourisme a casablanca","tourisme dans la ville de casablanca","parlez-moi du tourisme a casablanca","parlez-moi du tourisme a la ville de casablanca","qu'en est-il du tourisme à Casablanca","qu'en est-il du tourisme à la ville de casablanca"],
+	"responses": ["Casablanca est une ville riche en lieux touristiques divers et merveilleux, car elle contient bon nombre des zones touristiques les plus importantes du Maroc, ce qui lui confère un charme et une beauté particuliers."],
+	"context": []
+},
+
+{"tag": "tourisme a marrakech ",
+	"patterns": ["tourisme a marakech ","tourisme a marakesh ","tourisme a marrakesh ","tourisme a marrakech ","tourisme dans la ville de marrakech ","parlez-moi du tourisme a marrakech","parlez-moi du tourisme a la ville de marrakech","qu'en est-il du tourisme a marrakech","qu'en est-il du tourisme a la ville de marrakech"],
+	"responses": ["A cette époque, Marrakech est considérée comme un bastion de la civilisation islamique et un centre intellectuel pour la science et la philosophie, car elle comprend de nombreux musées et monuments qui attirent de nombreux touristes, en plus de plusieurs des lieux touristiques les plus importants du Maroc, comme il y a de nombreux restaurants, cafés, marchés et activités de loisirs."],
+	"context": []
+},
+
+
+
+{"tag": "tourisme a rabat",
+	"patterns": ["tourisme a rabat","tourisme dans la ville de rabat ","parlez-moi du tourisme a rabat","parlez-moi du tourisme à la ville de rabat","qu'en est-il du tourisme a rabat","qu'en est-il du tourisme à la ville de rabat"],
+	"responses": ["La ville de Rabat abrite plusieurs des lieux touristiques les plus importants du Maroc"],
+	"context": []
+},
+
+
+
+{"tag": "tourisme a fes",
+	"patterns": ["tourisme a fes","tourisme dans la ville de fes","parlez-moi du tourisme a fes","parlez-moi du tourisme a la ville de fes","qu'en est-il du tourisme a fes","qu'en est-il du tourisme à la ville de fes"],
+	"responses": ["Elle abrite de nombreuses zones touristiques au Maroc en raison de ses sites archéologiques qui indiquent sa civilisation à travers les anciens temps de l'Islam"],
+	"context": []
+},
+
+
+
+{"tag": "tourisme a tanger",
+	"patterns": ["tourisme a tanger","tourisme a la ville de tanger","parlez-moi du tourisme a tanger","parlez-moi du tourisme a la ville de tanger","qu'en est-il du tourisme a tanger","qu'en est-il du tourisme à la ville de tanger"],
+	"responses": ["Le tourisme à Tanger est l'une des ressources les plus importantes de la ville, car elle est riche en potentiels touristiques, dont le plus important est la grotte d'Irkel"],
+	"context": []
+},
+
+
+
+{"tag": "tourisme à tetouan",
+	"patterns": ["tourisme à tetouan","tourisme dans la ville de tetouan","parlez-moi du tourisme a tetouan","parlez-moi du tourisme à la ville de tetouan","qu'en est-il du tourisme à tetouan","qu'en est-il du tourisme a la ville de tetouan"],
+	"responses": ["La ville de Tétouan possède des éléments qui font l'une des meilleures zones touristiques du Maroc, tels que les musées, la vieille ville avec ses monuments et son patrimoine et les quartiers archéologiques, les plages et les chaînes de montagnes boisées, les palais royaux et aussi les monuments religieux historiques, et autres."],
+	"context": []
+},
+
+
+
+{"tag": "tourisme a al hoceima",
+	"patterns": ["tourisme à al hocaima","tourisme à al hoceima","tourisme dans la ville d'al Hoceima","parlez-moi du tourisme a al Hoceima","parlez-moi du tourisme a la ville d'al hoceima ","qu'en est-il du tourisme a al hoceima","qu'en est-il du tourisme a la ville d'al hoceima"],
+	"responses": ["La ville d'Al Hoceima est l'une des villes touristiques les plus importantes du Maroc. Si vous êtes amateur de safari, de camping, d'escalade et d'observation de la faune, alors Al Hoceima est définitivement votre destination idéale pour de telles vacances."],
+	"context": []
+},
+
+
+
+{"tag": "tourisme a meknes",
+	"patterns": ["tourisme a mekness","tourisme a meknes","tourisme dans la ville de meknes","parlez-moi du tourisme a meknes","parlez-moi du tourisme a la ville de meknes","qu'en est-il du tourisme a meknes","qu'en est-il du tourisme à la ville de meknes"],
+	"responses": ["Meknès est l'une des villes touristiques les plus importantes du Maroc"],
+	"context": []
+},
+
+
+
+
+
+{"tag": "villes cotieres",
+	"patterns": ["les villes touristiques qui surplombent la cote","villes touristiques surplombant la mer","quelles sont les villes touristiques qui surplombent la cote","quelles sont les villes touristiques qui surplombent la mer","parlez-moi des villes touristiques qui surplombent la mer","parlez-moi des villes touristiques qui surplombent la cote","villes touristiques cotieres","villes cotieres touristiques","quelles sont les villes touristiques cotieres","quelles sont les villes cotieres touristiques","parlez-moi des villes touristiques cotieres","parlez-moi des villes cotieres"],
+	"responses": ["Les villes touristiques côtières sont Casablanca, Rabat, Tanger, Tétouan, Al Hoceima, Agadir"],
+	"context": []
+},
+
+
+
+{"tag": "villes de montagne",
+	"patterns": ["les villes touristiques situees dans les montagnes","quelles sont les villes touristiques en montagne","parlez-moi des villes touristiques qui sont dans les montagnes","villes touristiques de montagne","quelles sont les villes touristiques de montagne","quelles sont les villes touristiques en montagne","parlez-moi des villes touristiques de montagne","parlez-moi des villes touristiques en montagne"],
+	"responses": ["Les villes touristiques de montagne sont Chefchaouen, Tétouan, Fès, Ifrane, Agadir, Al Hoceima"],
+	"context": []
+},
+
+
+
+{"tag": "villes de neige",
+	"patterns": ["villes touristiques avec de la neige","quelles sont les villes touristiques qui ont la neige","parlez-moi des villes touristiques qui ont la neige","villes touristiques de neige","Villes de neige touristiques","quelles sont les villes touristiques enneigées","quelles sont les villes de neige touristiques","parlez-moi des villes touristiques enneigees"],
+	"responses": ["Les villes touristiques enneigées sont Ifrane et la périphérie de Marrakech"],
+	"context": []
+},
+
+
+
+{"tag": "ports principaux",
+	"patterns": ["ports du maroc","quels sont les noms des ports au maroc","quels sont les ports au maroc","parlez-moi des ports au maroc","les principaux ports du maroc","quels sont les noms des principaux ports du maroc","quels sont les principaux ports au maroc","parlez-moi des principaux ports du maroc"],
+	"responses": ["Les principaux ports sont le port de Tanger Med, le port de Casablanca, le port d'Al Hoceima, le port d'Agadir"],
+	"context": []
+},
+
+
+
+{"tag": "grands aeroports",
+	"patterns": ["aeroports maroc","quels sont les noms des aeroports au maroc","quels sont les aeroports du maroc","parlez-moi des aeroports au maroc","les principaux aeroports du maroc","quels sont les noms des principaux aeroports du maroc","quels sont les principaux aeroports du maroc","parlez-moi des principaux aeroports du maroc"],
+	"responses": ["Principaux aéroports internationaux sont : Aéroport Rabat-Salé Aéroport international Agadir-Al Massira, Aéroport international Mohammed V, Aéroport international Marrakech-Menara Aéroport international Fès-Sais Aéroport Tanger Ibn Battuta "],
+	"context": []
+},
+
+
+
+{"tag": "hotels a casablanca ",
+	"patterns": ["les meilleurs hotels de casablanca","quels sont les meilleurs hotels de casablanca","parlez-moi des meilleurs hotels de casablanca","hotels de luxe a casablanca","quels sont les hotels de luxe a casablanca","parlez-moi des hotels de luxe a casablanca","les meilleurs hotels dans la ville de casablanca","quels sont les meilleurs hotels dans la ville de casablanca","parlez-moi des meilleurs hotels dans la ville de casablanca"],
+	"responses": ["Kenzi Tower, Sofitel Casablanca, Four Seasons, Val d'Anfa et Hyatt Regency"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a marrakech",
+	"patterns": ["les meilleurs hotels de marakech","les meilleurs hotels de marrakesh","les meilleurs hotels de marrakech","quels sont les meilleurs hotels de marrakech","parlez-moi des meilleurs hotels de marrakech","hotels de luxe à marrakech","quels sont les hotels de luxe a marrakech","parlez-moi des hotels de luxe a marrakech","les meilleurs hotels dans la ville de marrakech","quels sont les meilleurs hotels dans la ville de marrakech","parlez-moi des meilleurs hotels dans la ville de marrakech"],
+	"responses": ["Lawrence, Wazo, Kech Boutique Hôtel & Spa, Relax et Red Marrakech"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a fes",
+	"patterns": ["les meilleurs hotels de fes","quels sont les meilleurs hotels a fes","parlez-moi des meilleurs hotels de fes","hotels de luxe a fes","quels sont les hotels de luxe a fes","parlez-moi des hotels de luxe a fes","les meilleurs hotels dans la ville de fes ","quels sont les meilleurs hotels dans la ville de fes","parlez-moi des meilleurs hotels dans la ville de fes"],
+	"responses": ["Riad La porte Bleu, Sahrai, Marriott Jnan Palace, Palais et Barcelo Fès"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a rabat",
+	"patterns": ["les meilleurs hotels de rabat ","quels sont les meilleurs hotels a rabat","parlez-moi des meilleurs hotels de rabat","Hôtels de luxe a rabat","quels sont les hotels de luxe a rabat","parlez-moi des hotels de luxe a rabat","les meilleurs hotels dans la ville de rabat","quels sont les meilleurs hotels dans la ville de rabat","parlez-moi des meilleurs hotels dans la ville de rabat"],
+	"responses": ["La tour Hassan, Sofitel Rabat, Cantor, Belere et Diwan Rabat"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a tetouan",
+	"patterns": ["les meilleurs hotels de tetouan","quels sont les meilleurs hotels à tetouan","parlez-moi des meilleurs hotels de tetouan","hotels de luxe à tetouan","quels sont les hotels de luxe à tetouan","parlez-moi des hotels de luxe a tetouan","les meilleurs hotels dans la ville de tetouan","quels sont les meilleurs hotels dans la ville de tetouan","parlez-moi des meilleurs hotels dans la ville de tetouan"],
+	"responses": ["El Reducto, Al Mandari, Riad Dar Achaach, Prestige Tétouan et Las Mil y una Noches."],
+	"context": []
+},
+
+
+
+{"tag": "hotels a tanger",
+	"patterns": ["les meilleurs hotels de tanger","quels sont les meilleurs hotels à tanger","parlez-moi des meilleurs hotels de tanger","hotels de luxe a tanger","quels sont les hotels de luxe a ianger","parlez-moi des hotels de luxe à tanger","les meilleurs hotels dans la ville de anger","quels sont les meilleurs hotels dans la ville de tanger","parlez-moi des meilleurs hotels dans la ville de tanger"],
+	"responses": ["Manar Tanger, La Maison de Tanger, Dar Chams, Palais Zahia et Kasbah Rose"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a al hoceima",
+	"patterns": ["les meilleurs hotels d'al Hocaima","les meilleurs hotels d'al Hoceima","quels sont les meilleurs hotels a al hoceima","parlez-moi des meilleurs hotels d'al hoceima","hotels de luxe a al hoceima","quels sont les hotels de luxe a al hoceima","parlez-moi des hotels de luxe a al hoceima","Les meilleurs hôtels dans la ville d'Al Hoceïma","Quels sont les meilleurs hôtels dans la ville d'Al Hoceïma","Parlez-moi des meilleurs hôtels dans la ville d'Al Hoceima"],
+	"responses": ["Mira Palace, Mercure Quemado, La Perla, Villa Florida et Mohammed V by Accor"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a meknes",
+	"patterns": ["les meilleurs hotels de mekness","les meilleurs hotels de meknes","quels sont les meilleurs hotels a meknes","parlez-moi des meilleurs hotels de meknes","hotels de luxe a meknes","quels sont les hotels de luxe a meknes","parlez-moi des hotels de luxe a meknes","les meilleurs hotels dans la ville de meknes","quels sont les meilleurs hotels dans la ville de meknes","parlez-moi des meilleurs hotels dans la ville de meknes"],
+	"responses": ["Swani, Dar Meknes Tresor, Hôtel & Spa Belle Vue, Riad Ritaj et Riad Yacout"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a ifrane",
+	"patterns": ["les meilleurs hotels d'ifran","les meilleurs hotels d'ifrane","quels sont les meilleurs hotels a ifrane","parlez-moi des meilleurs hotels d'ifrane","hotels de luxe a ifrane","quels sont les hotels de luxe a ifrane","parlez-moi des hotels de luxe a ifrane","les meilleurs hotels dans la ville d'ifrane","quels sont les meilleurs hotels dans la ville d'ifrane","parlez-moi des meilleurs hotels dans la ville d'ifrane"],
+	"responses": ["Michlifen Resort, Jardins d'Ifrane, Relais Ras El Maa, Ifrane Palace Resort et La Maison Bleu"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a chefchaouen",
+	"patterns": ["les meilleurs hotels de chefchaouan","les meilleurs hotels de chefchaouen","quels sont les meilleurs hotels de chefchaouen","parlez-moi des meilleurs hotels de chefchaouen","hotels de luxe a chefchaouen","quels sont les hotels de luxe a chefchaouen","parlez-moi des hotels de luxe a chefchaouen","les meilleurs hotels dans la ville de chefchaouen","quels sont les meilleurs hotels dans la ville de chefchaouen","parlez-moi des meilleurs hotels dans la ville de chefchaouen"],
+	"responses": ["Dar Zambra, Dar Saba, Dar Mezyana, Chez Aziz et Dar Elrio"],
+	"context": []
+},
+
+
+
+{"tag": "hotels a agadir",
+	"patterns": ["les meilleurs hotels d'agadir","quels sont les meilleurs hotels a agadir","parlez-moi des meilleurs hotels d'agadir","hotels de luxe a agadir","quels sont les hotels de luxe a agadir","parlez-moi des hotels de luxe a agadir","les meilleurs hotels dans la ville d'agadir","quels sont les meilleurs hotels dans la ville d'agadir","parlez-moi des meilleurs hotels dans la ville d'agadir"],
+	"responses": ["Sofitel Agadir, Royal Spa, Iberostar, Tildi Spa et Atlantic"],
+	"context": []
+},
+
+
+
+{"tag": "site de la tour kenzi",
+	"patterns": ["ou kenzi tower hotel est-il situe","site de l'hotel kenzi tower","quel est l'emplacement de l'hotel kenzi tower","parlez-moi du site du kenzi tower hotel","qu'en est-il de l'emplacement de l'hotel kenzi tower","les coordonnees de l'hotel kenzi tower","qu'en est-il des coordonnees du kenzi tower hotel","quelles sont les coordonnées du kenzi tower hotel","parlez-moi des coordonnees du kenzi tower hotel"],
+	"responses": ["Il est situé dans l'une des tours jumelles de Casablanca ,il a une vue sur toute la ville, comme il est proche du centre-ville et de la mosquée Hassan II"],
+	"context": []
+},
+
+
+
+{"tag": "site du sofitel casablanca",
+	"patterns": ["ou est situe le sofitel casablanca","site du sofitel casablanca","quelle est la situation geographique du sofitel casablanca","parlez-moi du site du sofitel casablanca","qu'en est-il de l'emplacement du sofitel casablanca","coordonnées de l'hotel sofitel casablanca","qu'en est-il des coordonnees du sofitel casablanca","quelles sont les coordonnees du sofitel casablanca","donnez-moi les coordonnées de l'hotel sofitel casablanca"],
+	"responses": ["il est situé à proximité du centre-ville et à seulement quelques minutes de la Mosquée Hassan II et du port de Casablanca"],
+	"context": []
+},
+
+{"tag": "site four seasons",
+	"patterns": ["ou est situe l'hotel four seasons","le site de l'hotel four seasons","quel est l'emplacement de l'hotel four seasons","parlez-moi du site de l'hotel four seasons","qu'en est-il de l'emplacement de l'hotel four seasons","Coordonnees de l'hotel four seasons","qu'en est-il des coordonnees de l'hotel four seasons","quelles sont les coordonnees de l'hotel four seasons","parlez-moi des coordonnées de l'hôtel four seasons"],
+	"responses": ["Située à côté d'Anfaplace, la corniche d'Ain Diab se trouve à environ 1,5 km de l'hôtel"],
+	"context": []
+},
+
+
+
+{"tag": "site du val d'anfa",
+	"patterns": ["ou hotel val d'anfa est-il situe","site de l'hotel val d'anfa","quelle est la localisation de l'hotel val d'anfa","parlez-moi du site de l'hotel val d'anfa","et le site internet de l'hotel cal d'anfa","coordonnees de l'hotel val d'anfa","qu'en est-il des coordonnees de l'hotel val d'anfa","quelles sont les coordonnees de l'hotel val d'anfa","parlez-moi des coordonnees de l'hotel val d'anfa"],
+	"responses": ["Cet hôtel est situé sur la corniche de Casablanca, où se côtoient restaurants, cafés, jardins pittoresques et le pouls de la vie"],
+	"context": []
+},
+
+
+
+{"tag": "site du hyatt regency",
+	"patterns": ["ou se trouve hyatt regency","site de l'hotel hyatt regency","quel est l'emplacement de l'hotel hyatt regency","parlez-moi du site hyatt regency","qu'en est-il de l'emplacement de l'hotel hyatt regency","les coordonnees de l'hotel hyatt regency","qu'en est-il des coordonnees de l'hotel hyatt regency","quelles sont les coordonnees de l'hotel hyatt regency","parlez-moi des coordonnees de l'hotel hyatt regency"],
+	"responses": ["Il est situé à proximité du centre-ville, où le port de Casablanca est à environ 900 mètres"],
+	"context": []
+},
+
+
+
+{"tag": "site de lawrence d'arabie",
+	"patterns": ["ou est situe l'hotel lawrence","site de l'hotel lawrence","quel est l'emplacement de l'hotel lawrence","parlez-moi du site de l'hotel lawrence","qu'en est-il du site de l'hotel lawrence","coordonnees de l'hotel lawrence","qu'en est-il des coordonnees de l'hotel lawrence","quelles sont les coordonnees de l'hotel lawrence","parlez-moi des coordonnées de l'hotel lawrence"],
+	"responses": ["L'élégant Lawrence D'arabie Hotel est situé à seulement 20 minutes à pied de la célèbre place Jemaa El Fna"],
+	"context": []
+},
+
+
+
+{"tag": "site wazo",
+	"patterns": ["ou wazo hotel est-il situe","site de l'hotel wazo","quel est l'emplacement de l'hotel wazo","parlez-moi du site de l'hotel wazo","qu'en est-il du site internet de l'hotel wazo","Coordonnees de l'hotel wazo","qu'en est-il des coordonnees de l'hotel wazo","quelles sont les coordonnees de l'hotel wazo","parlez-moi des coordonnees de l'hotel wazo"],
+	"responses": ["Cet hôtel est à environ 4 km des jardins Majorelle"],
+	"context": []
+},
+
+
+
+{"tag": "site de kech boutique hotel & spa",
+	"patterns": ["ou kech boutique hotel & spa est-il situe","le site du kech boutique hotel & spa","quelle est la situation geographique du kech boutique hotel & spa","parlez-moi du site de kech boutique hotel & spa","qu'en est-il du site internet de kech boutique hotel & spa","coordonnees de kech boutique hotel & spa","que diriez-vous des coordonnees du kech boutique hotel & spa","quelles sont les coordonnees de kech boutique hotel & spa","donnez-moi les coordonnees de kech boutique hotel & spa"],
+	"responses": ["Il est situé dans le quartier de l'Agdal, qui contient de nombreuses zones de divertissement et marchés"],
+	"context": []
+},
+
+
+
+{"tag": "site de relax",
+	"patterns": ["ou se trouve relax hotel","site de l'hotel relax","quel est l'emplacement du relax hotel","parlez-moi du site de relax hotel","qu'en est-il de l'emplacement de relax hotel","les coordonnees de relax hotel","qu'en est-il des coordonnees de relax hotel","quelles sont les coordonnees de relax hotel","parlez-moi des coordonnees de relax hotel"],
+	"responses": ["Il est situé à 3,3 km des jardins Majorelle et à environ 4 km du centre commercial Carré Eden et de Marrakech Plaza."],
+	"context": []
+},
+
+
+
+{"tag": "site red marrakech",
+	"patterns": ["ou est situe le red hotel marrakech","le site de l'hotel red marrakech","quelle est la situation de l'hotel red marrakech","parlez-moi du site de l'hotel red marrakech","qu'en est-il de l'emplacement de l'hotel red marrakech","les coordonnees de l'hotel red marrakech","qu'en est-il des coordonnees de l'hotel red marrakech","quelles sont les coordonnees de l'hotel red marrakech","parlez-moi des coordonnees de l'hotel red marrakech"],
+	"responses": ["Il est situé en face de la gare et à seulement 500 mètres du Palais des Congrès de Marrakech"],
+	"context": []
+},
+
+
+
+{"tag": "site de riad la porte bleu",
+	"patterns": ["ou hotel riad la porte bleu est-il situe","site de l'hotel riad La porte bleu","quelle est la position de l'hotel riad la porte bleu","parlez-moi de l'emplacement de l'hotel riad La porte bleu","qu'en est-il de l'emplacement de l'hotel riad la porte bleu","les coordonnees de l'hotel riad la porte bleu","qu'en est-il des coordonnees de l'hotel riad la porte bleu","quelles sont les coordonnees de l'hotel riad la porte bleu","parlez-moi des coordonnees de l'hotel riad la porte bleu"],
+	"responses": ["Il est situé à 53 m de la place Batha et à 16,4 km de l'aéroport de Fès Saïss"],
+	"context": []
+},
+
+
+
+{"tag": "site du sahrai",
+	"patterns": ["ou hotel sahrai est-il situe","site de l'hotel sahrai","quel est l'emplacement de l'hotel sahrai","parlez-moi de l'emplacement de l'hotel sahrai","qu'en est-il de l'emplacement du sahrai hotel","coordonnees de l'hotel sahrai","qu'en est-il des coordonnees de l'hotel sahrai","quelles sont les coordonnees de sahrai hotel","parlez-moi des coordonnees de l'hotel sahrai"],
+	"responses": ["Cet hôtel est à seulement 10 minutes en voiture de la vieille ville"],
+	"context": []
+},
+
+
+
+{"tag": "site du marriott jnan palace",
+	"patterns": ["ou marriott jnan palace hotel est-il situe","site du marriott jnan palace hotel","quel est l'emplacement de l'hotel marriott jnan palace","parlez-moi du site marriott jnan palace","qu'en est-il de l'emplacement de l'hotel marriott jnan palace","Les coordonnees de l'hotel marriott jnan palace","qu'en est-il des coordonnees de l'hotel marriott jnan palace","quelles sont les coordonnees de l'hotel marriott jnan palace","parlez-moi des coordonnees de l'hotel marriott jnan palace"],
+	"responses": ["L'hôtel se trouve à 2,7 km du centre commercial Borj Fès et à 12,8 km de l'aéroport de Fès-Sais"],
+	"context": []
+},
+
+
+
+{"tag": "site de palais",
+	"patterns": ["ou est situe l'hotel palais","site de l'hotel palais","quel est l'emplacement de l'hotel palais","parlez-moi du site du palais hotel","qu'en est-il de l'emplacement du palais Hotel","Les coordonnees du palais hotel","qu'en est-il des coordonnees du palais hotel","quelles sont les coordonnees du palais hotel","parlez-moi les coordonnees du palais hotel"],
+	"responses": ["L'hôtel est situé entre la ville historique et la nouvelle ville, parmis l'un des meilleurs hôtels de Fès"],
+	"context": []
+},
+
+
+{"tag": "site du barcelo fes",
+	"patterns": ["ou barcelo fes est-il situe","site de l'hotel barcelo fes","quel est l'emplacement de l'hotel barcelo fes","parlez-moi de l'emplacement de l'hotel barcelo fes","qu'en est-il de l'emplacement de l'hotel barcelo fes","Les coordonnees de l'hotel barcelo fes","qu'en est-il des coordonnées de l'hotel barcelo fes","quelles sont les coordonnees de l'hotel barcelo fes","parlez-moi des coordonnees de l'hotel barcelo fes"],
+	"responses": ["L'hôtel est situé au centre de la nouvelle ville et la porte Bab Boujloud est à 4,7 km."],
+	"context": []
+},
+
+
+
+{"tag": "site de la tour hassan",
+	"patterns": ["ou hotel la tour hassan est-il situe","site de l'hotel la tour hassan","quel est l'emplacement de l'hotel la tour hassan","parlez-moi du site de l'hotel la tour hassan","qu'en est-il de l'emplacement de l'hotel la tour hassan","coordonnees de l'hotel la tour hassan","qu'en est-il des coordonnees de l'hotel la tour hassan","quelles sont les coordonnees de l'hotel la tour hassan","parlez-moi des coordonnees de l'hotel la tour hassan"],
+	"responses": ["Il est situé dans le quartier Hassan au centre de Rabat et à deux pas de la vieille ville"],
+	"context": []
+},
+
+
+
+{"tag": "site du sofitel rabat",
+	"patterns": ["ou est-il situe le sofitel rabat","le site du sofitel rabat","quelle est la position de l'hotel sofitel rabat","parlez-moi du site du sofitel rabat","qu'en est-il de l'emplacement de l'hotel sofitel rabat","coordonnees de l'hotel sofitel rabat","qu'en est-il des coordonnees de l'hotel sofitel rabat","quelles sont les coordonnees de l'hotel sofitel rabat","parlez-moi des coordonnees de l'hotel sofitel rabat"],
+	"responses": ["L'hôtel est situé à 3,1 km de la Bibliothèque nationale du Royaume du Maroc"],
+	"context": []
+},
+
+
+
+{"tag": "site du cantor",
+	"patterns": ["ou hotel cantor est-il situe","site de l'hotel cantor","quel est l'emplacement de l'hotel cantor","parlez-moi du site de l'hotel cantor","qu'en est-il de l'emplacement de l'hotel cantor","coordonnees de l'hotel cantor","qu'en est-il des coordonnees de l'hotel cantor","quelles sont les coordonnees de l'hotel cantor","parlez-moi des coordonnees de l'hotel cantor"],
+	"responses": ["Il est situé dans le centre-ville, à proximité des monuments touristiques les plus importantes de Rabat"],
+	"context": []
+},
+
+
+
+{"tag": "site de belere",
+	"patterns": ["ou belere hotel est-il situe","site de l'hotel belere","quel est l'emplacement de l'hotel belere","parlez-moi du site de l'hotel belere","qu'en est-il de l'emplacement de l'hotel belere","coordonnees de l'hotel belere","qu'en est-il des coordonnees de l'hotel belere","quelles sont les coordonnees de l'hotel belere","parlez-moi des coordonnees de l'hotel belere"],
+	"responses": ["Il est situé dans la rue Moulay Youssef et propose des hébergements dont certains ont une vue sur le jardin du Palais Royal de Rabat."],
+	"context": []
+},
+
+
+
+{"tag": "site diwan rabat",
+	"patterns": ["ou diwan rabat hotel est-il situe","site de l'hotel diwan rabat","quel est l'emplacement de l'hotel diwan rabat","parlez-moi du site de l'hotel diwan rabat","qu'en est-il du site du diwan hotel rabat","les coordonnees de l'hotel diwan rabat","qu'en est-il des coordonnees de l'hotel diwan rabat","quelles sont les coordonnees de l'hotel diwan rabat","parlez-moi des coordonnees de l'hotel diwan rabatxs"],
+	"responses": ["L'hôtel est situé à côté des monuments touristiques de Rabat telles que la tour Hassan et la marina Bouregreg"],
+	"context": []
+},
+
+
+
+{"tag": "site El reducto",
+	"patterns": ["ou est situe l'hotel el reducto","site de l'hotel el reducto","quel est l'emplacement de l'hotel el reducto","parlez-moi du site de l'hotel el reducto","qu'en est-il de l'emplacement de l'hotel el reducto","coordonnees de l'hotel el reducto","qu'en est-il des coordonnees de l'hotel el reducto","quelles sont les coordonnees de l'hotel el reducto","parlez-moi des coordonnees de l'hotel El reducto"],
+	"responses": ["L'hôtel est à 9 km de l'aéroport de Sania Ramel"],
+	"context": []
+},
+
+
+
+{"tag": "site al mandari",
+	"patterns": ["ou hotel al mandari est-il situe","site de l'hotel al mandari ","quel est l'emplacement de l'hotel al mandari","parlez-moi du site de l'hotel al mandari","qu'en est-il du site de l'hotel al mandari","les coordonnees de l'hotel al mandari","qu'en est-il des coordonnees de l'hotel al mandari","quelles sont les coordonnees de l'hotel al mandari","parlez-moi des coordonnees de l'hotel al mandari"],
+	"responses": ["L'hôtel est à 6 km de l'aéroport de Sania Ramel"],
+	"context": []
+},
+
+
+
+{"tag": "site du riad dar achaach",
+	"patterns": ["ou riad dar achaach est-il situe","l'emplacement de l'hotel riad dar achaach","quel est l'emplacement de l'hotel riad dar achaach","parlez-moi du site de l'hotel riad dar achaach","qu'en est-il de l'emplacement de l'hotel riad dar achaach","les coordonnees de l'hotel riad dar achaach","qu'en est-il des coordonnees de l'hotel riad dar achaach","quelles sont les coordonnees de l'hotel riad dar achaach","parlez-moi des coordonnees de l'hotel riad dar achaach"],
+	"responses": ["L'hôtel est à 11 km de l'aéroport de Sania Ramel"],
+	"context": []
+},
+
+
+
+{"tag": "site prestige tetouan",
+	"patterns": ["ou se situe l'hotel prestige tetouan","site de l'hotel prestige tetouan","quelle est la localisation de l'hotel prestige tetouan","parlez-moi du site du prestige hotel tetouan","qu'en est-il du site de l'hotel prestige tetouan","coordonnees de l'hotel prestige tetouan","qu'en est-il des coordonnees de l'hotel prestige tetouan","quelles sont les coordonnees de l'hotel prestige tetouan","parlez-moi des coordonnees de l'hotel prestige tetouan"],
+	"responses": ["L'hôtel est à 8 km de l'aéroport de Sania Ramel"],
+	"context": []
+},
+
+
+
+{"tag": "site de las mil y una noches",
+	"patterns": ["ou est situe l'hotel las mil y una noches","site de l'hotel las mil y una noches","quel est l'emplacement de l'hotel las mil y una noches","parlez-moi du site de l'hotel las mil y una noches","qu'en est-il de l'emplacement de l'hotel las mil y una noches","coordonnees de l'hotel las mil y una noches","qu'en est-il des coordonnees de l'hotel las mil y una noches","quelles sont les coordonnees de l'hotel las mil y una noches","parlez-moi des coordonnees de l'hotel las mil y una noches"],
+	"responses": ["L'hôtel est à 3 km de l'aéroport de Sania Ramel"],
+	"context": []
+},
+
+
+
+{"tag": "site de manar tanger",
+	"patterns": ["ou hotel manar tanger est-il situe","site de l'hotel manar tanger","quel est l'emplacement de l'hotel manar tanger","parlez-moi du site de l'hotel manar tanger","qu'en est-il de l'emplacement de l'hotel manar tanger","les coordonnees de l'hotel manar tanger","qu'en est-il des coordonnees de l'hotel manar tanger","quelles sont les coordonnees de l'hotel manar tanger","parlez-moi des coordonnees de l'hotel manar tanger"],
+	"responses": ["Il regroupe les hôtels les plus prestigieux de Tanger pour sa situation agréable face à la mer"],
+	"context": []
+},
+
+{"tag": "site de la maison de tanger",
+	"patterns": ["ou est situee la maison de tanger","le site de la maison de tanger","quelle est la localisation de la maison de tanger","parlez-moi du site de la maison de tanger","qu'en est-il de l'emplacement de la maison de tanger","les coordonnees de l'hotel la maison de tanger","qu'en est-il des coordonnees de la maison de tanger","quelles sont les coordonnees de la maison de tanger","parlez-moi des coordonnees de l'hotel la maison de tanger"],
+	"responses": ["Situé en centre-ville"],
+	"context": []
+},
+
+
+
+{"tag": "site de dar chams",
+	"patterns": ["ou dar chams est-il situe","site de l'hotel dar chams","quel est l'emplacement de l'hotel dar chams","parlez-moi du site de l'hotel dar chams","qu'en est-il de l'emplacement de l'hotel dar chams","coordonnees de l'hotel dar chams","qu'en est-il des coordonnees de l'hotel dar chams","quelles sont les coordonnees de l'hotel dar chams","parlez-moi des coordonnees de l'hotel dar chams"],
+	"responses": ["Il se trouve à 96 mètres du musée de la Kasbah et à 3,2 km du centre commercial Tanger City Mall."],
+	"context": []
+},
+
+
+
+{"tag": "site de palais zahia",
+	"patterns": ["ou se trouve palais zahia","L'emplacement du palace hotel est zahia","quel est l'emplacement de l'hotel palace zahia","parlez-moi du site de l'hotel palace zahia","qu'en est-il de l'emplacement de l'hotel palace zahia","les coordonnees de l'hotel palais zahia","que diriez-vous des coordonnees de l'hotel palais zahia","quelles sont les coordonnees de l'hotel palais zahia","parlez-moi des coordonnees de l'hotel palais zahia"],
+	"responses": ["Il se trouve à 450 mètres du musée de la Kasbah et à 2,9 km du centre commercial Tanger City."],
+	"context": []
+},
+
+
+
+{"tag": "site de kasbah rose",
+	"patterns": ["ou se trouve l'hotel kasbah rose","site de l'hotel kasbah rose","quel est l'emplacement de l'hotel kasbah rose","parlez-moi de l'emplacement de l'hotel kasbah rose","qu'en est-il de l'emplacement de l'hotel kasbah rose","coordonnees de l'hotel kasbah rose","qu'en est-il des coordonnees de l'hotel kasbah rose","quelles sont les coordonnees de l'hotel kasbah rose","parlez-moi des coordonnees de l'hotel kasbah rose"],
+	"responses": ["Il est situé à 240 mètres de Dar el Makhzen, à 3,3 km du centre commercial Tanger City"],
+	"context": []
+},
+
+
+
+{"tag": "site mira palace",
+	"patterns": ["ou mira palace hotel est-il situe","site de l'hotel mira palace","quel est l'emplacement de l'hotel mira palace","parlez-moi de l'emplacement de l'hotel mira palace","qu'en est-il de l'emplacement de l'hotel mira palace","coordonnees de l'hotel mira palace","qu'en est-il des coordonnees du mira palace hotel","quelles sont les coordonnees du mira palace hotel","parlez-moi des coordonnees de l'hotel mira palace"],
+	"responses": ["L'hôtel est à 1,7 km du centre d'Al Hoceima et un certain nombre de monuments touristiques se trouvent à proximité."],
+	"context": []
+},
+
+
+
+{"tag": "site mercure quemado",
+	"patterns": ["ou se trouve hotel mercure quemado","site de l'hotel mercure quemado","quel est l'emplacement du mercure quemado","parlez-moi de l'emplacement de l'hotel mercure quemado","qu'en est-il de l'emplacement du mercure quemado","coordonnees de l'hotel mercure quemado","qu'en est-il des coordonnees de l'hotel mercure quemado","quelles sont les coordonnees du mercure qeumado","parlez-moi des coordonnees du mercure quemado"],
+	"responses": ["Le port d'Al Hoceima est à 2,4 km de l'hôtel et la plage de Clabonita est à 2,9 km de l'hôtel"],
+	"context": []
+},
+
+
+
+{"tag": "site la perla",
+	"patterns": ["ou hotel la perla est-il situe","site de l'hotel la perla","quel est l'emplacement de l'hotel la perla","parlez-moi du site de l'hotel la perla","qu'en est-il de l'emplacement de l'hotel la perla","coordonnees de l'hotel la perla","qu'en est-il des coordonnees de l'hotel la perla","quelles sont les coordonnees de l'hotel la perla","parlez-moi des coordonnees de l'hotel la perla"],
+	"responses": ["L'hôtel est à 350 mètres du centre d'Al Hoceima, et à proximité il y a plusieurs belles plages dorées"],
+	"context": []
+},
+
+
+
+{"tag": "site de villa florida",
+	"patterns": ["ou se trouve villa florida","le site de villa florida","quel est l'emplacement de l'hotel villa florida","parlez-moi de l'emplacement de la villa florida","qu'en est-il de l'emplacement de l'hotel villa florida","les coordonnees de l'hotel villa florida","qu'en est-il des coordonnees de l'hotel villa florida","quelles sont les coordonnees de l'hotel villa florida","parlez-moi des coordonnees de l'hotel villa florida"],
+	"responses": ["L'hôtel se trouve à 650 mètres du centre d'Al Hoceima et la plage de Quemado est à 1,5 km."],
+	"context": []
+},
+
+
+
+{"tag": "site mohammed v by accor",
+	"patterns": ["ou mohammed v by accor hotel est-il situe","site de l'hotel mohammed v by accor","quelle est la localisation de l'hotel mohammed v by accor","parlez-moi du site de l'hotel mohammed v by accor","qu'en est-il du site de l'hotel mohammed v by accor","coordonnees de l'hotel mohammed v by accor","qu'en est-il des coordonnees de l'hotel mohammed v by accor","quelles sont les coordonnees de l'hotel mohammed v by accor","parlez-moi des coordonnees de l'hotel mohammed v by accor"],
+	"responses": ["L'hôtel est à 500 mètres du centre d'Al Hoceima"],
+	"context": []
+},
+
+
+
+{"tag": "site de swani",
+	"patterns": ["ou est situe l'hotel swani","site de l'hotel swani","quel est l'emplacement de l'hotel swani","parlez-moi du site de l'hotel swani","qu'en est-il du site de l'hotel swani","les coordonnees de l'hotel swani","qu'en est-il des coordonnees de l'hotel swani","quelles sont les coordonnees de l'hotel swani","parlez-moi des coordonnees de l'hotel swani"],
+	"responses": ["L'aéroport international de Fès Saïss est à une heure de route de l'hôtel"],
+	"context": []
+},
+
+
+
+{"tag": "site dar meknes tresor",
+	"patterns": ["ou se trouve le dar meknes tresor","site de l'hotel dar meknes tresor","quel est l'emplacement de l'hotel dar meknes tresor","parlez-moi du site de dar meknes tresor hotel","qu'en est-il de l'emplacement de l'hotel dar meknes tresor","coordonnees de l'hotel dar meknes tresor","qu'en est-il des coordonnees de dar meknes tresor hotel","quelles sont les coordonnees de dar meknes tresor hotel","parlez-moi des coordonnees de dar meknes tresor hotel"],
+	"responses": ["L'hôtel est situé près du centre-ville de Meknès, à 5,6 km"],
+	"context": []
+},
+
+
+
+{"tag": "site hotel belle vue et spa ",
+	"patterns": ["ou hotel belle vue et spa est-il situe","site de l'hotel belle vue et spa","quelle est la localisation du hotel belle vue et spa","parlez-moi du site du hotel belle vue et spa","qu'en est-il de l'emplacement du hotel belle vue et spa","coordonnees du hotel belle vue et spa","qu'en est-il des coordonnees du hotel belle vue et spa","quelles sont les coordonnees de hotel belle vue et spa","parlez-moi des coordonnees de hotel belle vue et spa"],
+	"responses": ["Il est à 1,9 km de la gare de Meknès"],
+	"context": []
+},
+
+{"tag": "site riad ritaj",
+	"patterns": ["ou se trouve riad ritaj","site de l'hotel riad ritaj","quel est l'emplacement de l'hotel riad ritaj","parlez-moi du site du riad ritaj","qu'en est-il de l'emplacement du riad ritaj","les coordonnees de l'hotel riad ritaj","qu'en est-il des coordonnees de l'hotel riad ritaj","quelles sont les coordonnees de l'hotel riad ritaj","parlez-moi des coordonnees de l'hotel riad ritaj"],
+	"responses": ["L'Hotel Ritaj est situé à Meknès, à 550 mètres du musée Dar Jamai"],
+	"context": []
+},
+
+
+
+{"tag": "site riad yacout",
+	"patterns": ["ou riad yacout est-il situe","site de l'hotel riad yacout","quel est l'emplacement de l'hotel riad yacout","parlez-moi du site du riad yacout","qu'en est-il de l'emplacement du riad yacout","les coordonnees de l'hotel riad yacout","qu'en est-il des coordonnees de l'hotel riad yacout","quelles sont les coordonnees du riad yacout","parlez-moi des coordonnees de l'hotel riad yacout"],
+	"responses": ["Il est situé dans un bâtiment historique datant de 1830 au cœur de Meknès"],
+	"context": []
+},
+
+
+
+{"tag": "site michlifen resort",
+	"patterns": ["ou michlifen resort est-il situe","situation de l'hotel michlifen resort","quelle est la localisation du michlifen resort hotel","parlez-moi de l'emplacement du michlifen resort hotel","qu'en est-il de l'emplacement du michlifen resort hotel","les coordonnees de l'hotel michlifen resort","qu'en est-il des coordonnees de l'hotel michlifen resort","quelles sont les coordonnees du michlifen resort hotel","parlez-moi des coordonnees de l'hotel michlifen resort"],
+	"responses": ["L'hôtel est situé rue Hassan II, à deux pas du Parc National, à 0,3 km de la Pierre du Lion"],
+	"context": []
+},
+
+
+
+{"tag": "site jardins d'ifrane",
+	"patterns": ["ou est situe l'hotel jardins d'ifrane","site de l'hotel jardins d'ifrane","quel est l'emplacement de l'hotel jardins d'ifrane","parlez-moi de l'emplacement de l'hotel jardins d'ifrane","qu'en est-il de l'emplacement de l'hotel jardins d'ifrane","coordonnees de l'hotel jardins d'ifrane","qu'en est-il des coordonnees de l'hotel jardins d'ifrane","Quelles sont les coordonnees de l'hotel jardins d'ifrane","parlez-moi des coordonnees de l'hotel jardins d'ifrane"],
+	"responses": ["L'hotel se trouve à environ 3,3 km du lac d'Ifrane"],
+	"context": []
+},
+
+
+
+{"tag": "site relais ras el maa",
+	"patterns": ["ou est situe l'hotel relais ras el maa","site de l'hotel relais ras el maa","quel est l'emplacement de l'hotel relais ras el maa","parlez-moi de l'emplacement de l'hotel relais ras el maa","qu'en est-il de l'emplacement de l'hotel relais ras el maa","coordonnees de l'hotel relais ras el maa","qu'en est-il des coordonnees de l'hotel relais ras el maa","quelles sont les coordonnees de l'hotel relais ras el maa","parlez-moi des coordonnees de l'hotel relais ras el maa"],
+	"responses": ["Le Relais Ras El Maa est situé à 3,5 minutes de la ville d'Ifrane, à 5 minutes en voiture du parc de la source d'eau de Vitel"],
+	"context": []
+},
+
+
+
+{"tag": "site ifran palace resort",
+	"patterns": ["ou se trouve ifrane palace resort hotel","site de l'hotel ifrane palace resort","quel est l'emplacement de l'ifran palace resort hotel","parlez-moi de l'emplacement de l'ifran palace resort hotel","qu'en est-il de l'emplacement de l'ifran palace resort hotel","les coordonnees de l'hotel ifrane palace resort","qu'en est-il des coordonnees de l'hotel ifrane palace resort","quelles sont les coordonnees de l'hotel ifran palace resort","parlez-moi des coordonnees de l'hotel ifrane palace resort"],
+	"responses": ["Le complexe est situé à 4 km de la ville d'Ifrane, à 1 km de Hajar al-Assad, à 47 km de l'aéroport de Sais"],
+	"context": []
+},
+
+
+
+{"tag": "site la maison bleu",
+	"patterns": ["ou hotel la maison bleu est-il situe","le site de l'hotel la maison bleu","quelle est la localisation de l'hotel la maison bleu","parlez-moi du site de la maison bleu hotel","qu'en est-il de l'emplacement de la maison bleu hotel","les coordonnées de l'hotel la maison bleu","qu'en est-il des coordonnees de l'hotel la maison bleu","quelles sont les coordonnees de l'hotel la maison bleu","parlez-moi des coordonnees de l'hotel la maison bleu"],
+	"responses": ["L'hôtel est situé à proximité du parc national"],
+	"context": []
+},
+
+
+
+{"tag": "site dar zambra",
+	"patterns": ["ou se trouve dar zambra","l'emplacement de l'hotel dar zambra","quel est l'emplacement de l'hotel dar zambra","parlez-moi du site de l'hotel dar zambra","qu'en est-il du site de l'hotel dar zambra","les coordonnees de l'hotel dar zambra","qu'en est-il des coordonnees de l'hotel dar zambra","quelles sont les coordonnees de l'hotel dar zambra","parlez-moi des coordonnees de l'hotel dar zambra"],
+	"responses": ["Il se trouve à 10 minutes en voiture du quartier de Ras El Maa"],
+	"context": []
+},
+
+
+
+{"tag": "site dar saba",
+	"patterns": ["ou dar saba hotel est-il situe","site de l'hotel sar saba","quel est l'emplacement de l'hotel dar saba","parlez-moi du site de l'hotel dar saba","qu'en est-il du site de l'hotel dar saba","les coordonnees de l'hotel dar saba","qu'en est-il des coordonnees de l'hotel dar saba","quelles sont les coordonnees de l'hotel dar saba","parlez-moi des coordonnees de l'hotel dar saba"],
+	"responses": ["Il est situé dans la région Tanger-Tétouan, à seulement 200 mètres de la place Outa El Hammam"],
+	"context": []
+},
+
+
+
+{"tag": "site dar mezyana",
+	"patterns": ["ou se trouve dar mezyana","site de l'hotel dar mezyana","quel est l'emplacement de l'hotel dar mezyana","parlez-moi du site de l'hotel dar mezyana","qu'en est-il du site de l'hotel dar mezyana","les coordonnees de l'hotel dar mezyana","qu'en est-il des coordonnees de l'hotel dar mezyana","quelles sont les coordonnees de l'hotel dar mezyana","parlez-moi des coordonnees de l'hotel dar mezyana"],
+	"responses": ["Il est situé à 10 minutes des cascades de Ras El-Maa"],
+	"context": []
+},
+
+
+
+{"tag": "site chez aziz",
+	"patterns": ["ou chez aziz hotel est-il situe","site de l'hotel chez aziz","quelle est la localisation de l'hotel chez aziz","parlez-moi de l'emplacement de l'hotel chez aziz","qu'en est-il de l'emplacement de l'hotel chez aziz","les coordonnees de l'hotel chez aziz","qu'en est-il des coordonnees de l'hotel chez aziz","quelles sont les coordonnees de l'hotel chez aziz","parlez-moi des coordonnees de l'hotel chez aziz"],
+	"responses": ["Il est situé à 700 mètres de la Kasbah et à proximité des commerces et des restaurants"],
+	"context": []
+},
+
+
+
+{"tag": "site dar elrio",
+	"patterns": ["ou dar elrio hotel est-il situe","site de l'hotel dar elrio","quel est l'emplacement de l'hotel dar elrio","parlez-moi du site de dar elrio","qu'en est-il de l'emplacement de l'hotel dar elrio","les coordonnees de l'hotel dar elrio","qu'en est-il des coordonnees de l'hotel dar elrio","quelles sont les coordonnees de l'hotel dar elrio","parlez-moi des coordonnees de l'hotel dar elrio"],
+	"responses": ["Il est situé près de la Kasbah, à seulement 200 mètres"],
+	"context": []
+},
+
+{"tag": "site sofitel agadir",
+	"patterns": ["ou est situe sofitel agadir","site du sofitel agadir","quelle est la localisation du sofitel agadir","parlez-moi du site du sofitel agadir","qu'en est-il de l'emplacement du sofitel agadir","coordonnees de l'hotel sofitel agadir","qu'en est-il des coordonnees du sofitel agadir","quelles sont les coordonnees du sofitel agadir","parlez-moi des coordonnees de l'hotel sofitel agadir"],
+	"responses": ["Il est situé à seulement 5 minutes à pied du bord de mer "],
+	"context": []
+},
+
+
+
+{"tag": "site royal spa",
+	"patterns": ["ou royal spa hotel est-il situe","site du royal spa hotel","quelle est la localisation du royal spa hotel","parlez-moi du site du royal spa hotel","qu'en est-il de l'emplacement du royal spa hotel","les coordonnees du royal spa hotel","qu'en est-il des coordonnees du royal spa hotel","quelles sont les coordonnees du royal spa hotel","parlez-moi des coordonnees du royal spa hotel"],
+	"responses": ["Il est situé à seulement 3 minutes à pied du bord de mer"],
+	"context": []
+},
+
+
+
+{"tag": "site iberostar",
+	"patterns": ["ou hotel iberostar est-il situe","site de l'hotel iberostar","quel est l'emplacement de l'hotel iberostar","parlez-moi du site de l'hotel iberostar","qu'en est-il du site de l'hotel iberostar","les coordonnees de l'hotel iberostar","qu'en est-il des coordonnees de l'hotel iberostar","quelles sont les coordonnees de l'hotel iberostar","parlez-moi des coordonnees de l'hotel iberostar"],
+	"responses": ["L'hôtel Iberostar est situé à quelques pas de la plage et à proximité du centre-ville "],
+	"context": []
+},
+
+
+
+{"tag": "site hotel & spa tildi",
+	"patterns": ["ou tildi hotel & spa est-il situe","site de l'hotel & spa tildi ","quelle est la localisation du tildi hotel & spa","parlez-moi du site du tildi hotel & spa","qu'en est-il de l'emplacement du tildi hotel & spa","coordonnees du tildi hotel & spa","qu'en est-il des coordonnees du tildi hotel & spa","quelles sont les coordonnees du tildi hotel & spa","parlez-moi des coordonnees du tildi hotel & spa"],
+	"responses": ["Il est situé au centre d'Agadir"],
+	"context": []
+},
+
+
+
+{"tag": "site atlantic",
+	"patterns": ["ou est situe l'hotel atlantic","site de l'hotel atlantic","quel est l'emplacement de l'hotel atlantic","parlez-moi de l'emplacement de l'hotel atlantic","que diriez-vous de l'emplacement de l'hotel atlantic","coordonnees de l'hotel atlantic","qu'en est-il des coordonnees de l'hotel atlantic","quelles sont les coordonnees de l'hotel atlantic","parlez-moi des coordonnees de l'hotel atlantic"],
+	"responses": ["L'Atlantic Hotel est situé au centre d'Agadir, à 10 minutes à pied de la plage"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de sofitel casablanca",
+	"patterns": ["hotel sofitel casablanca","qu'est-ce qui rend le sofitel casablanca spécial","parlez-moi du sofitel casablanca","caracteristiques de l'hotel sofitel casablanca","parlez-moi des caracteristiques de l'hotel sofitel casablanca","qu'en est-il des caracteristiques de l’hotel sofitel Casablanca","quels sont les avantages de l'hotel sofitel casablanca"],
+	"responses": ["Il est situé à proximité du centre-ville et n'est qu'à quelques minutes de la mosquée Hassan II et du port de Casablanca"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de four seasons",
+	"patterns": ["hotel four seasons","qu'est-ce qui rend l'hotel four seasons spécial","parlez-moi de l'hotel four seasons","caracteristiques de l'hotel four seasons","parlez-moi des caracteristiques de l'hotel four seasons","qu'en est-il des caracteristiques de l'hotel four seasons","quelles sont les caracteristiques de l'hotel four seasons"],
+	"responses": ["Il se caractérise par sa situation à proximité d'Anfapalace et de la corniche d'Ain Diab"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de val d'anfa",
+	"patterns": ["hotel val d'anfa","qu'est-ce qui distingue l'hotel val d'anfa","parlez-moi de l'hotel val d'anfa","caracteristiques de l'hotel val d'anfa","parlez-moi des caracteristiques de l'hotel val d'anfa","qu'en est-il des caracteristiques de l'hotel val d'anfa","quels sont les avantages de l'hotel val d'anfa"],
+	"responses": ["Il est situé à proximité des principales zones commerciales "],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de hyatt regency",
+	"patterns": ["hotel hyatt Regency","qu'est-ce qui rend l'hotel hyatt regency spécial","parlez-moi de l’hotel hyatt regency","caracteristiques de l'hotel hyatt regency","parlez-moi des caracteristiques de l'hotel hyatt regency","qu'en est-il des caracteristiques de l'hotel hyatt regency","quelles sont les caracteristiques de l'hotel hyatt regency"],
+	"responses": ["Il se caractérise par sa situation à proximité du centre-ville, là où le port de Casablanca est à environ 900 mètres"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de lawrence",
+	"patterns": ["hotel lawrence","Ce qui distingue l'hotel lawrence","parlez-moi de l'hotel lawrence","caracteristiques de l'hotel lawrence","parlez-moi des caracteristiques de l'hotel lawrence","qu'en est-il des caracteristiques de l'hotel lawrence","quels sont les avantages de l'hotel lawrence"],
+	"responses": ["Il est proche du théâtre Royal, du palais des congrès, du parc Harti et du Royal Tennis Harti"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de kech boutique hotel & spa",
+	"patterns": ["kech boutique hotel & spa","qu'est-ce qui rend le kech boutique hotel & spa spécial","parlez-moi de kech boutique hotel & spa","caracteristiques de Kech boutique hotel & spa","parlez-moi des caracteristiques de Kech boutique hotel & spa","qu'en est-il des caracteristiques du Kech boutique hotel & spa","quels sont les avantages du Kech boutique hotel & spa"],
+	"responses": ["Il propose des chambres élégantes avec balcon vue sur les jardins Majorelle et comprend également des chambres familiales"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de relax",
+	"patterns": ["hotel relax","ce qui distingue l'hotel relax ","parlez-moi de l'hotel relax","caracteristiques de l'hotel relax","parlez-moi des caracteristiques de l'hotel relax","qu'en est-il des caracteristiques de l'hotel relax","quels sont les avantages de l'hotel relax"],
+	"responses": ["Il se caractérise par son emplacement à proximité des jardins de l'Agdal et du Royal Equestrian Club, comme il est aussi proche du cinéma Megarama"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de wazo",
+	"patterns": ["hotel wazo","qu'est-ce qui distingue l'hotel wazo","parlez-moi de l'hotel Wazo","caracteristiques de l'hotel wazo","parlez-moi des caracteristiques du l'hotel wazo","qu'en est-il des caracteristiques de l'hotel wazo","quels sont les avantages de l'hotel wazo"],
+	"responses": ["Il bénéficie d'un emplacement calme loin de l'agitation du centre-ville"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de red marrakech",
+	"patterns": ["hotel red marrakech","ce qui distingue l'hotel red marrakech","parlez-moi de l'hotel red marrakech","caracteristiques de l'hotel red marrakech","parlez-moi des caracteristiques du l'hotel red marrakech","qu'en est-il des caracteristiques du l'hotel red marrakech","quels sont les avantages du l'hotel red marrakech"],
+	"responses": ["Il est situé près de la place Jamaâ El Fna"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de riad la porte bleu",
+	"patterns": ["hotel riad la porte bleu","qu'est-ce qui rend riad La porte bleu unique","parlez-moi du riad la porte bleu","caracteristiques de l'hotel riad la porte bleu","parlez-moi des caracteristiques de l'hotel riad la porte bleu","qu'en est-il des caracteristiques de l'hotel riad la porte bleu","quels sont les avantages de l'hotel riad la porte bleu "],
+	"responses": ["Il dispose d'un restaurant avec service d'étage, d'une connexion Wi-Fi gratuite et de chambres familiales"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de sahrai",
+	"patterns": ["hotel sahrai","ce qui distingue l'hotel sahrai","parlez-moi de l'hotel sahrai","caracteristiques de l'hotel sahrai","parlez-moi des caracteristiques de l'hotel sahrai","qu'en est-il des caracteristiques de l'hotel sahrai","quelles sont les caracteristiques du l'hotel sahrai"],
+	"responses": ["Il est particulièrement adapté pour les jeunes mariés en raison de la conception de ses chambres"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de marriott jnan palace",
+	"patterns": ["hotel marriott jnan palace","quelle est la particularité du l'hotel marriott jnan palace","parlez-moi de l'hotel marriott jnan palace","caracteristiques de l'hotel marriott jnan palace","parlez-moi des caracteristiques du l'hotel marriott jnan palace","qu'en est-il des caracteristiques de l'hotel marriott jnan palace","quels sont les avantages du l'hotel marriott jnan palace"],
+	"responses": ["Il propose des chambres climatisées avec vue sur les jardins ou la piscine"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de palais",
+	"patterns": ["hotel du palais","qu'est-ce qui rend l'hotel palais spécial","parlez-moi du l'hotel palais","caracteristiques de l'hotel palais","parlez-moi des caracteristiques du l'hotel palais","qu'en est-il des caracteristiques du l'hotel palais","quels sont les avantages du l'hotel palais"],
+	"responses": ["Il propose un hébergement haut de gamme avec vue sur le mont Zallakh et la vieille ville de Fès"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de barcelo fes",
+	"patterns": ["hotel barcelo fes","qu'est-ce qui rend l'hotel barcelo fes special","parlez-moi de l'hotel barcelo fes","caracteristiques de l'hotel Barcelo Fes","parlez-moi des caracteristiques de l'hotel barcelo fes","qu'en est-il des caracteristiques de l'hotel barcelo fes","quels sont les avantages de l'hotel barcelo fes"],
+	"responses": ["Il est situé au centre de la nouvelle ville, à seulement 5 minutes en voiture de la gare de Fès"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de la tour hassan",
+	"patterns": ["hotel la tour hassan","ce qui distingue l'hotel la tour hassan","parlez-moi de l'hotel la tour hassan","caracteristiques de l'hotel la tour hassan","parlez-moi des caracteristiques de l'hotel la tour hassan","qu'en est-il des caracteristiques de l'hotel la tour hassan","quels sont les avantages de l'hotel la tour hassan"],
+	"responses": ["Il se distingue par la possession de cinq restaurants internationaux différents, et son style et ses designs portent le merveilleux style marocain."],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de sofitel rabat",
+	"patterns": ["hotel sofitel rabat","qu'est-ce qui fait la particularité du sofitel rabat","parlez-moi du sofitel rabat","caracteristiques de l'hotel sofitel rabat","parlez-moi des caracteristiques de l'hotel sofitel rabat","qu'en est-il des caracteristiques de l'hotel sofitel rabat","quels sont les avantages de l'hotel sofitel rabat"],
+	"responses": ["Il est situé au centre de la capitale et sa grande superficie offre une vue panoramique sur les jardins andalous ou la magnifique forêt d'eucalyptus."],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de cantor",
+	"patterns": ["hotel cantor","ce qui distingue l'hotel cantor ","parlez-moi de l'hotel cantor","caracteristiques de l'hotel cantor ","parlez-moi des caracteristiques de l'hotel cantor","qu'en est-il des caracteristiques de l'hotel cantor","quels sont les avantages de l'hotel cantor "],
+	"responses": ["Il propose des chambres élégantes avec des équipements de base, une terrasse bien exposée et un centre sportif"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de belere",
+	"patterns": ["hotel belere","Ce qui distingue l'hotel belere","parlez-moi de l'hotel belere","caracteristiques de l'hotel Belere","parlez-moi des caracteristiques de l'hotel belere","qu'en est-il des caracteristiques de l'hotel belere","quels sont les avantages de l'hotel belere"],
+	"responses": ["Il propose de nombreuses activités de loisirs, notamment l'équitation, le surf et la pêche"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de diwan de rabat",
+	"patterns": ["hotel diwan rabat","ce qui distingue l'hotel diwan rabat","parlez-moi de l'hotel diwan rabat","caracteristiques de l'hotel diwan rabat","parlez-moi des caracteristiques de l'hotel diwan rabat","qu'en est-il des caracteristiques de l'hotel diwan rabat","quelles sont les caracteristiques de l'hotel diwan rabat"],
+	"responses": ["Il offre de superbes vues sur les toits de la ville de Rabat, comme il y a des boutiques de souvenirs à l’hotel"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques d'el reducto",
+	"patterns": ["hotel el reducto","qu'est-ce qui distingue l'hotel el reducto","parlez-moi de l'hotel el reducto","caracteristiques de l'hotel el reducto","parlez-moi des avantages de l'hotel el reducto","qu'en est-il des caracteristiques de l'hotel el reducto","quels sont les avantages de l'hotel el reducto"],
+	"responses": ["Il propose des chambres au design distinctif dotées de balcons et certaines d'entre elles disposent d'une terrasse avec une vue magnifique sur les montagnes."],
+	"context": []
+},
+
+
+{"tag": "caracteristiques d'al mandari",
+	"patterns": ["hotel al mandari","qu'est-ce qui distingue l’hotel al mandari","parlez-moi de l’hotel al mandari","caracteristiques de l’hotel al mandari","parlez-moi des caracteristiques de l’hotel al mandari","qu'en est-il des caracteristiques de l’hotel al mandari","quelles sont les caracteristiques de l’hotel al mandari"],
+	"responses": ["Il propose une gamme de chambres et de suites au décor exquis qui mélange la déco espagnole et marocaine"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de riad dar achaach",
+	"patterns": ["hotel riad dar achaach","qu'est-ce qui distingue l’hotel riad dar achaach","parlez-moi de l’hotel riad dar achaach","caracteristiques de l’hotel riad dar achaach","parlez-moi des caracteristiques de l’hotel riad dar achaach","qu'en est-il des caracteristiques de l’hotel riad dar achaach","quelles sont les caracteristiques de l’hotel riad dar achaach "],
+	"responses": ["L’hotel dispose d'un jardin et d'une terrasse extérieure pour se détendre et bronzer"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de prestige tetouan",
+	"patterns": ["hotel prestige tetouan","ce qui distingue l’hotel prestige tetouan","parlez-moi de l’hotel prestige tetouan","caracteristiques de l’hotel prestige tetouan","parlez-moi des caracteristiques de l’hotel prestige tetouan","qu'en est-il des caracteristiques de l’hotel prestige tetouan","quels sont les avantages de l’hotel prestige tetouan"],
+	"responses": ["L’hotel dispose des meilleurs services, tels que la réception de l’hotel, ouverte 24h/24"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de las mil y una noches",
+	"patterns": ["hotel las mil y una noches","ce qui distingue l’hotel las mil y una noches","parlez-moi de l’hotel las mil y una noches","caracteristiques de l’hotel las mil y una noches","parlez-moi des caracteristiques de l’hotel las mil y una noches","qu'en est-il des caracteristiques de l’hotel las mil y una noches","quels sont les avantages de l’hotel las mil y una noches"],
+	"responses": ["L’Hotel propose une gamme d'unités superbement décorées conçues pour convenir aux familles et des chambres spéciales pour les jeunes mariés"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de manar tanger",
+	"patterns": ["hotel manar tanger","qu'est-ce qui distingue l’hotel manar tanger","parlez-moi de l’hotel manar tanger","caracteristiques de l’hotel manar tanger","parlez-moi des caracteristiques de l’hotel manar tanger","qu'en est-il des caracteristiques de l’hotel manar tanger","quels sont les avantages de l’hotel manar tanger"],
+	"responses": ["Il propose des chambres familiales entièrement équipées, une connexion Internet gratuite, un service de garde d'enfants, deux piscines"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de la maison de tanger",
+	"patterns": ["hotel la maison de tanger","qu'est-ce qui rend l’hotel la maison de tanger unique","parlez-moi de l’hotel la maison de tanger","caracteristiques de l’hotel la maison de tanger","parlez-moi des caracteristiques de l’hotel la maison de tanger","qu'en est-il des caracteristiques de l’hotel la maison de tanger","quels sont les avantages de l’hotel la maison de tanger"],
+	"responses": ["Il propose des chambres familiales et des suites avec une vue enchanteresse sur la mer"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de dar chams",
+	"patterns": ["hotel dar chams","ce qui distingue l’hotel dar chams","parlez-moi de l’hotel dar chams","caracteristiques de l’hotel dar chams","parlez-moi des avantages de l’hotel dar chams","qu'en est-il des avantages de l’hotel dar chams","quels sont les avantages de l’hotel dar chams"],
+	"responses": ["Il offre des vues uniques et variées sur la ville et le golfe de Tanger"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de palais zahia",
+	"patterns": ["hotel palais zahia","ce qui distingue l’hotel palais zahia","parlez-moi de l’hotel palais zahia","caracteristiques du l’hotel palais zahia","parlez-moi des caracteristiques de l’hotel palais zahia","qu'en est-il des caracteristiques de l’hotel palais zahia","quels sont les avantages de l’hotel palais zahia"],
+	"responses": ["Il dispose des suites pour les personnes VIP avec spa et massages, ainsi que d'une connexion Internet gratuite."],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de kasbah rose",
+	"patterns": ["hotel kasbah rose","ce qui distingue l’hotel kasbah rose","parlez-moi de l’hotel kasbah rose","caracteristiques de l’hotel kasbah rose","parlez-moi des avantages de l’hotel kasbah rose","qu'en est-il des caracteristiques de l’hotel kasbah rose","quels sont les avantages de l’hotel kasbah rose"],
+	"responses": ["Il offre de belles vues sur les montagnes de la ville et se compose de chambres décorées avec un coin de repos très confortable."],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de mira palace",
+	"patterns": ["hotel mira palace","qu'est-ce qui distingue l’hotel le mira palace","parlez-moi du l’hotel mira palace ","caracteristiques de l’hotel mira palace","parlez-moi des caracteristiques de l’hotel Mira Palace ","qu'en est-il des caracteristiques de l’hotel mira palace","quels sont les avantages de l’hotel mira palace"],
+	"responses": ["L’hotel offre une vue imprenable sur la plage de Quemado et la mer Méditerranée"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de mercure quemado",
+	"patterns": ["hotel mercure quemado","qu'est-ce qui rend l’hotel mercure quemado spécial","parlez-moi de l’hotel mercure quemado","caracteristiques de l’hotel mercure quemado","parlez-moi des avantages de l’hotel mercure quemado","qu'en est-il des caracteristiques de l’hotel mercure quemado","quels sont les avantages de l’hotel mercure quemado"],
+	"responses": ["Il dispose d'une piscine extérieure ouverte toute l'année, d'un bureau d'excursions et d'une salle de massage"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de la perla",
+	"patterns": ["hotel La perla","qu'est-ce qui distingue l’hotel La perla","parlez-moi de l’hotel La perla","caracteristiques de l’hotel La perla","parlez-moi des caracteristiques de l’hotel La perla","qu'en est-il des caracteristiques de l’hotel La perla","quelles sont les caracteristiques de l’hotel La perla"],
+	"responses": ["Il offre des services luxueux aux clients et convient aux hommes d'affaires, car il comprend de grandes salles de réunion"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de villa florida",
+	"patterns": ["hotel villa florida","ce qui distingue l’hotel villa florida","parlez-moi de l’hotel villa florida","caracteristiques de l’hotel villa florida","parlez-moi des caracteristiques de l’hotel villa florida","qu'en est-il des caracteristiques de l’hotel villa florida ","quels sont les avantages de l’hotel villa florida"],
+	"responses": ["C'est l'un des plus beaux hotels d'Al Hoceima, qui offre d'excellentes installations, car il comprend des chambres et des suites spacieuses."],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de mohammed v by accor",
+	"patterns": ["hotel mohammed v by accor","ce qui distingue l’hotel mohammed v by accor","parlez-moi de l’hotel mohammed v by accor","caracteristiques de l’hotel mohammed v by accor","parlez-moi des caracteristiques de l’hotel mohammed v by accor","qu'en est-il des caracteristiques de l’hotel mohammed v by accor","quels sont les avantages de l’hotel mohammed v by accor"],
+	"responses": ["L’hotel Mohammed V by Accor est l'un des hotels les plus luxueux d'Al Hoceima, avec des décorations élégantes et des designs modernes"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de swani",
+	"patterns": ["hotel swani","qu'est-ce qui distingue l’hotel swani","parlez-moi de l’hotel swani","caracteristiques de l’hotel swani hotel","parlez-moi des caracteristiques de l’hotel swani","qu'en est-il des caracteristiques de l’hotel swani","quels sont les avantages de l’hotel swani"],
+	"responses": ["L’hotel dispose d'une varieté d'installations et de services que nous offrons, y compris la livraison de courses"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de dar meknes tresor ",
+	"patterns": ["hotel dar meknes tresor","ce qui distingue l’hotel  dar meknes tresor ","parlez-moi de l’hotel  dar meknes tresor","caracteristiques de l’hotel  dar meknes tresor","Parlez-moi des caracteristiques de l’hotel dar meknes tresor","qu'en est-il des caracteristiques de l’hotel dar meknes tresor ","quels sont les avantages de l’hotel dar meknes tresor hotel "],
+	"responses": ["L’hotel propose des visites à pied, et des ateliers sur la culture locale"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de belle vue et spa",
+	"patterns": ["hotel & spa belle vue","qu'est-ce qui rend le belle vue hotel & spa special","parlez-moi de belle vue hotel & spa","caracteristiques de belle vue hotel & spa","parlez-moi des caracteristiques du belle vue hotel & spa","qu'en est-il des caracteristiques du belle vue hotel & spa","quels sont les avantages du belle vue hotel & spa "],
+	"responses": ["L'hotel est situé dans une zone privilégiée avec de nombreuses activités à faire, comme le vélo de montagne"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de riad ritaj",
+	"patterns": ["hotel riad ritaj","qu'est-ce qui rend l'hotel riad ritaj special","parlez-moi du l'hotel riad ritaj","caracteristiques de l'hotel riad ritaj","parlez-moi des caracteristiques de l'hotel riad ritaj","qu'en est-il des caracteristiques de l'hotel riad ritaj","quelles sont les caracteristiques de l'hotel riad ritaj"],
+	"responses": ["Cet hotel est considéré comme l'un des meilleurs hotels de Meknès en termes de design et de décoration attrayants"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de riad yacout",
+	"patterns": ["hotel riad yacout","qu'est-ce qui distingue l'hotel riad yacout","parlez-moi du l'hotel riad yacout","caracteristiques de l'hotel riad yacout","parlez-moi des caracteristiques de l'hotel riad yacout","qu'en est-il des caracteristiques de l'hotel riad yacout","quels sont les avantages de l'hotel riad yacout "],
+	"responses": ["Il se distingue par sa cour unique qui simule le patrimoine marocain et propose un grand nombre d'activités, notamment des visites et des ateliers sur la culture locale."],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de michlifen resort",
+	"patterns": ["hotel michlifen resort","qu'est-ce qui rend l'hotel michlifen resort special","parlez-moi du l'hotel michlifen resort","caracteristiques du l'hotel michlifen resort","parlez-moi des caracteristiques du l'hotel michlifen resort","qu'en est-il des caracteristiques du l'hotel michlifen resort","quels sont les avantages du l'hotel michlifen resort"],
+	"responses": ["Il propose des chambres climatisées offrant une vue imprenable sur la forêt ou la piscine"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de jardins d'ifrane",
+	"patterns": ["hotel jardins d'ifrane ","ce qui distingue l'hotel jardins d'ifrane","parlez-moi de l'hotel jardins d'ifrane","caracteristiques de l'hotel jardins d'ifrane","parlez-moi des avantages de l'hotel jardins d'ifrane ","qu'en est-il des caracteristiques de l'hotel jardins d'ifrane","quels sont les avantages de l'hotel jardins d'ifrane "],
+	"responses": ["C'est une maison de vacances avec deux chambres et une cuisine entièrement équipée"],
+	"context": []
+},
+
+ {"tag":"hotel de relais ras el maa",
+	"patterns": ["hotel relais ras el maa","qu'est-ce qui distingue l'hotel relais ras el maa","parlez-moi de l'hotel relais ras el maa","caracteristiques de l'hotel relais ras el maa","parlez-moi des caracteristiques de l'hotel relais ras el maa","qu'en est-il des caracteristiques de l'hotel relais ras el maa","quels sont les avantages de l'hotel relais ras el maa "],
+	"responses": ["L'hotel est proche des pistes de ski et propose également un jardin et une terrasse"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques d'ifran palace resort",
+	"patterns": ["hotel ifrane palace resort","ce qui distingue l'hotel ifran palace resort","parlez-moi de l'hotel ifran palace resort","caracteristiques de l'hotel ifrane palace resort","parlez-moi des caracteristiques de l'hotel ifran palace resort","qu'en est-il des caracteristiques de l'hotel ifran palace resort","quels sont les avantages de l'hotel ifran palace resort"],
+	"responses": ["Il propose des chambres confortablement équipées avec vue sur le jardin de l'hotel"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de la maison bleu",
+	"patterns": ["hotel la maison bleu","qu'est-ce qui distingue l'hotel la maison bleu ","parlez-moi de l'hotel la maison bleu","caracteristiques de l'hotel la maison bleu","parlez-moi des caracteristiques de l'hotel la maison bleu","qu'en est-il des caracteristiques de l'hotel la maison bleu","quels sont les avantages de l'hotel la maison bleu"],
+	"responses": ["Il dispose d'un centre d'esthetiques qui propose un sauna, des massages et des soins de beauté"],
+	"context": []
+},
+
+
+{"tag": "caracteristiques de dar zambra",
+	"patterns": ["hotel dar zambra","qu'est-ce qui distingue l'hotel dar zambra","parlez-moi de l'hotel dar zambra","caracteristiques de l'hotel dar zambra","parlez-moi des caracteristiques de l'hotel dar zambra","qu'en est-il des caracteristiques de l'hotel dar zambra ","quels sont les avantages de l'hotel dar zambra "],
+	"responses": ["Il a un design traditionnel et une vue sur la montagne"],
+	"context": []
+},
+
+
+
+
+{"tag": "caracteristiques de dar saba",
+	"patterns": ["hotel dar saba","qu'est-ce qui distingue l'hotel dar saba","parlez-moi de l'hotel dar saba","caracteristiques de l'hotel dar saba","parlez-moi des avantages de l'hotel dar saba","qu'en est-il des caracteristiques de l'hotel dar saba","quels sont les avantages de l'hotel dar saba"],
+	"responses": ["L'hotel dispose d'un service d'enregistrement et de départ express, de conciergerie et de vélo "],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de dar mezyana",
+	"patterns": ["hotel dar mezyana","ce qui distingue l'hotel dar mezyana","parlez-moi de l'hotel dar mezyana","caracteristiques de l'hotel dar mezyana","parlez-moi des avantages de l'hotel dar mezyana","qu'en est-il des avantages de l'hotel dar mezyana","quels sont les avantages de l'hotel dar mezyana"],
+	"responses": ["Dispose d'une réception ouverte 24h/24, d’un bureau touristique et d'un bain public avec des frais supplémentaires"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de chez aziz",
+	"patterns": ["hotel chez aziz","ce qui distingue l'hotel chez aziz","parlez-moi de l'hotel chez aziz","caracteristiques de l'hotel chez aziz","parlez-moi des caracteristiques de l'hotel chez aziz","qu'en est-il des caracteristiques de l'hotel chez aziz","quelles sont les caracteristiques de l'hotel chez aziz"],
+	"responses": ["Il propose des appartements indépendants"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de dar elrio",
+	"patterns": ["hotel dar elrio","qu'est-ce qui distingue l'hotel dar elrio","parlez-moi de dar elrio","caracteristiques de l'hotel dar elrio","parlez-moi des caracteristiques de dar elrio","qu'en est-il des caracteristiques de dar elrio","quels sont les avantages de l'hotel dar elrio"],
+	"responses": ["L'hotel propose un service d'enregistrement et de départ express, un service de réveil "],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de l'hotel sofitel agadir",
+	"patterns": ["hotel sofitel agadir","qu'est-ce qui fait la particularité de l'hotel sofitel agadir","parlez-moi de l'hotel sofitel agadir","caracteristiques de l'hotel sofitel agadir","parlez-moi des caracteristiques de l'hotel sofitel agadir","qu'en est-il des caracteristiques de l'hotel sofitel agadir","quels sont les avantages de l'hotel sofitel agadir"],
+	"responses": ["Il possède sa propre plage privée, à 1,5 km du centre d'Agadir"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de royal spa",
+	"patterns": ["hotel royal & spa","qu'est-ce qui rend le royal hotel & spa special","parlez-moi de l'hotel royal spa","caracteristiques du royal hotel & spa","parlez-moi des caracteristiques du royal hotel & spa","qu'en est-il des caracteristiques du royal hotel & spa","quels sont les avantages du royal hotel & spa"],
+	"responses": ["Il est situé près de la plage, à seulement 3 minutes à pied"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de iberostar",
+	"patterns": ["hotel iberostar","ce qui distingue l'hotel iberostar","parlez-moi de l'hotel iberostar","caracteristiques de l'hotel iberostar","parlez-moi des caracteristiques de l'hotel iberostar","qu'en est-il des caracteristiques de l'hotel iberostar","quelles sont les caracteristiques de l'hotel iberostar "],
+	"responses": ["Il se caractérise par la propreté, le confort, le personnel, les installations"],
+	"context": []
+},
+
+
+
+{"tag": "caracteristiques de tildi spa",
+	"patterns": ["hotel & spa tildi","qu'est-ce qui rend l'hotel & spa tildi special","parlez-moi de l'hotel & spa tildi","caracteristiques de l'hotel & spa tildi","parlez-moi des caracteristiques de l'hotel & spa tildi","qu'en est-il des caracteristiques de l'hotel & spa tildi","quelles sont les caracteristiques de l'hotel & spa tildi"],
+	"responses": ["Il est considéré comme l'un des meilleurs hotels, car il se trouve à 5 minutes à pied de la plage"],
+	"context": []
+},
+
+
+
+
+{"tag": "caracteristiques de l'atlantic",
+	"patterns": ["hotel de l'atlantic","ce qui distingue l'hotel atlantic ","parlez-moi de l'hotel atlantic","caracteristiques de l'hotel atlantic","parlez-moi des caracteristiques de l'hotel atlantic","qu'en est-il des caracteristiques de l'hotel atlantic","quels sont les avantages de l'hotel atlantic"],
+	"responses": ["Il est à proximité de golf à 5 km et l'aéroport international d'Agadir est à 25 km"],
+	"context": []
+},
+
+
+
+{"tag": "villes principales",
+	"patterns": ["parlez-moi des noms des principales villes du maroc","quelles sont les grandes villes du maroc","quelles sont les villes principales du maroc","les grandes villes du maroc","les principales villes du maroc","noms des principales villes du maroc","noms des grandes villes du maroc","parlez-moi des noms des grandes villes du maroc"],
+	"responses": ["Noms des principales villes du Maroc : Casablanca, Rabat, Fes, Marrakech, Agadir, Tanger, Meknès, Oujda, Tétouan, Kénitra"],
+	"context": []
+},
+
+
+
+{"tag": "nombre de villes",
+	"patterns": ["combien y a-t-il de grandes villes au maroc","combien y a-t-il de principales villes au maroc","le nombre de grandes villes au maroc","le nombre de principales villes au maroc","qu'en est-il du nombre de grandes villes au maroc","qu'en est-il du nombre de principales villes au maroc"],
+	"responses": ["Il y a 10 grandes villes au Maroc"],
+	"context": []
+},
+
+
+
+{"tag": "le climat",
+	"patterns": ["parlez-moi du climat au maroc","qu'en est-il du climat du maroc","comment est le climat au maroc","le climat au maroc est comment ","je veux que tu me parles du climat au maroc"],
+	"responses": ["Le climat du Maroc varie selon les régions, il est méditerranéen au nord, océanique à l'ouest, désertique au sud. Les zones côtières ils bénéficient d'un climat doux"],
+	"context": []
+},
+
+{"tag": "endroits à casablanca ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à casablanca ","parlez-moi de cinq endroits preferes de casablanca pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de casablanca ","quels sont les meilleurs endroits a visiter a casablanca ","quels sont les lieux touristiques les plus connus de casablanca "],
+	"responses": ["Parc de la Ligue arabe, vieille ville, mosquee Hassan II, Twin center, Bab Marrakech, rue Mohammed V, centre commercial Morocco Mall, parc aquatique Tamaris, corniche Ain Diab, place Mohammed V"],
+	"context": []
+},
+
+{"tag": "parc de la ligue arabe",
+	"patterns": ["parlez-moi du parc de la ligue arabe ","qu'en est-il du parc de la ligue arabe","je veux que tu me parles du parc de la ligue arabe","qu'est-ce que parc de la ligue arabe","parc de la ligue arabe"],
+	"responses": ["Le Parc de la Ligue arabe comprend de nombreux types de plantes, tels que les grands palmiers qui entourent des grands espaces verts"],
+	"context": []
+},
+
+{"tag": "vieille ville",
+	"patterns": ["parlez-moi de vieille ville","qu'en est-il du vieille ville","je veux que tu me parles de vieille ville","qu'est-ce que vieille ville","vieille ville"],
+	"responses": ["La vieille ville est considérée comme l'un des lieux touristiques les plus importants de Casablanca, car elle comprend des monuments historiques tel que les anciens mosquees  et les maisons antiques."],
+	"context": []
+},
+{"tag": "mosquee hassan ii",
+	"patterns": ["parlez-moi de mosquee hassan ii ","qu'en est-il du mosquee hassan ii","je veux que tu me parles de mosquee hassan ii","qu'est-ce que mosquee hassan ii","mosquee hassan ii"],
+	"responses": ["La mosquee Hassan II est située près de la vieille ville sur la côte atlantique et  considéré comme l'une des monuments touristiques les plus celebres de Casablanca. C'est le plus grand monument religieux du Maroc et le septième au monde."],
+	"context": []
+},
+
+{"tag": "twin center",
+	"patterns": ["parlez-moi de twin center","qu'en est-il du twin center","je veux que tu me parles de twin center","qu'est-ce que twin center","twin center"],
+	"responses": ["La Twin Center est un complexe marocain regroupant des bureaux, où elle regroupe de nombreuses entreprises dans le domaine de la finance et des affaires, et attire également de nombreux visiteurs et touristes."],
+	"context": []
+},
+
+{"tag": "bab marrakech",
+	"patterns": ["parlez-moi de bab marrakech ","qu'en est-il du bab marrakech","je veux que tu me parles de bab marrakech","qu'est-ce que bab marrakech","bab marrakech"],
+	"responses": ["Bab Marrakech est l'un des symboles les plus importants du tourisme à Casablanca. C'est l'une des portes de la vieille ville. Elle est destinée à la plupart des visiteurs de Casablanca dans le but de faire du shopping ou de découvrir l'histoire de la vieille ville."],
+	"context": []
+},
+
+{"tag": "rue mohammed v",
+	"patterns": ["parlez-moi de rue mohammed v","qu'en est-il du rue mohammed v","je veux que tu me parles de rue mohammed v","qu'est-ce que rue mohammed v","rue mohammed v"],
+	"responses": ["Le boulevard Mohammed V est l'une des principales rues importantes et l'une des zones touristiques les plus importantes de Casablanca, car il contient des bâtiments conçus dans le style architectural français."],
+	"context": []
+},
+{"tag": "centre commercial morocco mall",
+	"patterns": ["parlez-moi du centre commercial morocco mall","qu'en est-il du centre commercial morocco mall","je veux que tu me parles du centre commercial morocco mall","qu'est-ce que centre commercial morocco mall","centre commercial morocco mall"],
+	"responses": ["Le plus grand centre commercial d'Afrique est situé sur la plage d'Ain Diab sur la côte atlantique et est considéré comme la principale destination de shopping à Casablanca"],
+	"context": []
+},
+{"tag": "parc aquatique tamaris",
+	"patterns": ["parlez-moi de parc aquatique tamaris","qu'en est-il du parc aquatique tamaris","je veux que tu me parles de parc aquatique tamaris","qu'est-ce que parc aquatique tamaris","parc aquatique tamaris"],
+	"responses": ["Le parc aquatique Tamaris occupe une grande superficie estimée à 10 km sur la route d'Azemmour à Casablanca et considéré comme l'un des parcs aquatiques d'amusement uniques, car il constitue un espace idéal pour le divertissement, que ce soit pour les adultes ou les enfants."],
+	"context": []
+},
+
+{"tag": "corniche ain diab",
+	"patterns": ["parlez-moi de corniche ain diab","qu'en est-il du corniche ain diab","je veux que tu me parles de corniche ain diab","qu'est-ce que corniche ain diab","corniche ain diab"],
+	"responses": ["La corniche d'Ain Diab est l'un des lieux touristiques les plus celebres de Casablanca, et il existe de nombreuses installations de randonnée et de divertissement"],
+	"context": []
+},
+
+{"tag": "place mohammed v",
+	"patterns": ["parlez-moi de place mohammed v","qu'en est-il du place mohammed v","je veux que tu me parles de place mohammed v","qu'est-ce que place mohammed v","place mohammed v"],
+	"responses": ["La place Mohammed V est située au centre de Casablanca, et considéré comme le coeur battant de la ville, caractérisée par la présence de nombreux pigeons sur tous ses côtés."],
+	"context": []
+},
+
+
+{"tag": "endroits a marrakech ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits a ","parlez-moi de cinq endroits preferes de  pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de ","quels sont les meilleurs endroits à visiter à ","quels sont les lieux touristiques les plus connus de "],
+	"responses": ["Place Jemaa El Fna, Musee de Marrakech, Jardins Majorelle, Marchés commerciaux de la Médina, Mosquee Koutoubia, Medersa Ben Youssef, Palais Bahia, Dome des Almoravides, Jardins Menara, Muraille de Marrakech"],
+	"context": []
+},
+
+
+{"tag": "place jemaa el fna",
+	"patterns": ["parlez-moi de place jemaa el fna ","qu'en est-il du place jemaa el fna","je veux que tu me parles de place jemaa el fna","qu'est-ce que place jemaa el fna"," place jemaa el fna"],
+	"responses": ["La place Jemaa El Fna est le principal débouché prisé des habitants et des touristes à Marrakech, c'est le cœur battant de la ville, où se rassemblent de nombreux kiosques, dompteurs de serpents, ainsi que des musiciens."],
+	"context": []
+},
+
+{"tag": "musee de marrakech",
+	"patterns": ["parlez-moi de musee de marrakech ","qu'en est-il du musee de marrakech","je veux que tu me parles de musee de marrakech","qu'est-ce que musee de marrakech"," musee de marrakech"],
+	"responses": ["L'un des lieux touristiques les plus importants de Marrakech, et c'est l'un des musees distinctifs de la ville, car il comprend une collection unique d'expositions"],
+	"context": []
+},
+{"tag": "jardins majorelle",
+	"patterns": ["parlez-moi de jardins majorelle","qu'en est-il du jardins majorelle","je veux que tu me parles de jardins majorelle","qu'est-ce que jardins majorelle"," jardins majorelle"],
+	"responses": ["Le Jardin Majorelle est l'un des jardins les plus beaux et les plus attrayants pour les touristes de Marrakech.Ce sont des jardins tropicaux qui se distinguent par leur conception et leur mélange de couleurs et de nature verdoyante."],
+	"context": []
+},
+
+
+{"tag": "marches commerciaux de la medina",
+	"patterns": ["parlez-moi des marches commerciaux de la medina","qu'en est-il des marches commerciaux de la medina","je veux que tu me parles des marches commerciaux de la medina","qu'est-ce que les marchés commerciaux de la medina","marches commerciaux de la medina"],
+	"responses": ["Le quartier regroupe des boutiques qui vendent des souvenirs, comme des chaussures, des parfums, des antiquités en cuivre, etc. Il y a aussi un marché dédié au cuir, où se trouve de nombreuses anciennes tanneries du quartier."],
+	"context": []
+},
+
+{"tag": "mosquee koutoubia",
+	"patterns": ["parlez-moi du mosquee koutoubia","qu'en est-il du mosquee koutoubia","je veux que tu me parles du mosquee koutoubia","qu'est-ce que mosquee koutoubia","mosquee koutoubia"],
+	"responses": ["La mosquee de la Koutoubia est l'une des monuments touristiques les plus celebres de Marrakech.Elle se distingue par son minaret orné de 70 mètres.Elle attire les amateurs d'architecture ancienne du monde entier en raison de la beauté de son architecture et de ses magnifiques décorations."],
+	"context": []
+},
+
+{"tag": "medersa ben youssef",
+	"patterns": ["parlez-moi du medersa ben youssef ","qu'en est-il du medersa ben youssef","je veux que tu me parles du medersa ben youssef","qu'est-ce que la medersa ben youssef","medersa ben youssef"],
+	"responses": ["Medersa Ali Ben Youssef est considérée comme un chef-d'œuvre architectural historique. Elle a été fondée en 1346 après JC et abritait des universitaires et des écrivains chevronnés qui enseignaient les sciences religieuses, la jurisprudence et d'autres sciences. Par conséquent, elle est considérée comme l'une des écoles historiques les plus celebres du Maroc."],
+	"context": []
+},
+{"tag": "palais bahia",
+	"patterns": ["parlez-moi du palais bahia","qu'en est-il du palais bahia","je veux que tu me parles du palais bahia","qu'est-ce que palais bahia","palais bahia"],
+	"responses": ["L'un des lieux touristiques les plus importants de Marrakech, qui attire des touristes du monde entier pour découvrir la splendeur de l'architecture marocaine qui apparaît dans les suites royales du palais, les salles, les jardins et les bassins d'eau"],
+	"context": []
+},
+
+
+{"tag": "dome des almoravides",
+	"patterns": ["parlez-moi de dome des almoravides","qu'en est-il du dome des almoravides","je veux que tu me parles de dome des almoravides","qu'est-ce que dome des almoravides","dome des almoravides"],
+	"responses": ["Dome des Almoravides reflète l'art de l'architecture almoravide par sa construction solide, qui n'a pas été affectée par les fluctuations du temps, en plus du système d'alimentation en eau qui y est relié."],
+	"context": []
+},
+{"tag": "jardins menara",
+	"patterns": ["parlez-moi du jardins menara ","qu'en est-il du jardins menara","je veux que tu me parles du jardins menara","qu'est-ce que jardins menara","jardins menara"],
+	"responses": ["Les Jardins Menara ont été créés à l'époque almohade à la fin du XIXe siècle. Au milieu des jardins se trouve le grand réservoir du phare, qui est une grande piscine remplie d'eau de deux mètres de profondeur et de 510 mètres de circonférence."],
+	"context": []
+},
+
+
+{"tag": "muraille de marrakech",
+	"patterns": ["parlez-moi de muraille de marrakech","qu'en est-il de muraille de marrakech","je veux que tu me parles de muraille de marrakech","qu'est-ce que muraille de marrakech","muraille de marrakech"],
+	"responses": ["Ce mur a été construit dans le but de protéger la ville des ennemis. La terre battue a été utilisée pour construire le mur qui existe encore sans être affecté par les fluctuations du temps"],
+	"context": []
+},
+
+{"tag": "endroits à fes ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à fes","parlez-moi de cinq endroits preferes de fes pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de fes","quels sont les meilleurs endroits à visiter à fes","quels sont les lieux touristiques les plus connus de fes"],
+	"responses": ["Musee des Arts et Métiers du Bois, Mosquee Al-Qarawiyyin, Musee Dar Al-Batha, Madrasa Bouanania, Bab Bou Jeloud, Mausolee de Moulay Idriss II, Muraille de Fes, Borj Nord"],
+	"context": []
+},
+
+
+{"tag": "musee des arts et métiers du bois",
+	"patterns": ["parlez-moi de musee des arts et métiers du bois","qu'en est-il du musee des arts et métiers du bois","je veux que tu me parles du musee des arts et métiers du bois","qu'est-ce que le musee des arts et métiers du bois","musee des arts et métiers du bois"],
+	"responses": ["Le Musee des Arts et Métiers du Bois abrite une importante collection de boiseries et de sculptures anciennes"],
+	"context": []
+},
+{"tag": "mosquee al-qarawiyyin",
+	"patterns": ["parlez-moi de mosquee al-qarawiyyin","qu'en est-il du mosquee al-qarawiyyin","je veux que tu me parles de mosquee al-qarawiyyin","qu'est-ce que mosquee al-qarawiyyin","mosquee al-qarawiyyin"],
+	"responses": ["La mosquee Qarawiyyin se distingue par sa conception et sa décoration simples, en plus de la présence de domes, d'arcs, des ecritures coraniques et d'un minbar datant de l'époque almoravide."],
+	"context": []
+},
+
+{"tag": "musee dar al-batha",
+	"patterns": ["parlez-moi de musee dar al-batha","qu'en est-il du musee dar al-batha","je veux que tu me parles de musee dar al-batha","qu'est-ce que musee dar al-batha","musee dar al-batha"],
+	"responses": ["Le musee Dar Al Batha comprend une grande collection d'expositions comprenant des artefacts et des objets d'artisanat"],
+	"context": []
+},
+
+
+{"tag": "madrasa bouanania",
+	"patterns": ["parlez-moi de madrasa bouanania","qu'en est-il dumadrasa bouanania","je veux que tu me parles demadrasa bouanania","qu'est-ce que madrasa bouanania","madrasa bouanania"],
+	"responses": ["La Madrasa Bouanania comprend un magnifique silo par sa construction et les décorations qu'il porte, en plus d'une horloge à eau dont le mécanisme de fonctionnement est inconnu jusqu'à présent"],
+	"context": []
+},
+
+{"tag": "bab bou jeloud",
+	"patterns": ["parlez-moi de bab bou jeloud","qu'en est-il du bab bou jeloud","je veux que tu me parles de bab bou jeloud","qu'est-ce que bab bou jeloud","bab bou jeloud"],
+	"responses": ["Bab Bou Jeloud est l'entrée principale de la ville de Fes, et c'est aussi l'une des monuments touristiques les plus celebres de Fes"],
+	"context": []
+},
+
+
+{"tag": "mausolee de moulay idriss ii",
+	"patterns": ["parlez-moi de mausolee de moulay idriss ii","qu'en est-il du mausolee de moulay idriss ii","je veux que tu me parles de mausolee de moulay idriss ii","qu'est-ce que mausolee de moulay idriss ii","mausolee de moulay idriss ii"],
+	"responses": ["Le bâtiment Zaouia Moulay Idriss II est considéré comme l'un des plus beaux bâtiments de Fes, et c'est vraiment un beau monument architectural à visiter"],
+	"context": []
+},
+{"tag": "muraille de fes",
+	"patterns": ["parlez-moi de muraille de fes","qu'en est-il du muraille de fes","je veux que tu me parles de muraille de fes","qu'est-ce que muraille de fes","muraille de fes"],
+	"responses": ["Ces murs entourent la ville de Fes et sont entrecoupés de nombreuses portes, qui portent des noms datant de l'époque du règne des Idrisides et des Zénatis du Maroc."],
+	"context": []
+},
+
+{"tag": "borj nord",
+	"patterns": ["parlez-moi de borj nord ","qu'en est-il du borj nord","je veux que tu me parles de borj nord","qu'est-ce que borj nord","borj nord"],
+	"responses": ["Le Borj Nord est l'un des plus grands points d'observation de la ville de Fes, et c'était auparavant une usine de canons traditionnels et maintenant est devenue un musee d'armes traditionnelles"],
+	"context": []
+},
+
+
+{"tag": "endroits à rabat ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à rabat","parlez-moi de cinq endroits preferes de rabat pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de rabat","quels sont les meilleurs endroits à visiter à rabat","quels sont les lieux touristiques les plus connus de rabat"],
+	"responses": ["Site archeologique de Chellah, Tour Hassan , Vieille ville de Rabat, Kasbah des Oudayas, Centre commercial Mega Mall, Zoo de Rabat, Musee archeologique de Rabat, Muraille almohade, Mausolee Mohammed V"],
+	"context": []
+},
+
+
+{"tag": "site archeologique de chellah",
+	"patterns": ["parlez-moi de site archeologique de chellah","qu'en est-il du site archeologique de chellah","je veux que tu me parles de site archeologique de chellah","qu'est-ce que site archeologique de chellah","site archeologique de chellah"],
+	"responses": ["Chellah est une ancienne petite ville située sur la rivière Bouregreg"],
+	"context": []
+},
+{"tag": "tour hassan",
+	"patterns": ["parlez-moi de tour hassan","qu'en est-il du tour hassan","je veux que tu me parles de tour hassan","qu'est-ce que tour hassan","tour hassan"],
+	"responses": ["La tour Hassan est l'une des monuments touristiques les plus importantes de Rabat. C'est un bâtiment historique construit pour être le minaret d'une mosquee à Rabat sous le règne du sultan Yacoub Al-Mansour."],
+	"context": []
+},
+
+{"tag": "vieille ville de rabat",
+	"patterns": ["parlez-moi de vieille ville de rabat","qu'en est-il du vieille ville de rabat","je veux que tu me parles de vieille ville de rabat","qu'est-ce que vieille ville de rabat","vieille ville de rabat"],
+	"responses": ["La vieille ville est l'un des plus beaux endroits touristiques de Rabat, de nombreux touristes la visitent afin de se renseigner sur le mode de vie des habitants de Rabat et aussi pour faire du shopping"],
+	"context": []
+},
+
+{"tag": "kasbah des oudayas",
+	"patterns": ["parlez-moi de kasbah des oudayas","qu'en est-il du kasbah des oudayas","je veux que tu me parles de kasbah des oudayas","qu'est-ce que kasbah des oudayas","kasbah des oudayas"],
+	"responses": ["La Kasbah des Oudayas est une forteresse fortifiée construite par les Almoravides à l'embouchure de la rivière Bouregreg "],
+	"context": []
+},
+
+
+{"tag": "centre commercial mega mall",
+	"patterns": ["parlez-moi de centre commercial mega mall","qu'en est-il du centre commercial mega mall","je veux que tu me parles de centre commercial mega mall","qu'est-ce que centre commercial mega mall","centre commercial mega mall"],
+	"responses": ["L'une des destinations de shopping les plus importantes de Rabat est située près de la route Zaer et se compose de plusieurs étages contenant un grand groupe de magasins"],
+	"context": []
+},
+
+{"tag": "zoo de rabat",
+	"patterns": ["parlez-moi de zoo de rabat","qu'en est-il du zoo de rabat","je veux que tu me parles de zoo de rabat","qu'est-ce que zoo de rabat","zoo de rabat"],
+	"responses": ["Le zoo de Rabat est l'une des destinations préférées des touristes venant à Rabat. Ce zoo comprend plus de 1000 animaux appartenant à différents espèces et d'origine africaine, tels que les éléphants, les lions et autres."],
+	"context": []
+},
+{"tag": "musee archeologique de rabat",
+	"patterns": ["parlez-moi de musee archeologique de rabat","qu'en est-il du musee archeologique de rabat","je veux que tu me parles de musee archeologique de rabat","qu'est-ce que musee archeologique de rabat","musee archeologique de rabat"],
+	"responses": ["Le musee archeologique a ouvert ses portes à Rabat, au Maroc en 1932 et est considéré comme l'un des musees les plus importants du Maroc.Le musee comprend un large éventail d'objets archeologiques"],
+	"context": []
+},
+
+{"tag": "muraille almohade",
+	"patterns": ["parlez-moi de muraille almohade","qu'en est-il du muraille almohade","je veux que tu me parles de muraille almohade","qu'est-ce que muraille almohade","muraille almohade"],
+	"responses": ["Le Muraille almohade est considéré comme l'un des lieux touristiques les plus importants de Rabat.C'est un mur construit par les Almohades sur ordre du Sultan Yaqub Al-Mansour Almohade"],
+	"context": []
+},
+
+{"tag": "mausolee mohammed v",
+	"patterns": ["parlez-moi de mausolee mohammed v","qu'en est-il du mausolee mohammed v","je veux que tu me parles de mausolee mohammed v","qu'est-ce que mausolee mohammed v","mausolee mohammed v"],
+	"responses": ["Le mausolee de Mohammed V est situé à côté de la célèbre tour Hassan à Rabat et comprend les tombeaux du monarque marocain et de ses deux fils, le roi Hassan II et le prince Abdallah."],
+	"context": []
+},
+
+
+
+{"tag": "endroits à tanger ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à tanger","parlez-moi de cinq endroits preferes de tanger pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de tanger","quels sont les meilleurs endroits à visiter à tanger ","quels sont les lieux touristiques les plus connus de tanger"],
+	"responses": ["La Kasbah, Grottes d'Hercule, Café Hafa, le Grand Souk, Église anglicane Saint André, le Musee des Arts Marocains"],
+	"context": []
+},
+
+
+{"tag": "la kasbah",
+	"patterns": ["parlez-moi de la kasbah","qu'en est-il du la kasbah","je veux que tu me parles de la kasbah","qu'est-ce que la kasbah","la kasbah"],
+	"responses": ["La Kasbah ou Kasbah Ghilan est l'un des lieux touristiques les plus celebres de Tanger. Elle est située sur la rive de la vallée appelée Wadi El-Halaq. La Kasbah comprend un certain nombre de bâtiments, dont le célèbre Palais de la Kasbah et la Kasbah Mosquee."],
+	"context": []
+},
+{"tag": "grottes d'hercule",
+	"patterns": ["parlez-moi de grottes d'hercule","qu'en est-il du grottes d'hercule","je veux que tu me parles de grottes d'hercule","qu'est-ce que grottes d'hercule","grottes d'hercule"],
+	"responses": ["La grotte d'Hercule surplombe l'océan Atlantique et l'un des lieux touristiques les plus importants de Tanger, elle est considérée comme l'une des plus grandes grottes d'Afrique."],
+	"context": []
+},
+
+{"tag": "cafe hafa",
+	"patterns": ["parlez-moi de cafe hafa","qu'en est-il du cafe hafa","je veux que tu me parles de cafe hafa","qu'est-ce que cafe hafa","cafe hafa"],
+	"responses": ["Le Café Haffa est l'un des lieux touristiques les plus celebres de Tanger.Il est situé sur un haut plateau surplombant le détroit de Gibraltar, ce qui en fait une destination importante pour boire du thé."],
+	"context": []
+},
+
+{"tag": "le grand souk",
+	"patterns": ["parlez-moi de le grand souk","qu'en est-il du le grand souk","je veux que tu me parles de le grand souk","qu'est-ce que le grand souk","le grand souk"],
+	"responses": ["Le Grand Souk est le cœur battant de Tanger au Maroc.Les visiteurs peuvent y trouver des restaurants et cafés populaires."],
+	"context": []
+},
+
+{"tag": "le musee des arts marocains",
+	"patterns": ["parlez-moi de le musee des arts marocains","qu'en est-il du le musee des arts marocains","je veux que tu me parles de le musee des arts marocains","qu'est-ce que le musee des arts marocains","le musee des arts marocains"],
+	"responses": ["L'histoire du Musee des Arts Marocains remonte au XVIIe siècle après JC et était connu sous le nom de Dar al-Makhzen et aussi le Palais du Sultan.Le musee se distingue par son emplacement élevé à Tanger, surplombant à la fois le détroit de Gibraltar et la vieille ville ."],
+	"context": []
+},
+
+{"tag": "eglise anglicane saint andre",
+	"patterns": ["parlez-moi de eglise anglicane saint andre","qu'en est-il du eglise anglicane saint andre","je veux que tu me parles de eglise anglicane saint andre","qu'est-ce que eglise anglicane saint andre"," eglise anglicane saint andre"],
+	"responses": ["Cette église a été construite dans le style architectural islamique, ce qui en fait l'une des églises les plus distinguées au monde et un exemple important du mélange des civilisations et des cultures dans la ville marocaine de Tanger."],
+	"context": []
+},
+
+
+{"tag": "endroits à tetouan ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits a tetouan ","parlez-moi de cinq endroits preferes de tetouan  pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de tetouan ","quels sont les meilleurs endroits a visiter à tetouan ","quels sont les lieux touristiques les plus connus de tetouan "],
+	"responses": ["Les montagnes du Rif à Tétouan, l'église de la prison d'El Matamir, Bab El Okla, la kasbah de Sidi El Mandhari, le mausolee de Sidi Abdel Kader El Tabine, la grande mosquee, la plage de Cabo Negro, la vieille ville de Tétouan, le quartier du souk, le quartier du Mellah, Musee Archeologique de Tétouan, Musee d'Ethnographie"],
+	"context": []
+},
+
+
+{"tag": "les montagnes du rif à tetouan ",
+	"patterns": ["parlez-moi des montagnes du rif à tetouan ","qu'en est-il des montagnes du rif à tetouan ","je veux que tu me parles des montagnes du rif à tetouan ","qu'est-ce que les montagnes du rif a tetouan ","les montagnes du rif a tetouan "],
+	"responses": ["Les montagnes du Rif sont situées à proximité de la ville bleue de Chefchaouen, au sud-est de la ville de Tétouan, célèbre pour son inclusion des deux parcs nationaux de Talisman et Bushnachem, qui attirent l'attention des touristes lors des circuits touristiques à Tétouan."],
+	"context": []
+},
+{"tag": "l'eglise de la prison d'el matamir",
+	"patterns": ["parlez-moi de l'eglise de la prison d'el matamir","qu'en est-il du l'eglise de la prison d'el matamir","je veux que tu me parles de l'eglise de la prison d'el matamir","qu'est-ce que l'eglise de la prison d'el matamir","l'eglise de la prison d'el matamir"],
+	"responses": ["C'est l'un des bâtiments historiques uniques de la ville touristique de Tétouan.L'ancienne église est située sous terre et est célèbre pour être un ancien lieu de culte pour les prisonniers chrétiens de la ville."],
+	"context": []
+},
+
+{"tag": "bab el okla",
+	"patterns": ["parlez-moi de bab el okla","qu'en est-il du bab el okla","je veux que tu me parles de bab el okla","qu'est-ce que bab el okla","bab el okla"],
+	"responses": ["L'un des plus beaux monuments de la vieille ville de Tétouan, avec sa magnifique conception architecturale ornée basée sur le zellige"],
+	"context": []
+},
+
+{"tag": "la kasbah de sidi el mandhari",
+	"patterns": ["parlez-moi du kasbah de sidi el mandhari ","qu'en est-il du kasbah de sidi el mandhari","je veux que tu me parles du  kasbah de sidi el mandhari","qu'est-ce que la kasbah de sidi el mandhari","la kasbah de sidi el mandhari"],
+	"responses": ["C'est un grand bâtiment historique situé au nord de la ville de Tétouan depuis le XVIe siècle, auquel s'attache une mosquee, la plus ancienne dans la ville et portant le même nom."],
+	"context": []
+},
+
+
+{"tag": "le mausolee de sidi abdel kader el tabine",
+	"patterns": ["parlez-moi du mausolee de sidi abdel kader el tabine ","qu'en est-il du mausolee de sidi abdel kader el tabine","je veux que tu me parles du mausolee de sidi abdel kader el tabine","qu'est-ce que le mausolee de sidi abdel kader el tabine","le mausolee de sidi abdel kader el tabine"],
+	"responses": ["C'est l'un des monuments spirituels les plus anciens et les plus celebres de Tétouan, qui est visité par des milliers de fidèles pendant les vacances à Tétouan."],
+	"context": []
+},
+
+{"tag": "la grande mosquee",
+	"patterns": ["parlez-moi de la grande mosquee ","qu'en est-il du grande mosquee","je veux que tu me parles de la grande mosquee","qu'est-ce que la grande mosquee","la grande mosquee"],
+	"responses": ["L'une des plus anciennes monuments touristiques de la ville de Tétouan, à proximité du quartier juif historique et archéologique du Mellah, datant du XVe siècle"],
+	"context": []
+},
+
+{"tag": "la plage de cabo negro",
+	"patterns": ["parlez-moi de la plage de cabo negro","qu'en est-il du plage de cabo negro","je veux que tu me parles de la plage de cabo negro","qu'est-ce que la plage de cabo negro","la plage de cabo negro"],
+	"responses": ["Les plus beaux endroits de Tétouan pour profiter d'une atmosphère calme loin de l'agitation habituelle qui fait la renommée de la ville touristique de Tétouan pendant la saison touristique"],
+	"context": []
+},
+{"tag": "la vieille ville de tétouan",
+	"patterns": ["parlez-moi de la vieille ville de tetouan ","qu'en est-il du vieille ville de tetouan","je veux que tu me parles de la vieille ville de tetouan","qu'est-ce que","la vieille ville de tetouan"],
+	"responses": ["La médina est l'une des meilleures monuments touristiques et les plus celebres de Tétouan, car elle fait partie des sites archeologiques inscrits sur la liste du patrimoine mondial de l'UNESCO."],
+	"context": []
+},
+
+{"tag": "le quartier du souk",
+	"patterns": ["parlez-moi du quartier du souk","qu'en est-il du quartier du souk","je veux que tu me parles du quartier du souk","qu'est-ce que le quartier du souk","le quartier du souk"],
+	"responses": ["L'un des meilleurs endroits de Tétouan pour faire du shopping et se mêler aux coutumes et traditions marocaines authentiques.L'ancien quartier populaire représente un rassemblement de plusieurs marchés populaires vendant des produits différents et variés."],
+	"context": []
+},
+
+
+{"tag": "le quartier du mellah",
+	"patterns": ["parlez-moi du quartier du mellah ","qu'en est-il du quartier du mellah","je veux que tu me parles du quartier du mellah","qu'est-ce que le quartier du mellah","le quartier du mellah"],
+	"responses": ["L'un des quartiers patrimoniaux de la ville de Tétouan avec une longue histoire que les touristes du monde entier visitent lors de l'un des circuits touristiques à Tétouan, où le quartier du Mellah est célèbre pour être l'un des quartiers des Juifs qui ont vécu dans la ville depuis l'Antiquité."],
+	"context": []
+},
+
+{"tag": "musee archeologique de tetouan ",
+	"patterns": ["parlez-moi du musee archeologique de tetouan ","qu'en est-il du musee archeologique de tetouan ","je veux que tu me parles du musee archeologique de tetouan ","qu'est-ce que le musee archeologique de tetouan ","musee archeologique de tetouan "],
+	"responses": ["L'un des monuments les plus célèbres de la ville touristique de Tétouan, qui fournit au visiteur de précieuses informations détaillées sur l'histoire de Tétouan et les développements civilisationnels qu'elle a subis jusqu'à présent."],
+	"context": []
+},
+
+{"tag": "musee d'ethnographie",
+	"patterns": ["parlez-moi du musee d'ethnographie","qu'en est-il du musee d'ethnographie","je veux que tu me parles du musee d'ethnographie","qu'est-ce que le musee d'ethnographie","musee d'ethnographie"],
+	"responses": ["Parmi les plus beaux endroits de Tétouan qui approfondissent votre vision de Tétouan grâce à ses avoirs qui expriment honnêtement le riche patrimoine de la ville."],
+	"context": []
+},
+
+
+
+{"tag": "endroits à al hoceima",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à al hoceima ","parlez-moi de cinq endroits preferes d'al hoceima pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de al hoceima ","quels sont les meilleurs endroits à visiter à al hoceima","quels sont les lieux touristiques les plus connus de al hoceima"],
+	"responses": ["site archeologique El Mezma, parc national d'Al Hoceima, plage de Quemado, plage de Souani, port d'Al Hoceima, château d'Arbiaa Taourirt, plage de Clabonita, château de Tores, mosquee d'Adrouz, mosquee El Atiq"],
+	"context": []
+},
+
+
+{"tag": "site archeologique el mezma",
+	"patterns": ["parlez-moi du site archeologique el mezma","qu'en est-il du site archeologique el mezma","je veux que tu me parles du site archeologique el mezma","qu'est-ce que le site archeologique el mezma","site archeologique el mezma"],
+	"responses": ["La ville antique était célèbre tout au long de son histoire pour la fabrication de navires et de poteries et pour son architecture accrocheuse."],
+	"context": []
+},
+{"tag": "parc national d'al hoceima",
+	"patterns": ["parlez-moi du parc national d'al hoceima","qu'en est-il du parc national d'al hoceima","je veux que tu me parles du parc national d'al hoceima","qu'est-ce que le parc national d'al hoceima","parc national d'al hoceima"],
+	"responses": ["L'un des plus beaux sites naturels de la ville d'Al Hoceima, qui peut être traité comme un réserve naturelle pour protéger la richesse végétale et animale"],
+	"context": []
+},
+
+{"tag": "plage de quemado",
+	"patterns": ["parlez-moi du plage de quemado ","qu'en est-il du plage de quemado","je veux que tu me parles du plage de quemado","qu'est-ce que le plage de quemado","plage de quemado"],
+	"responses": ["Parmi les plages les plus celebres de la ville, qui attirent chaque année un grand nombre de touristes du monde entier"],
+	"context": []
+},
+
+{"tag": "plage de souani",
+	"patterns": ["parlez-moi du plage de souani ","qu'en est-il du plage de souani","je veux que tu me parles du plage de souani","qu'est-ce que le plage de souani","plage de souani"],
+	"responses": ["L'une des plages, qui jouit d'une popularité et d'une renommée auprès des résidents locaux de la ville et des villes voisines, ainsi que des touristes étrangers "],
+	"context": []
+},
+
+{"tag": "port d'al hoceima",
+	"patterns": ["parlez-moi du port d'al hoceima ","qu'en est-il du port d'al hoceima","je veux que tu me parles du port d'al hoceima","qu'est-ce que le port d'al hoceima","port d'al hoceima"],
+	"responses": ["L'une des endroits touristiques les plus populaires et les plus attrayantes pour les touristes locaux et étrangers lors de leurs visite de la ville.En plus du fait que la deplacement à l'intérieur du port est l'un des moyens de transport les plus importants dans l'ancienne ville marocaine."],
+	"context": []
+},
+
+{"tag": "château d'arbiaa taourirt",
+	"patterns": ["parlez-moi du chateau d'arbiaa taourirt","qu'en est-il du chateau d'arbiaa taourirt","je veux que tu me parles du chateau d'arbiaa taourirt","qu'est-ce que le chateau d'arbiaa taourirt"," chateau d'arbiaa taourirt"],
+	"responses": ["Le château, qui a été construit pour surveiller le centre de la ville et ses abords pendant la période d'occupation, ressemble à des tours militaires ressemblant à des silos, adoptés par les habitants de la région pour préserver les récoltes.Il se compose de 99 chambres conçues dans un cadre luxueux et un style architectural élégant."],
+	"context": []
+},
+
+{"tag": "plage de clabonita",
+	"patterns": ["parlez-moi du plage de clabonita","qu'en est-il du plage de clabonita","je veux que tu me parles du plage de clabonita","qu'est-ce que le plage de clabonita","plage de clabonita"],
+	"responses": ["L'une des plus belles plages d'Al Hoceima, idéale pour ceux qui recherchent la détente et les loisirs au calme, ainsi que pour les amateurs de safari, de camping et d'alpinisme"],
+	"context": []
+},
+{"tag": " chateau de tores",
+	"patterns": ["parlez-moi du chateau de tores ","qu'en est-il du chateau de tores","je veux que tu me parles du chateau de tores","qu'est-ce que le chateau de tores"," chateau de tores"],
+	"responses": ["Le château de Tores ou Sanhaja, autrement dit, se distingue par ses cinq tours militaires et sa magnifique vue panoramique sur la côte méditerranéenne."],
+	"context": []
+},
+{"tag": "mosquee d'adrouz",
+	"patterns": ["parlez-moi du mosquee d'adrouz","qu'en est-il du mosquee d'adrouz","je veux que tu me parles du mosquee d'adrouz","qu'est-ce que la mosquee d'adrouz","mosquee d'adrouz"],
+	"responses": ["L'un des monuments religieux les plus importants et les plus anciens de la ville d'Al Hoceima, qui attire l'attention des touristes arabes et étrangers"],
+	"context": []
+},
+{"tag": "mosquee el atiq",
+	"patterns": ["parlez-moi du mosquee el atiq ","qu'en est-il du mosquee el atiq","je veux que tu me parles du mosquee el atiq","qu'est-ce que la mosquee el atiq","mosquee el atiq"],
+	"responses": ["L'une des mosquées historiques les plus célèbres et les plus spacieuses d'Al Hoceima, caractérisée par l'élégant style architectural oriental et les décorations et écritures islamiques qui ornent les façades extérieures et intérieures de la mosquée "],
+	"context": []
+},
+
+
+{"tag": "endroits à meknes",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à meknes ","parlez-moi de cinq endroits preferes de meknes pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de meknès","quels sont les meilleurs endroits à visiter à meknes ","quels sont les lieux touristiques les plus connus de meknes "],
+	"responses": ["Site archéologique de Volubilis, Musee Dar Eljamîi, Medersa Bouinania de Meknès, Bab el-Mansour, le mausolée de Moulay Ismail"],
+	"context": []
+},
+
+
+{"tag": "volubilis",
+	"patterns": ["oualily","oualili","volubilis","parlez-moi du site archeologique de volubilis","qu'en est-il du site archeologique de volubilis","je veux que tu me parles du site archeologique de volubilis","qu'est-ce que le site archeologique de volubilis","site archeologique de volubilis"],
+	"responses": ["L'un des lieux touristiques les plus importants de Meknès, qui est une ville antique datant du IIIe siècle avant JC et située à 30 km à l'ouest de la ville de Meknès, la ville comprend deux bâtiments principaux, le bâtiment principal et le temple romain"],
+	"context": []
+},
+{"tag": "musee dar eljamii",
+	"patterns": ["parlez-moi de musee dar eljamii","qu'en est-il du musee dar eljamii ","je veux que tu me parles du musee dar eljamii ","qu'est-ce que musee dar eljamii ","musee dar eljamii "],
+	"responses": ["Le musee Dar Al Jamai est un palais historique datant du XIXe siècle et a été transformé en musee en 1920 après JC, dans lequel de nombreux objets d'art et d'objets en bois sculptés et teints sont exposés."],
+	"context": []
+},
+
+{"tag": "medersa bouinania de meknes",
+	"patterns": ["parlez-moi du medersa bouinania de meknes ","qu'en est-il du medersa bouinania de meknes ","je veux que tu me parles du medersa bouinania de meknes ","qu'est-ce que la medersa bouinania de meknes ","medersa bouinania de meknes "],
+	"responses": ["La Madrasa Bouanania se caractérise par ses colonnes et ses portes qui sont ornées de magnifiques décorations comprenant des écritures sur bois et gypse."],
+	"context": []
+},
+
+{"tag": "bab el-mansour",
+	"patterns": ["parlez-moi du bab el-mansour ","qu'en est-il du bab el-mansour","je veux que tu me parles du bab el-mansour","qu'est-ce que bab el-mansour","bab el-mansour"],
+	"responses": ["Bab el-Mansour est considérée comme l'une des monuments touristiques les plus importants de Meknès, et c'est une immense porte qui surplombe la place El Hedim."],
+	"context": []
+},
+
+{"tag": "le mausolee de moulay ismail",
+	"patterns": ["parlez-moi du mausolee de moulay ismail ","qu'en est-il du mausolee de moulay ismail","je veux que tu me parles du mausolee de moulay ismail","qu'est-ce que le mausolee de moulay ismail","le mausolee de moulay ismail"],
+	"responses": ["L'un des lieux touristiques les plus importants de Meknès, il comprend les restes du fondateur de la ville de Meknès Moulay Ismail, ainsi que deux autres rois. Le tombeau de Moulay Ismail est situé près de Bab Mansour"],
+	"context": []
+},
+
+{"tag": "endroits à ifrane ",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à ifrane ","parlez-moi de cinq endroits preferes de ifrane pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de ifrane ","quels sont les meilleurs endroits à visiter à ifrane ","quels sont les lieux touristiques les plus connus de ifrane "],
+	"responses": ["Station de ski Michelifin, marché d'Ifrane, parc national d'Ifrane, statue du grand lion, arbre Gouraud, forêt de Cèdre Gouraud, lac Daït Aoua, Ain Vital, centre-ville"],
+	"context": []
+},
+
+{"tag": "station de ski michelifin",
+	"patterns": ["parlez-moi du station de ski michelifin ","qu'en est-il du station de ski michelifin","je veux que tu me parles du station de ski michelifin","qu'est-ce que la station de ski michelifin","station de ski michelifin"],
+	"responses": ["C'est l'un des plus beaux sites touristiques d'Ifrane, il jouit donc d'une grande popularité chez les habitants et les visiteurs étrangers pendant l'hiver,  la région est située à 17 km de la ville comme elle a des pentes couvertes de neige chaque hiver."],
+	"context": []
+},
+
+{"tag": "marche d'ifrane",
+	"patterns": ["parlez-moi du marche d'ifrane ","qu'en est-il du marche d'ifrane","je veux que tu me parles du marche d'ifrane","qu'est-ce que le marche d'ifrane"," marche d'ifrane"],
+	"responses": ["C'est un marché local non touristique mais offre une excellente occasion de se mêler aux peuples autochtones et à leur culture et d'acheter les meilleurs souvenirs artisanaux tels que des textiles et des bijoux."],
+	"context": []
+},
+
+{"tag": "parc national d'ifrane",
+	"patterns": ["parlez-moi du parc national d'ifrane ","qu'en est-il du parc national d'ifrane","je veux que tu me parles du parc national d'ifrane","qu'est-ce que le parc national d'ifrane","parc national d'ifrane"],
+	"responses": ["L'un des plus beaux sites touristiques d'Ifrane apprécié des enfants, des familles et des amoureux de la faune"],
+	"context": []
+},
+
+{"tag": "statue du grand lion",
+	"patterns": ["parlez-moi de statue du grand lion,","qu'en est-il du statue du grand lion,","je veux que tu me parles du statue du grand lion,","qu'est-ce que le statue du grand lion,","statue du grand lion,"],
+	"responses": ["L'un des lieux touristiques les plus importants d'Ifrane, où il attire l'attention des visiteurs de partout grâce à sa grande renommée, la précision et la beauté de sa sculpture et les histoires et légendes qui lui sont associées."],
+	"context": []
+},
+
+{"tag": "arbre gouraud",
+	"patterns": ["parlez-moi d'arbre gouraud","qu'en est-il d'arbre gouraud","je veux que tu me parles d'arbre gouraud","qu'est-ce que l'arbre gouraud","arbre gouraud"],
+	"responses": ["L'une des attractions les plus excitantes que vous puissiez visiter lors d'un voyage à Ifrane, où le cèdre est classé comme le plus ancien du genre en Afrique, avec un âge allant jusqu'à 800 ans."],
+	"context": []
+},
+
+
+{"tag": "foret de cedre gouraud",
+	"patterns": ["parlez-moi du foret de cedre gouraud","qu'en est-il du foret de cedre gouraud","je veux que tu me parles du foret de cedre gouraud","qu'est-ce que la foret de cedre gouraud"," foret de cedre gouraud"],
+	"responses": ["La forêt de Cèdre Gouraud est l'un des plus beaux sites touristiques d'Ifrane pour ceux qui recherchent une atmosphère calme de loisirs et de détente loin de l'agitation de la ville, profitant d'une visite gratuite en plein air"],
+	"context": []
+},
+
+
+{"tag": "lac dait aoua",
+	"patterns": ["parlez-moi du lac dait aoua ","qu'en est-il du lac dait aoua","je veux que tu me parles du lac dait aoua","qu'est-ce que le lac dait aoua","lac dait aoua"],
+	"responses": ["L'un des plus beaux sites touristiques d'Ifrane, qui se trouve à 17 km de là, il bénéficie d'une nature calme et pittoresque qui incite aux loisirs, lorsque vous le visitez, vous pouvez pratiquer la pêche"],
+	"context": []
+},
+{"tag": "ain vital",
+	"patterns": ["parlez-moi d'ain vital ","qu'en est-il d'ain vital","je veux que tu me parles d'ain vital","qu'est-ce queain vital","ain vital"],
+	"responses": ["C'est l'un des endroits a ne pas manquer lors d'un voyage à Ifrane si vous recherchez une atmosphère de detente  qui vous offre les plus hautes doses de loisirs et d'activités avec les belles apparences de la nature."],
+	"context": []
+},
+
+{"tag": "centre-ville",
+	"patterns": ["parlez-moi du centre-ville ","qu'en est-il du centre-ville","je veux que tu me parles dcentre-ville","qu'est-ce que centre-ville","centre-ville"],
+	"responses": ["L'un des lieux touristiques les plus importants d'Ifrane, qui d'entre nous fait du tourisme dans un lieu sans visiter son centre et son point principal ?"],
+	"context": []
+},
+
+
+{"tag": "endroits a chefchaouen",
+	"patterns": ["parlez-moi des cinq meilleurs endroits a chefchaouen ","parlez-moi de cinq endroits preferes de chefchaouen pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de chefchaouen ","quels sont les meilleurs endroits a visiter a chefchaouen","quels sont les lieux touristiques les plus connus de chefchaouen"],
+	"responses": ["Kasbah de Chefchaouen, quartier Souika de Chefchaouen, Les cascades d'Akchour"],
+	"context": []
+},
+
+
+{"tag": "kasbah de chefchaouen",
+	"patterns": ["parlez-moi du kasbah de chefchaouen ","qu'en est-il du kasbah de chefchaouen","je veux que tu me parles du kasbah de chefchaouen","qu'est-ce que la kasbah de chefchaouen","kasbah de chefchaouen"],
+	"responses": ["La Kasbah est l'un des lieux touristiques les plus importants de Chefchaouen. Elle est située sur la célèbre place Outa Hammam et est considérée comme le centre de la ville, car c'est l'un des premiers bâtiments dans lequel elle a ete construite."],
+	"context": []
+},
+{"tag": "quartier souika de chefchaouen",
+	"patterns": ["parlez-moi du quartier souika de chefchaouen","qu'en est-il du quartier souika de chefchaouen","je veux que tu me parles du quartier souika de chefchaouen","qu'est-ce que le quartier souika de chefchaouen","quartier souika de chefchaouen"],
+	"responses": ["L'un des lieux de tourisme de Chefchaouen, qui est considéré comme la deuxième communauté résidentielle la plus ancienne de la ville et comprend les plus anciennes maisons de la ville, car il appartient à des familles andalouses qui ont longtemps vécu dans le quartier"],
+	"context": []
+},
+
+{"tag": "les cascades d'akchour",
+	"patterns": ["parlez-moi des cascades d'akchour ","qu'en est-il des cascades d'akchour","je veux que tu me parles des cascades d'akchour","qu'est-ce que les cascades d'akchour","les cascades d'akchour"],
+	"responses": ["Les cascade d'Akchour est l'un des plus beaux site touristiques de Chefchaouen. Elle est située dans la réserve de Tala Samtane. Elle se compose d'une cascade basse ressemblant à un petit lac et d'une autre à haute altitude descendant du milieu des montagnes."],
+	"context": []
+},
+
+
+
+{"tag": "endroits a agadir",
+	"patterns": ["parlez-moi des cinq meilleurs endroits à agadir ","parlez-moi de cinq endroits preferes de agadir pour les visiteurs","parlez-moi des lieux touristiques les plus celebres de agadir ","quels sont les meilleurs endroits à visiter à agadir","quels sont les lieux touristiques les plus connus de agadir"],
+	"responses": ["Plage d'Agadir, Jardin d'Olhao, Kasbah d'Agadir, Place d'espoir oufla, Parc d'Agadir, Parc Vallée des oiseaux Agadir"],
+	"context": []
+},
+
+{"tag": "plage d'agadir",
+	"patterns": ["parlez-moi du plage d'agadir","qu'en est-il du plage d'agadir","je veux que tu me parles du plage d'agadir","qu'est-ce que la plage d'agadir","plage d'agadir"],
+	"responses": ["La plage est l'un des lieux touristiques les plus importants d'Agadir, car elle s'étend sur une vaste superficie de plus de 30 Km. La plage d'Agadir se caractérise par son sable doré"],
+	"context": []
+},
+{"tag": "jardin d'olhao",
+	"patterns": ["parlez-moi de jardin d'olhao","qu'en est-il du jardin d'olhao","je veux que tu me parles de jardin d'olhao","qu'est-ce que le jardin d'olhao","jardin d'olhao"],
+	"responses": ["Le Jardin d'Olhao est l'un des plus beaux lieux touristiques d'Agadir et est aussi appelé le Jardin des Amoureux, car il se caractérise par son atmosphère romantique"],
+	"context": []
+},
+
+{"tag": "kasbah d'agadir",
+	"patterns": ["parlez-moi de kasbah d'agadir","qu'en est-il du kasbah d'agadir","je veux que tu me parles de kasbah d'agadir","qu'est-ce que kasbah d'agadir","kasbah d'agadir"],
+	"responses": ["Kasbah Agadir Ofla, qui est une forteresse située au sommet de la montagne, à 236 mètres d'altitude"],
+	"context": []
+},
+
+{"tag": "place d'espoir oufla",
+	"patterns": ["parlez-moi de place d'espoir oufla","qu'en est-il du place d'espoir oufla","je veux que tu me parles de place d'espoir oufla","qu'est-ce que place d'espoir oufla","place d'espoir oufla"],
+	"responses": ["La place d'espoir oufla est la place la plus importante de la ville d'Agadir, car c'est un lieu majeur pour accueillir divers festivals, dont les plus importants sont les festivals d'Agadir et le festival Timitar."],
+	"context": []
+},
+
+{"tag": "parc d'agadir",
+	"patterns": ["parlez-moi de parc d'agadir","qu'en est-il du parc d'agadir","je veux que tu me parles de parc d'agadir","qu'est-ce que parc d'agadir","parc d'agadir"],
+	"responses": ["Une corniche qui s'étend au long de la plage d'Agadir , où de nombreux commerces cafés et restaurants sont répartis sur ses côtés."],
+	"context": []
+},
+
+{"tag": "parc vallee des oiseaux agadir",
+	"patterns": ["parlez-moi de parc vallee des oiseaux agadir","qu'en est-il du parc vallee des oiseaux agadir","je veux que tu me parles de parc vallee des oiseaux agadir","qu'est-ce que parc vallee des oiseaux agadir","parc vallee des oiseaux agadir"],
+	"responses": ["Le Parc Vallée des oiseaux à Agadir s'occupe de toutes sortes d'oiseaux en plus d'autres types d'animaux"],
+	"context": []
+}        
+
+   ]
+}

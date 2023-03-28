@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", verdana;
+}
+
+
+ .container{
+     width: 80%;
+     margin: auto;
+ }
+
+
+
+/* HEADER */
+
+.main {
+  margin: auto;
+  max-width: 1200px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://vsthemes.org/uploads/posts/2019-07/1582030827_marrakech_vsthemes_ru-8.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.deplace {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Morocco-Tram.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.hebergement{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hebergement.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.deguster{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/de.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.hotel_casa{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/Casablanca-back.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_kesh{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/marrakesh.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_agadir{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/agadir.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_hociema{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/hociema.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_fes{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/fes.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.hotel_tangier{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/tangier.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_chaouen{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/chaouen.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_tetouan{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/tetouan.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_meknes{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/meknes.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_ifrane{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/ifrane.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hotel_rabat{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../images/rabat.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+/* NAVIGATION */
+.main-list {
+  float: right;
+  font-variant: small-caps;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 11px;
+}
+
+.main-list li{
+  margin-right: 5px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 1100px) {
+  .main-list {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-list {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main-list {
+    font-size: 6px;
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+.main-list-item {
+  display: inline;
+}
+
+.main-list-item a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  transition: 0.1s ease;
+}
+
+.main-list-item a:hover {
+  background-color: rgb(46, 52, 89);
+}
+
+.active {
+  background-color: rgb(46, 52, 89);
+}
+
+nav .main .main-list li{
+  list-style: none;
+  float: left;
+  position: relative;
+}
+
+
+
+nav .main .main-list ul {
+ position:absolute;
+ top: 30px;
+ visibility: hidden;
+}
+
+nav .main .main-list li:hover ul{
+visibility: visible;
+} 
+
+
+/* TITLE */
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  color: white;
+  font-size: 4vw;
+  font-variant: small-caps;
+}
+
+/* MAIN CONTENT */
+.page-wrapper {
+  min-height: 90%;
+}
+
+/* 
+/* Responsive layout */
+@media screen and (max-width: 1100px) {
+  .container {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    font-size: 6px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+
+
+/* Responsive layout */
+/*
+@media screen and (max-width: 1100px) {
+  .xxx {
+width: 340px;
+height: 260px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .xxx {
+width: 200px;
+height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .xxx {
+width: 180px;
+height: 100px;
+  }
+}
+ */
+
+/* Start Resume */
+.resume{ overflow: hidden; text-align:center;}
+
+/* End Resume */
+/* Start portfolio */
+.portfolio{padding-top: 30px; padding-bottom: 30px; text-align:center;}
+.portfolio .our-work {overflow: hidden;}
+.portfolio .our-work > div {float: left; width:20%; margin-bottom: 10px;}
+.portfolio .our-work > div img {width: 95% ; margin: 6px;}
+
+/* End portfolio */
+/*  Start 1 */
+.about-me{ background-color: #fafafa; overflow: hidden; padding-top: 20px; padding-bottom: 20px;}
+.about-me .info {float: left; width: 43%; padding-right: 10px;}
+.about-me .image {float: right; width: 55%;}
+td{
+padding-left: 9px;
+}
+/*  End 1  */
+
+/*  Start 2 */
+.about-me2{ background-color: #fafafa; overflow: hidden; padding-top: 20px; padding-bottom: 20px;}
+.about-me2 .info {float: right;width: 43%; padding-left: 10px;}
+.about-me2 .image {float: left; width: 55%;}
+/*  End 2  */
+
+/*  Start 3 */
+.about-me3{ background-color: #fafafa; overflow: hidden; padding-top: 20px; padding-bottom: 20px;}
+.about-me3 .info {float: left; width: 43%; padding-right: 10px;}
+.about-me3 .image {float: right; width: 55%;}
+/*  End 3  */
+
+.xxx:hover{
+  box-shadow: 4px 4px 3px 3px #888888;
+  border-radius: 4px 4px;
+}
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+  background: rgb(46, 52, 89);
+  color: #d3d3d3;
+  height: 400px;
+  position: relative;
+}
+
+.footer .footer-bottom {
+  background-color: rgb(49, 60, 100);
+  color: #686868;
+  text-align: center;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footer .footer-content {
+  height: 350px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+.footer .footer-content h1 {
+  color: white;
+}
+
+.footer-para {
+  margin: 10px 0;
+}
+
+.footer .footer-content .about .contact span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.footer .footer-content .about .socials a {
+  border: 1px solid gray;
+  width: 45px;
+  height: 38px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #d3d3d3;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.footer .footer-content .about .socials a:hover {
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.logo-text {
+  font-variant: initial;
+}
+
+.logo-text .logo-span {
+  color: #a2c376;
+}
+
+/* Start portfolio */
+.portfol{padding-top: 30px; padding-bottom: 30px; text-align:center;}
+.portfol .our-workhome {overflow: hidden;}
+.portfol .our-workhome > div {float: left; width:33.3333%; margin-bottom: 10px;}
+.portfol .our-workhome > div img {width: 92% ; margin: 10px; border-radius: 10px 10px 10px 10px;}
+.portfol .our-workhome > div a {  text-decoration: none;
+  color: #888888;
+  border: 1px solid transparent;
+  padding: 5px}   
+
+
+  .foo:hover {border-radius: 39px 25px 30px 90px; box-shadow: #d3d3d3 14px 20px 5px;}
+/* End portfolio */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbdbdb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #969696;
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://000053610.codepen.website/?d=1609029324129 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>iDEW Chatbot</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+<!--   <script type="text/javascript" src="lib/jquery.js"></script> -->
+<!--   <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+  crossorigin="anonymous"
+/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!-- Header and Nav -->
+    <header>
+      <nav>
+        <div class="main">
+          <ul class="main-list">
+            <li  class="main-list-item"><a href="index.html">Accueil </a></li>
+            <li class="main-list-item" ><a href="">Places Célèbres</a>
+                <ul>
+                  <li><a href="casa.html">Casablanca</a></li>
+                  <li><a href="Kech.html">Marrakesh</a></li>
+                  <li><a href="rabat.html">Rabat</a></li>
+                  <li><a href="fes.html">Fès</a></li>
+                  <li><a href="tanger.html">Tanger</a></li>
+                  <li><a href="tetouan.html">Tetouan</a></li>
+                  <li><a href="meknes.html">Meknes</a></li>
+                  <li><a href="chefchaouen.html">Chefchaouen</a></li>
+                  <li><a href="ifran.html">Ifrane</a></li>
+                  <li><a href="agadir.html">Agadir</a></li>
+                  <li><a href="hociema.html">AlHociema</a></li>
+                  </ul></li>
+            <li class="main-list-item"><a href="">Hôtel</a>
+              <ul>
+                <li><a href="hotel-casablanca.html">Casablanca</a></li>
+                <li><a href="hotel-marrakesh.html">Marrakesh</a></li>
+                <li><a href="hotel-rabat.html">Rabat</a></li>
+                <li><a href="hotel-fes.html">Fès</a></li>
+                <li><a href="hotel-tangier.html">Tanger</a></li>
+                <li><a href="hotel -tetouan.html">Tetouan</a></li>
+                <li><a href="hotel -meknes.html">Meknes</a></li>
+                <li><a href="hotel -chefchaoun.html">Chefchaouen</a></li>
+                <li><a href="hotel -ifrane.html">Ifrane</a></li>
+                <li><a href="hotel-agadir.html">Agadir</a></li>
+                <li><a href="hotel-hociema.html">AlHociema</a></li>
+                </ul></li>
+                
+                
+          <li class="main-list-item"><a href="">Infos Pratiques</a>
+                  <ul>
+                    <li><a href="info_deplace.html">Se déplacer</a></li>
+                    <li><a href="info_hebergement.html">Hébergement</a></li>
+                    <li><a href="info_deguster.html">Déguster</a></li>
+                    </ul></li>
+  
+                    <li class="active main-list-item"><a href="">Chatbot</a>
+                      <ul>
+                        <li><a href="chatbot_app_anglais.html">English</a></li>
+                        <li><a href="chatbot_app_francais.html">Français</a></li>
+                        <li><a href="chatbot_app_arab.html">العربية</a></li>
+                        </ul></li>
+          </ul>
+        </div>
+      </nav>
+
+  
+      <style>
+        body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://vsthemes.org/uploads/posts/2019-07/1582030827_marrakech_vsthemes_ru-8.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      overflow-x: hidden;
+    }
+    .wrapper {
+      border-radius: 10px;
+  width: 30%;
+  height: 85vh;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  background-color: rgba(255,255,255,.1);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+/*   box-shadow: 3px 3px 20px #888888; */
+/*   border-radius: 3px;
+  border: 5px none; */
+  border-left: 1px solid rgba(255,255,255,.2);
+  border-right: 1px solid rgba(255,255,255,.2);
+    }
+    
+    form {
+      flex: 5;
+      display: block;
+      padding: 15px;
+    }
+    .text-box {
+      font-size: 16px;
+      display: flex;
+      width: 100%;
+    }
+    input#message {
+      padding-left: 11px;
+      padding-right: 9px;
+      font-size: 16px;
+      height: 27px;
+      display: block;
+      flex: 10;
+      outline: none;
+      margin: 0 10px 0 0;
+      box-sizing: border-box;
+      border: 1px solid #aaa;
+      border-radius: 13px;
+    }
+    
+    .send-button {
+      display: block;
+      background-color: white;
+      border-radius: 11px;
+      flex: 1;
+      border: none;
+      outline: none;
+      height: 27px;
+      box-sizing: border-box;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 0px 5px;
+      text-align: center;
+     
+    }
+    .send-button i{
+      color:rgb(46, 52, 89);
+    }
+    
+    div#dialogue {
+      overflow-x: none;
+      overflow-y: auto;
+      display: block;
+      flex: 95;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15px;
+    }
+    
+    .bot-row, .user-row {
+      padding: 1px 0 10px 0;
+      display: block;
+      position: relative;
+    }
+    .user-row {
+      text-align: right;
+    }
+    
+    .user, .bot {
+      font-size: 16px;
+      padding: 5px 8px;
+      margin: 1px;
+      border-radius: 12px;
+      display: inline-block;
+      position: relative;
+    }
+    .bot {
+      margin-right: 50px;
+      color: rgb(46, 52, 89);
+      background-color:white;
+      border-bottom-left-radius: 0;
+      text-align:left;
+    }
+    .user {
+      margin-left: 50px;
+       background-color: rgb(46, 52, 89);
+      color:white;
+      border-bottom-right-radius: 0;
+      text-align:left;
+    }
+    
+    /* NAVIGATION */
+    .main-list {
+      float: right;
+      font-variant: small-caps;
+      list-style-type: none;
+      margin-top: 20px;
+      margin-right: 11px;
+      font-family: "Poppins", verdana;
+    }
+    
+    .main-list li{
+      margin-right: 5px;
+    }
+    
+    /* Responsive layout */
+    @media screen and (max-width: 1100px) {
+      .main-list {
+        font-size: 16px;
+      }
+    }
+    
+    @media screen and (max-width: 900px) {
+      .main-list {
+        font-size: 11px;
+      }
+    }
+    
+    @media screen and (max-width: 650px) {
+      .main-list {
+        font-size: 6px;
+        font-weight: bold;
+      }
+    }
+    
+    
+    
+    
+    
+    .main-list-item {
+      display: inline;
+    }
+    
+    .main-list-item a {
+      text-decoration: none;
+      color: white;
+      border: 1px solid transparent;
+      padding: 5px 20px;
+      transition: 0.1s ease;
+    }
+    
+    .main-list-item a:hover {
+      background-color: rgb(46, 52, 89);
+    }
+    
+    .active {
+      background-color: rgb(46, 52, 89);
+    }
+    
+    nav .main .main-list li{
+      list-style: none;
+      float: left;
+      position: relative;
+    }
+    
+    
+    
+    nav .main .main-list ul {
+     position:absolute;
+     top: 30px;
+     visibility: hidden;
+    }
+    
+    nav .main .main-list li:hover ul{
+    visibility: visible;
+    } 
+    
+    
+    /* TITLE */
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .heading {
+      color: white;
+      font-size: 4vw;
+      font-variant: small-caps;
+    }
+    
+    /* MAIN CONTENT */
+    .page-wrapper {
+      min-height: 90%;
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: #dbdbdb;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #969696;
+    }
+
+
+
+    
+      </style>
+  <div class="wrapper">
+    <div id="dialogue"><div class="bot-row" id="2042" ><span class="bot">Bonjour je suis le chatbot touristique marocaine, je peux vous aider on tous ce qui concerne le tourisme dans les villes cité au niveau de notre site web</span></div></div>
+    <form class="subm" method="POST">
+      <div class="text-box">
+        <input type="text" name="Q_fr" id="message" autocomplete="off" placeholder="Message">
+        <button class="send-button" type="submit"><i class="fas fa-paper-plane" ></i></button>
+      </div>
+    </form>
+  </div>
+  <!-- <script src="./tabletop.min.js.téléchargement"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script>
+/*   var pop;
+var rs;
+function on_load_success() {
+  $("#message").removeAttr("disabled");
+  $("#message").attr("placeholder", "Message");
+  $("#message").focus();
+  rs.sortReplies();
+  getReply("start");
+}
+
+function on_load_error(err) {
+  postReply(
+    "Pardon ,une erreur s'est produite lors du chargement de ce bot. Rafraîchissez la page s'il vous plaît."
+  );
+  console.log("Loading error: " + err);
+} 
+
+function sendMessage() {
+  var text = $("#message").val();
+  if (text.length === 0) return false;
+  $("#message").val("");
+  $("#dialogue").append(
+    "<div class='user-row'><span class='user'>" +
+      escapeHtml(text) +
+      "</span></div>"
+  );
+  $("#dialogue").animate({ scrollTop: $("#dialogue")[0].scrollHeight }, 200);
+  return false;
+}
+
+function getReply(text) {
+  try {
+    $.get("/get", { msg: text }).done(function(data) {
+    var botHtml = '<div class="bot-row" id="2042" style=""><span>' + data + "</span></div>";
+    postReply(botHtml);
+          });
+    
+  } catch (e) {
+    postReply(e.message + "\n" + e.line);
+    console.log(e);
+  }
+}
+
+function postReply(reply, delay) {
+  if (!delay) delay = 800;
+  var rand = Math.round(Math.random() * 10000);
+  setTimeout(function() {
+    $("#dialogue").append(
+      "<div class='bot-row' id='" +
+        rand +
+        "'><span class='bot'>" +
+        reply +
+        "</span></div>"
+    );
+    pop.play();
+    $("#" + rand)
+      .hide()
+      .fadeIn(200);
+    $("#dialogue").animate({ scrollTop: $("#dialogue")[0].scrollHeight }, 200);
+  }, delay);
+}
+*/
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+} 
+
+
+//jquery and ajax
+$(document).ready(function(){
+   $('.subm').on('submit',function(event){
+        $.ajax({
+            data : $('.subm').serialize() ,
+            type: 'POST' ,
+            url: '/chatbot_app_francais.html'
+        }).done(function(data){
+            if(data){
+                let Question=  `<div class='user-row'><span class='user'>${escapeHtml(data.question_fr)}</span></div>`;
+                $('#dialogue').append(Question).animate({ scrollTop: $("#dialogue")[0].scrollHeight }, 200);
+                $("#message").val("");
+              window.setTimeout(function(){
+                let reponse = `<div class="bot-row" id="2042"><span class='bot'>${data.response_fr}</span></div>`;
+                $('#dialogue').append(reponse).animate({ scrollTop: $("#dialogue")[0].scrollHeight }, 200);
+               },2000)
+                  
+            }
+            console.log(data);
+        }) ;
+
+        event.preventDefault()
+    }) ;
+}) ;
+
+</script>
+</body></html>

@@ -1,0 +1,1603 @@
+{"intents": [
+    
+  {"tag": "hey",
+  "patterns": ["hey", "hi", "hello", "hello", "good morning"],
+  "responses": ["hello", "hi"],
+   "context": [""]
+   },
+ {"tag": "how are you",
+ "patterns": ["how are you", "how are u"],
+  "responses": ["yes, i am fine"], 
+  "context": [""]
+  },
+ {"tag": "how are you",
+ "patterns": ["how are you", "how are u"],
+  "responses": ["yes, i am fine"], 
+  "context": [""]
+  }, {"tag": "how are you",
+ "patterns": ["how are you", "how are u"],
+  "responses": ["yes, i am fine"], 
+  "context": [""]
+  }, {"tag": "how are you",
+ "patterns": ["how are you", "how are u"],
+  "responses": ["yes, i am fine"], 
+  "context": [""]
+  },
+  {"tag": " ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Rephrase your question differently"],
+	"context": []
+},
+{"tag": "  ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Rephrase your question differently"],
+	"context": []
+},
+{"tag": "   ",
+	"patterns": [" ","  ","  ","   ","    ","     "],
+	"responses": ["Rephrase your question differently"],
+	"context": []
+},
+{"tag": "want to go to morocco moroco",
+ "patterns": ["i want to go to morocco for tourism, could you help me to know more about tourism in this country ", " i want you to help me to know about tourist destinations in morocco ", " i want you to help me to know the tourist cities in morocco "],
+  "responses": ["yes, i am here to help you with pleasure"], 
+  "context": [""]
+  },
+
+
+{"tag": "transportation",
+ "patterns": ["what are the types of transportation in morocco", "tell me about transportation in morocco", "what about transportation in morocco", "transportation in morocco", "i want you to tell me about the types of transportation in morocco"], 
+ "responses": ["morocco has many modes of transportation. if you want to get from one city to another, you must either take an express train, train, bus, or rent a car. if you want to move around the cities, there is a tram or small or large taxi that changes color depending on the city, and finally there are the traditional means of transportation, such as horse-drawn carriage rides, which are only in tourist areas such as jemaa el-fna"], 
+ "context": [""]
+ },
+
+
+{"tag": "accommodation", 
+"patterns": ["what type of accommodation do you recommend", "what type of accommodation do you recommend me", "i want you to recommend me a type of accommodation"],
+ "responses": ["for a stay of comfort and luxury, choose guesthouses, riads and hotels & resorts, and for a discovery and reconnection with nature, opt for luxury inns, lodges, campsites and bivouacs !"],
+ "context": [""]
+ },
+
+
+{"tag": "types of residence",
+ "patterns": ["what are the types of residence in morocco", "what about the types of residence in morocco", "tell me about the types of residence in morocco", "i want you to tell me about the types of residence in morocco ", " types of residence in morocco "],
+  "responses": ["there are guest houses, riyadh, hotels, resorts"],
+   "context": [""]
+   },
+
+{"tag": "food in morocco", 
+"patterns": ["tell me about food in morocco", "food in morocco", "i want you to talk to me about food in morocco", "what about food in morocco", "tell me about the most famous moroccan food", "the most famous moroccan food"], 
+"responses": ["there are many good moroccan dishes, such as moroccan couscous, harira, tajine, pastilla, meshoui, rafisa, tanjia, moroccan bread"],
+ "context": [""]
+ },
+
+{"tag": "sweets in morocco", 
+"patterns": ["moroccan sweets", "what are the most famous moroccan sweets", "tell me about moroccan sweets", "what about moroccan sweets"],
+ "responses": ["there are many good moroccan sweets with great taste, such as, ghriba, chebakia, ma'ab el ghazal, fakkas"],
+ "context": [""]
+ },
+
+{"tag": "moroccan drinks",
+ "patterns": ["tell me about the famous drinks in morocco", "moroccan drinks", "what are the most famous moroccan drinks", "the most famous moroccan drinks", "what about moroccan drinks"],
+  "responses": ["in morocco, there are all kinds of drinks, but there are several special drinks such as moroccan tea, moroccan-style coffee, all kinds of fruit juices."],
+   "context": [""]
+   },
+
+{"tag": "city commute", 
+"patterns": ["tell me about transport in city", "what about transport in city", "means of transport in city", "i want you to tell me about means of transport in city", "what are the types of intra-urban transport ", " types of means intra-urban transport "],
+ "responses": ["if you want to wander around the cities, there is a tram or a small or large taxi whose color changes depending on the city, the large transport buses, and there are also traditional transportations like horse-driven carts. , they are only in tourist areas like jemaa el-fna square"], 
+ "context": [""]
+ },
+
+{"tag": "transportation outside cities", 
+"patterns": ["tell me about transport outside the city", "what about transport outside the city", "means of transport outside the city", "i want you to tell me about the means of transport that exist for out-of-town transport ", " what are the types of transport for out-of-town transport ", " types of transport for moving between towns "],
+ "responses": ["for transportation outside the city there are trains, high-speed trains, big buses"],
+  "context": [""]
+  },
+
+{"tag": "main cities",
+ "patterns": ["tell me about the names of the main cities in morocco", "what are the major cities in morocco", "major cities in morocco", "names of the main cities in morocco", "names of the major cities in morocco", "tell me about the names of the major cities in morocco"],
+  "responses": ["names of the main cities in morocco: casablanca, rabat, fez, marrakesh, agadir, tangiers, meknes, oujda, tetouan, kenitra"],
+   "context": [""]
+   },
+
+{"tag": "number of cities", 
+"patterns": ["how many major cities are there in morocco", "the number of major cities in morocco", "number of major cities in morocco", "what about the number of major cities in morocco"], 
+"responses": ["there are 10 major cities in morocco"],
+ "context": [""]
+ },
+
+{"tag": "the climate",
+ "patterns": ["the climate in morocco", "tell me about the climate in morocco", "what about the climate of morocco", "how is the climate in morocco", "i want you to tell me about the climate in morocco"],
+  "responses": ["morocco's climate varies according to regions, it is mediterranean in the north, oceanic in the west, desert in the south. the coastal areas they enjoy a mild climate"],
+   "context": [""]
+   },
+
+{"tag": "",
+ "patterns": [""],
+  "responses": [""], 
+  "context": [""]
+  },
+
+{"tag": "places in casablanca",
+ "patterns": ["tell me about the five best places in casablanca", "tell me about five favorite places of casablanca for visitors", "tell me about the most famous tourist places in casablanca", "what are the best places to visit in casablanca", "what are the most famous tourist places in casablanca"],
+  "responses": ["arab league park, medina elkadima, hassan ii mosque,twin center, bab marrakesh, mohammed v street, morocco mall, tamaris water park, ain diab corniche, mohammed v square"], 
+  "context": [""]
+  },
+
+{"tag": "places in marrakesh ", 
+"patterns": ["tell me about the five best places in marakech","tell me about the five best places in marrakech", "tell me about the five best places in marrakesh", "tell me about five favorite places of marrakesh for visitors", "tell me about the most famous tourist places in marrakesh", "what are the best places to visit in marrakesh", "what are the most famous tourist places in marrakesh"], 
+"responses": ["jemaa el fna square, marrakesh museum, majorelle gardens, medina commercial markets, koutoubia mosque, medrasa ben youssef, bahia palace, almoravid dome, menara gardens, marrakesh wall"], 
+"context": [""]
+},
+
+{"tag": "places in rabat", 
+"patterns": ["tell me about the five best places in rabat", "tell me about five favorite places of rabat for visitors", "tell me about the most famous tourist places in rabat", "what are the best places to visit in rabat", "what are the most famous tourist places in rabat"], 
+"responses": ["location of  the archaeological chellah, hassan rabat hermitage, rabat old city, kasbah of the udaya, mega mall shopping center, rabat zoo, archaeological museum, almohad wall, mausoleum of mohammed v"],
+ "context": [""]
+ },
+
+
+{"tag": "places in fez ", 
+"patterns": ["tell me about the five best places in fes","tell me about the five best places in fez", "tell me about five favorite places of fez for visitors", "tell me about the most famous tourist places in fez", "what are the best places to visit in fez", "what are the most famous tourist places in fez"], 
+"responses": ["museum of wooden arts and crafts, al-qarawiyyin mosque, dar al-batha museum, madrasa bouanania, bab boujloud, zawiya moulay idriss, city walls, north tower."], 
+"context": [""]
+},
+
+{"tag": "places in tangier ", 
+"patterns": ["tell me about the five best places in tangier", "tell me about five favorite places of tangier for visitors", "tell me about the most famous tourist places in tangier", "what are the best places to visit in tangier", "what are the most famous tourist places in tangier"],
+ "responses": ["the kasbah, the grotto of hercules, the haffa caf\u00e9, the grand souk, st. andrew's church, the museum of moroccan arts"],
+  "context": [""]
+  },
+
+{"tag": "places in tetouan", 
+"patterns": ["tell me about the five best places in tetouan", "tell me about five favorite places of tetouan for visitors", "tell me about the most famous tourist places in tetouan", "what are the best places to visit in tetouan", "what are the most famous tourist places in tetouan"], 
+"responses": ["the rif mountains in tetouan, el matamir prison church, bab el akla watering, kasbah of sidi el mandhari, mausoleum of sidi abdel kader el tabine, the great mosque, cabo negro beach, the old city of tetouan, souk district, mellah district, archaeological museum of tetouan, ethnography museum"],
+ "context": [""]
+ },
+
+{"tag": "places in al hociema",
+ "patterns": ["tell me about the five best places in al hocaima","tell me about the five best places in al hociema", "tell me about five favorite places of al hociema for visitors", "tell me about the most famous tourist places in al hociema", "what are the best places to visit in al hociema", "what are the most famous tourist places in al hociema"], 
+ "responses": ["al mezma archaeological location, al hoceima national park, quemado beach, souani beach, al hoceima port, arbaa taourirt castle, clabonita beach, tores castle, adrouz mosque, antique mosque"], 
+ "context": [""]
+ },
+
+{"tag": "places in meknes ", 
+"patterns": ["tell me about the five best places in mekness","tell me about the five best places in meknes", "tell me about five favorite places of meknes for visitors", "tell me about the most famous tourist places in meknes", "what are the best places to visit in meknes", "what are the most famous tourist places in meknes"], 
+"responses": ["the city of walili, the archaeological museum of dar jamai, the bouanania madrasa in meknes, bab el-mansour, the mausoleum of moulay ismail"],
+ "context": [""]
+ },
+
+
+{"tag": "places in chaouen ",
+ "patterns": ["tell me about the five best places in chefchaouan","tell me about the five best places in chefchaouen","tell me about the five best places in chaouen", "tell me about five favorite places of chaouen for visitors", "tell me about the most famous tourist places in chaouen", "what are the best places to visit in chaouen", "what are the most famous tourist places in chaouen"],
+  "responses": ["kasbah in chefchaouen, souika district in chefchaouen, akchour falls"],
+   "context": [""]
+   },
+
+{"tag": "places in ifrane ",
+ "patterns": ["tell me about the five best places in ifran","tell me about the five best places in ifrane", "tell me about five favorite places of ifrane for visitors", "tell me about the most famous tourist places in ifrane", "what are the best places to visit in ifrane", "what are the most famous tourist places in ifrane"],
+  "responses": ["michelvin ski resort, ifrane market, ifrane national park, big lion statue, koru tree, seder goro forest, lake daya awa, virgin falls (ain vital), ifrane city center"],
+   "context": [""]
+   },
+
+
+{"tag": "places in agadir", "patterns": ["tell me about the five best places in agadir", "tell me about five favorite places of agadir for visitors", "tell me about the most famous tourist places in agadir", "what are the best places to visit in agadir", "what are the most famous tourist places in agadir"], 
+"responses": ["agadir beach, olhao park, agadir kasbah, avla hope square, agadir park, bird valley park"],
+ "context": [""]
+ },
+
+{"tag": "arab league park", 
+"patterns": ["tell me about the arab league park", "what about the arab league park", "i want you to tell me about the arab league park", "arab league park", "what is the arab league"],
+ "responses": ["the arab league park includes many types of plants, such as tall palm trees that surround large green spaces"], 
+ "context": [""]
+ },
+
+
+{"tag": "elmedina elkadima",
+ "patterns": ["tell me about the elmedina elkadima", "what about the elmedina elkadima", "i want you to tell me about the elmedina elkadima", "elmedina elkadima", "what is the elmedina elkadima"],
+  "responses": ["elmedina elkadima is considered one of the most important places of tourism in casablanca, morocco, as it includes historical monuments represented by ancient mosques and antique houses."],
+   "context": [""]
+   },
+
+{"tag": "hassan 2 mosque", 
+"patterns": ["tell me about the hassan ii mosque", "what about the hassan ii mosque", "i want you to tell me about the hassan ii mosque", "hassan ii mosque", "what is the hassan ii mosque"],
+ "responses": ["the hassan ii mosque is located near the old city on the atlantic coast and is considered one of the most famous tourist attractions in casablanca. it is the largest religious landmark in morocco and the seventh in the world."],
+  "context": [""]
+  },
+
+{"tag": "twin center",
+ "patterns": ["tell me about the twin center", "what about the twin center", "i want you to tell me about the twin center", "twin center", "what is the twin center"],
+  "responses": ["the twin center is one of the commercial centers in morocco, where it includes many companies in the field of finance and business, and also attracts many visitors and tourists"],
+   "context": [""]
+   },
+
+{"tag": "bab marrakesh", 
+"patterns": ["tell me about the bab marakech","tell me about the bab marrakech","tell me about the bab marrakesh", "what about the bab marrakesh", "i want you to tell me about the bab marrakesh", "bab marrakesh", "what is the bab marrakesh"], 
+"responses": ["bab marrakesh is one of the most important symbols of tourism in casablanca. it is one of the gates of the old city. it is intended for most visitors to casablanca for the purpose of shopping or learning about the history of the old city."],
+ "context": [""]
+ },
+
+
+{"tag": "mohammed 5 street",
+ "patterns": ["tell me about the mohamed 5 street", "what about the mohamed 5 street", "i want you to tell me about the mohamed 5 street", "mohamed 5 street", "what is the mohamed 5 street"], 
+ "responses": ["boulevard mohammed 5 is one of the main important streets and one of the most important tourist areas in casablanca, morocco, because it contains buildings designed in the french architectural style."],
+  "context": [""]
+  },
+
+{"tag": "morocco mall", 
+"patterns": ["tell me about the morocco mall", "what about the morocco mall", "i want you to tell me about the morocco mall", "morocco mall", "what is the morocco mall"],
+ "responses": ["the largest shopping mall in africa is located on the beach of ain diab in the atlantic coast and is considered the main destination for shopping in casablanca"],
+  "context": [""]
+  },
+
+{"tag": "tamaris water park",
+ "patterns": ["tell me about the tamaris water park", "what about the tamaris water park", "i want you to tell me about the tamaris water park", "tamaris water park", "what is the tamaris water park"], 
+ "responses": ["tamaris water park occupies a large area estimated at 10 km on azemmour road in casablanca and is considered one of the unique amusement water parks, as it constitutes an ideal space for entertainment, whether for adults or children"],
+  "context": [""]
+  },
+
+{"tag": "ain diab corniche", 
+"patterns": ["tell me about the ain diab corniche", "what about the ain diab corniche", "i want you to tell me about the ain diab corniche", "ain diab corniche", "what is the ain diab corniche"], 
+"responses": ["ain diab corniche is one of the most famous tourist places in casablanca, and there are many hiking and entertainment facilities"],
+ "context": [""]
+ },
+
+{"tag": "mohammed 5 square",
+ "patterns": ["tell me about the mohammed 5 square", "what about the mohammed 5 square", "i want you to tell me about the mohammed 5 square", "mohammed 5 square", "what is the mohammed 5 square"],
+ "responses": ["mohammed v square is located in the heart of casablanca, and is considered the beating heart of the city, characterized by the presence of many pigeons on all its sides."], 
+ "context": [""]
+ },
+{"tag": "jemaa el fna square", 
+"patterns": ["tell me about the jemaa el fnaa square","tell me about the jemaa el fna square", "what about the jemaa el fna square", "i want you to tell me about the jemaa el fna square", "jemaa el fna square", "what is the jemaa el fna square"],
+ "responses": ["the jemaa el fna square is the main popular outlet for locals and tourists in marrakesh. it is the beating heart of the city, where many kiosks, snake tamers, storytellers and puzzlers, as well as musicians gather."], 
+ "context": [""]
+ },
+
+{"tag": "marrakesh museum",
+ "patterns": ["tell me about the marakech museum","tell me about the marrakech museum","tell me about the marrakesh museum", "what about the marrakesh museum", "i want you to tell me about the marrakesh museum", "marrakesh museum", "what is the marrakesh museum"],
+ "responses": ["one of the most important places of tourism in marrakech, and it is one of the distinctive museums in the city, as it includes a unique collection of exhibits"], 
+ "context": []
+ },
+
+{"tag": "majorelle gardens", 
+"patterns": ["tell me about the majorelle gardens", "what about the majorelle gardens", "i want you to tell me about the majorelle gardens", "majorelle gardens", "what is the majorelle gardens"],
+ "responses": ["majorelle gardens is one of the most beautiful and most attractive gardens for tourists in marrakech. it is tropical gardens distinctive in their design and blending of colors and green nature."], 
+ "context": [""]
+ },
+{"tag": "medina commercial markets",
+ "patterns": ["tell me about the medina commercial markets", "what about the medina commercial markets", "i want you to tell me about the medina commercial markets", "medina commercial markets", "what is the medina commercial markets"],
+  "responses": ["the area offers many shops that sell distinctive souvenirs such as shoes, perfumes, copper antiques, etc. there is also a market dedicated to leather, where many old tanneries are located in the area."],
+   "context": [""]
+   },
+
+{"tag": "koutoubia mosque", 
+"patterns": ["tell me about the koutoubia mosque", "what about the koutoubia mosque", "i want you to tell me about the koutoubia mosque", "koutoubia mosque", "what is the koutoubia mosque"],
+ "responses": ["the koutoubia mosque is one of the most famous tourist attractions in marrakech. it is distinguished by its ornate minaret of 70 meters. it attracts lovers of ancient architecture from all over the world due to the beauty of its architecture and its magnificent decorations."],
+  "context": [""]
+  },
+
+{"tag": "medrasa ben youssef",
+ "patterns": ["tell me about the medrasa ben youssef", "what about the medrasa ben youssef", "i want you to tell me about the medrasa ben youssef", "medrasa ben youssef", "what is the medrasa ben youssef"],
+  "responses": ["the medrasa ben youssef is considered a historical architectural masterpiece. it was founded in 1346 ad and was home to senior scholars and writers who taught religious sciences, jurisprudence and other sciences. therefore, it is considered one of the most famous historical schools in morocco."], 
+  "context": [""]
+  },
+
+{"tag": "bahia palace", 
+"patterns": ["tell me about the bahia palace", "what about the bahia palace", "i want you to tell me about the bahia palace", "bahia palace", "what is the bahia palace"], 
+"responses": ["one of the most important tourist places in marrakech, morocco, which attracts tourists from all over the world to learn about the splendor of moroccan architecture that appears in the royal suites of the palace, halls, gardens and water basins"], 
+"context": [""]
+},
+
+{"tag": "almoravid dome", 
+"patterns": ["tell me about the almoravid dome", "what about the almoravid dome", "i want you to tell me about the almoravid dome", "almoravid dome", "what is the almoravid dome"], 
+"responses": ["the almoravid dome reflects the art of almoravid architecture through its solid construction that was not affected by the fluctuations of time, in addition to the water delivery system to it."],
+ "context": [""]
+ },
+
+{"tag": "menara gardens",
+ "patterns": ["tell me about the menara gardens", "what about the menara gardens", "i want you to tell me about the menara gardens", "menara gardens", "what is the menara gardens"],
+  "responses": ["the lighthouse gardens were established during the almohad era in the late nineteenth century. in the middle of the gardens is the large lighthouse reservoir, which is a large pool filled with water, two meters deep and 510 meters in circumference"],
+   "context": [""]
+   },
+
+{"tag": "marrakesh wall marrakech wall",
+ "patterns": ["tell me about the marrakesh wall", "what about the marrakesh wall", "i want you to tell me about the marrakesh wall", "marrakesh wall", "what is the marrakesh wall"],
+  "responses": ["this wall was built with the aim of protecting the city from enemies. the rammed earth was used to build the wall, which still stands today, without being affected by the fluctuations of time"],
+   "context": [""]
+   },
+
+{"tag": "museum of wooden arts and crafts", 
+"patterns": ["tell me about the museum of wooden arts and crafts", "what about the museum of wooden arts and crafts", "i want you to tell me about the museum of wooden arts and crafts", "museum of wooden arts and crafts", "what is the museum of wooden arts and crafts"],
+ "responses": ["museum of wooden arts and crafts, al-qarawiyyin mosque, dar al-batha museum, madrasa bouanania, bab abi el-leugd, moulay idriss corner, fez city walls, north tower"], 
+ "context": [""]
+ },
+
+{"tag": "al-qarawiyyin mosque",
+ "patterns": ["tell me about the al-qarawiyyin mosque", "what about the al-qarawiyyin mosque", "i want you to tell me about the al-qarawiyyin mosque", "al-qarawiyyin mosque", "what is the al-qarawiyyin mosque"],
+  "responses": ["al-qarawiyyin mosque is distinguished by its simple design and decoration, in addition to the presence of domes, arches, quranic inscriptions, supplications, and a minbar that dates back to the almoravid era."],
+   "context": [""]
+   },
+
+{"tag": "dar al-batha museum",
+ "patterns": ["tell me about the dar al-batha museum", "what about the dar al-batha museum", "i want you to tell me about the dar al-batha museum", "dar al-batha museum", "what is the dar al-batha museum"],
+  "responses": ["the dar al batha museum includes a large collection of exhibits that include artifacts and artefacts of handicrafts"],
+   "context": [""]
+   },
+
+{"tag": "madrasa bouanania",
+ "patterns": ["tell me about the madrasa bouanania", "what about the madrasa bouanania", "i want you to tell me about the madrasa bouanania", "madrasa bouananimadrasa bouanania", "what is the madrasa bouanania"], 
+ "responses": ["the school includes a wonderful silo in terms of its construction and the decorations it carries, in addition to a water clock whose operating mechanism is unknown until now"], 
+ "context": [""]
+ },
+
+{"tag": "bab boujloud", 
+"patterns": ["tell me about the bab boujloud", "what about the bab boujloud", "i want you to tell me about the bab boujloud", "bab boujloud", "what is the bab boujloud"], 
+"responses": ["bab abi al-julud is considered by many to be the main entrance to the city of fez, and it is also one of the most famous tourist attractions in fez"],
+ "context": [""]
+ },
+
+{"tag": "zawiya moulay idriss", "patterns": ["tell me about the zawiya moulay idriss", "what about the zawiya moulay idriss", "i want you to tell me about the zawiya moulay idriss", "zawiya moulay idriss", "what is the zawiya moulay idriss"],
+ "responses": ["the zaouia moulay idriss building is considered one of the most beautiful buildings in fez, and it is truly an architectural masterpiece worth visiting"], 
+ "context": [""]
+ },
+
+{"tag": "city walls", 
+"patterns": ["tell me about the city walls", "what about the city walls", "i want you to tell me about the city walls", "city walls", "what is the city walls"], 
+"responses": ["these walls surround the city of fez and are interspersed with many doors, which are named after names dating back to the period of the rule of the idrisids and the zenatis of morocco."],
+ "context": [""]
+ },
+
+{"tag": "north tower", 
+"patterns": ["tell me about the north tower", "what about the north tower", "i want you to tell me about the north tower", "north tower", "what is the north tower"], 
+"responses": ["the north tower is one of the largest observation points in the city of fez, and it was previously a factory for traditional cannons and has now become a museum of traditional weapons"],
+ "context": [""]
+ },
+
+{"tag": "location of  the archaeological chellah",
+ "patterns": ["tell me about the location of the archaeological chellah", "what about the location of  the archaeological chellah", "i want you to tell me about the location of  the archaeological chellah", "location of  the archaeological chellah", "what is the location of  the archaeological chellah"],
+  "responses": ["chellah is an ancient small city located on the bouregreg river"],
+   "context": [""]
+   },
+
+{"tag": "hassan rabat hermitage",
+ "patterns": ["tell me about the hassan rabat hermitage", "what about the hassan rabat hermitage", "i want you to tell me about the hassan rabat hermitage", "hassan rabat hermitage", "what is the hassan rabat hermitage"],
+  "responses": ["the hassan tower is one of the most prominent tourist attractions in rabat, morocco. it is a historical building built to be a minaret for a mosque in rabat during the reign of sultan yacoub al-mansour"],
+   "context": [""]
+   },
+
+{"tag": "rabat old city", 
+"patterns": ["tell me about the rabat old city", "what about the rabat old city", "i want you to tell me about the rabat old city", "rabat old city", "what is the rabat old city"], 
+"responses": ["the old city is one of the most beautiful tourist places in rabat, which many tourists visit in order to learn about the lifestyle of the people of rabat and also for shopping"],
+ "context": [""]
+ },
+
+{"tag": "kasbah of the udaya",
+"patterns": ["tell me about the kasbah of the udaya", "what about the kasbah of the udaya", "i want you to tell me about the kasbah of the udaya", "kasbah of the udaya", "what is the kasbah of the udaya"],
+ "responses": ["the kasbah of the udaya is a fortified fortress built by the almoravids at the mouth of the bouregreg river in the capital, rabat"],
+  "context": [""]
+  },
+
+{"tag": "mega mall shopping center", 
+"patterns": ["tell me about the mega mall shopping center", "what about the mega mall shopping center", "i want you to tell me about the mega mall shopping center", "mega mall shopping center", "what is the mega mall shopping center"],
+ "responses": ["one of the most prominent shopping destinations in rabat is located near zaer road and consists of several floors containing a large group of shops"],
+  "context": [""]
+  },
+
+{"tag": "rabat zoo",
+ "patterns": ["tell me about the rabat zoo", "what about the rabat zoo", "i want you to tell me about the rabat zoo", "rabat zoo", "what is the rabat zoo"],
+  "responses": ["rabat zoo is one of the favorite destinations for tourists coming for tourism in rabat, morocco. this zoo includes more than 1,000 animals belonging to different species and of african origin, such as elephants, lions and others."],
+   "context": [""]
+   },
+
+{"tag": "archaeological museum", 
+"patterns": ["tell me about the archaeological museum", "what about the archaeological museum", "i want you to tell me about the archaeological museum", "archaeological museum", "what is the archaeological museum"],
+ "responses": ["the archaeological museum was opened in rabat, morocco in 1932 and is considered one of the most important museums in morocco. the museum includes a wide range of archaeological artifacts"],
+  "context": [""]
+  },
+
+{"tag": "almohad wall", 
+"patterns": ["tell me about the almohad wall", "what about the almohad wall", "i want you to tell me about the almohad wall", "almohad wall", "what is the almohad wall"],
+ "responses": ["the almohad wall is considered one of the most important tourist places in rabat. it is a wall built by the almohads by order of sultan yaqub al-mansour almohad"],
+  "context": [""]
+  },
+
+{"tag": "mausoleum of mohammed 5",
+ "patterns": ["tell me about the mausoleum of mohammed v", "what about the mausoleum of mohammed v", "i want you to tell me about the mausoleum of mohammed mausoleum of mohammed v", "what is the mausoleum of mohammed v"], 
+ "responses": ["the mausoleum of mohammed 5 is located next to the famous hassan tower in rabat and includes the tombs of the moroccan monarch and his two sons, king hassan ii and prince abdullah."],
+  "context": [""]
+  },
+
+{"tag": "the kasbah",
+ "patterns": ["tell me about the the kasbah", "what about the the kasbah", "i want you to tell me about the the kasbah", "the kasbah", "what is the the kasbah"],
+  "responses": ["the kasbah or kasbah ghilan is one of the most famous places of tourism in tangier, morocco, and it is located on the bank of the valley called wadi el-halaq."],
+   "context": []
+   },
+
+{"tag": "the grotto of hercules",
+ "patterns": ["tell me about the the grotto of hercules", "what about the the grotto of hercules", "i want you to tell me about the the grotto of hercules", "the grotto of hercules", "what is the the grotto of hercules"],
+  "responses": ["the hercules cave overlooks the atlantic ocean and is one of the most important tourist places in tangiers, morocco. it is considered one of the largest caves in africa."],
+   "context": []
+   },
+
+{"tag": "the Haffa Cafe", 
+"patterns": ["tell me about the the haffa cafe", "what about the the haffa cafe", "i want you to tell me about the the haffa cafe", "the haffa cafe", "what is the the haffa cafe"], 
+"responses": ["the haffa cafe is one of the most famous tourist places in tangiers, morocco. it is located on a high plateau overlooking the strait of gibraltar, which made it an important destination to enjoy drinking tea."],
+ "context": []
+ },
+
+{"tag": "the grand souk",
+ "patterns": ["tell me about the the grand souk", "what about the the grand souk", "i want you to tell me about the the grand souk", "the grand souk", "what is the the grand souk"],
+  "responses": ["the grand souk is the beating heart of tangiers in morocco. visitors can find in it everything that comes to their minds of popular restaurants and cafes."], 
+  "context": []
+  },
+
+{"tag": "st. andrew's church", 
+"patterns": ["tell me about the st. andrew's church", "what about the st. andrew's church", "i want you to tell me about the st. andrew's church", "st. andrew's church", "what is the st. andrew's church"],
+ "responses": ["this unique church was built in the islamic architectural style, which made it one of the most distinguished churches in the world and an important example of the intermingling between civilizations and cultures in the moroccan city of tangiers."],
+  "context": []
+  },
+
+{"tag": "the museum of moroccan arts", 
+"patterns": ["tell me about the the museum of moroccan arts", "what about the the museum of moroccan arts", "i want you to tell me about the the museum of moroccan arts", "the museum of moroccan arts", "what is the the museum of moroccan arts"],
+ "responses": ["the history of the museum of moroccan arts dates back to the seventeenth century ad and was known as dar al-makhzen and also the sultan\u2019s palace."], 
+ "context": []
+ },
+
+{"tag": "the rif mountains in tetouan", 
+"patterns": ["tell me about the the rif mountains in tetouan", "what about the the rif mountains in tetouan", "i want you to tell me about the the rif mountains in tetouan", "the rif mountains in tetouan", "what is the the rif mountains in tetouan"],
+ "responses": ["the rif mountains are located close to the blue city of chefchaouen, southeast of the tourist city of tetouan"],
+"context": []
+ },
+
+{"tag": "el matamir prison church",
+ "patterns": ["tell me about the el matamir prison church", "what about the el matamir prison church", "i want you to tell me about the el matamir prison church", "el matamir prison church", "what is the el matamir prison church"],
+  "responses": ["it is one of the unique historical buildings in the tourist city of tetouan. the ancient church is located underground and is famous for being an ancient place of worship for the city's christian prisoners."], 
+  "context": []
+  },
+
+{"tag": "bab el akla watering", 
+"patterns": ["tell me about the bab el akla watering", "what about the bab el akla watering", "i want you to tell me about the bab el akla watering", "bab el akla watering", "what is the bab el akla watering"],
+ "responses": ["one of the most beautiful landmarks of the old city of tetouan, with an exquisite ornate architectural design based on zellige"], 
+ "context": []
+ },
+
+
+{"tag": "kasbah of sidi el mandhari", 
+"patterns": ["tell me about the bab el akla watering", "what about the bab el akla watering", "i want you to tell me about the bab el akla watering", "bab el akla watering", "what is the bab el akla watering"], 
+"responses": ["it is a great historical building located north of the city of tetouan since the 16th century, attached to it is a mosque, the oldest of its kind in the city and bearing the same name."],
+ "context": []
+ },
+
+{"tag": "mausoleum of sidi abdel kader el tabine",
+ "patterns": ["tell me about the mausoleum of sidi abdel kader el tabine", "what about the mausoleum of sidi abdel kader el tabine", "i want you to tell me about the mausoleum of sidi abdel kader el tabine", "mausoleum of sidi abdel kader el tabine", "what is the mausoleum of sidi abdel kader el tabine"],
+ "responses": ["it is one of the oldest and most famous spiritual landmarks of tetouan, which is visited by thousands of devotees during the tourism holidays in tetouan."],
+  "context": []
+  },
+
+{"tag": "the great mosque",
+ "patterns": ["tell me about the the great mosque", "what about the the great mosque", "i want you to tell me about the the great mosque", "the great mosque", "what is the the great mosque"], 
+ "responses": ["one of the oldest tourist attractions in the city of tetouan, near the historical and archaeological jewish neighborhood of the mellah, dating back to the 15th century"],
+  "context": []
+  },
+
+{"tag": "cabo negro beach",
+ "patterns": ["tell me about the cabo negro beach", "what about the cabo negro beach", "i want you to tell me about the cabo negro beach", "cabo negro beach", "what is the cabo negro beach"],
+  "responses": ["the most beautiful places in tetouan to enjoy a quiet atmosphere away from the usual hustle and bustle that the tourist city of tetouan is famous for during the tourist season"],
+   "context": []
+   },
+
+{"tag": "the old city of tetouan",
+ "patterns": ["tell me about the the old city of tetouan", "what about the the old city of tetouan", "i want you to tell me about the the old city of tetouan", "the old city of tetouan", "what is the the old city of tetouan"],
+  "responses": ["the old medina is one of the best and most famous tourist attractions in tetouan, as it is one of the archaeological sites on the unesco world heritage list."],
+   "context": []
+   },
+
+{"tag": "souk district", 
+"patterns": ["tell me about the souk district", "what about the souk district", "i want you to tell me about the souk district", "souk district", "what is the souk district"],
+ "responses": ["one of the best tourist places in tetouan for shopping and mixing with authentic moroccan customs and traditions. the ancient popular neighborhood represents a gathering of several popular markets selling different and varied goods"],
+  "context": []
+  },
+
+{"tag": "mellah district", 
+"patterns": ["tell me about the mellah district", "what about the mellah district", "i want you to tell me about the mellah district", "mellah district", "what is the mellah district"],
+ "responses": ["one of the heritage neighborhoods of the city of tetouan with a long history that tourists from all over the world visit during one of the tourism tours in tetouan, where the mellah neighborhood is famous for being one of the neighborhoods of the jews who have lived in the city since ancient times."],
+  "context": []
+  },
+
+{"tag": "archaeological museum of tetouan",
+ "patterns": ["tell me about the archaeological museum of tetouan", "what about the archaeological museum of tetouan", "i want you to tell me about the archaeological museum of tetouan", "archaeological museum of tetouan", "what is the archaeological museum of tetouan"], 
+ "responses": ["one of the most famous landmarks of the tourist city of tetouan, which provides the visitor with valuable detailed information about the history of tetouan and the civilizational developments that it has undergone until this time."],
+  "context": []
+  },
+
+{"tag": "ethnography museum", 
+"patterns": ["tell me about the ethnography museum", "what about the ethnography museum", "i want you to tell me about the ethnography museum", "ethnography museum", "what is the ethnography museum"], "responses": ["the most beautiful places in tetouan that deepen your view of tetouan is a purely cultural heritage tourism thanks to its collections that convey and honestly express the city's rich heritage"],
+ "context": []
+ },
+
+{"tag": "al mezma archaeological location",
+ "patterns": ["tell me about the .", "what about the al mezma archaeological location", "i want you to tell me about the al mezma archaeological location", "al mezma archaeological location", "what is the al mezma archaeological location"],
+  "responses": ["the ancient city has been famous throughout its history for the manufacture of ships and pottery and its eye-catching architecture."],
+   "context": []
+   },
+
+{"tag": "al hoceima national park", 
+"patterns": ["tell me about the al hoceima national park", "what about the al hoceima national park", "i want you to tell me about the al hoceima national park", "al hoceima national park", "what is the al hoceima national park"],
+ "responses": ["one of the most beautiful natural landmarks in the moroccan city of al hoceima, which can be dealt with as a nature reserve to protect the plant and animal wealth"], 
+ "context": []
+ },
+
+{"tag": "quemado beach", "patterns": ["tell me about the quemado beach", "what about the quemado beach", "i want you to tell me about the quemado beach", "quemado beach", "what is the quemado beach"], 
+"responses": ["one of the most famous beaches of the city of al hoceima at all, which attracts large numbers of tourists to visit it annually from everywhere in the world"], 
+"context": []
+},
+
+{"tag": "souani beach", 
+"patterns": ["tell me about the souani beach", "what about the souani beach", "i want you to tell me about the souani beach", "souani beach", "what is the souani beach"], 
+"responses": ["one of the beaches of al hoceima, morocco, which enjoys popularity and fame among the local residents of the city and the neighboring moroccan cities, as well as foreign tourists"], 
+"context": []
+},
+
+
+{"tag": " al hoceima port", 
+"patterns": ["hocaima port","tell me about the al hoceima port", "what about the al hoceima port", "i want you to tell me about the al hoceima port", " al hoceima port", "what is al hoceima port"],
+ "responses": ["one of the most popular and attractive tourist attractions for local and foreign tourists while visiting the city of al hoceima, morocco. in addition to the fact that sailing inside the port is one of the most important means of transportation within the ancient moroccan city."], 
+ "context": []
+ },
+
+{"tag": "arbaa taourirt castle",
+ "patterns": ["tell me about the arbaa taourirt castle", "what about the arbaa taourirt castle", "i want you to tell me about the arbaa taourirt castle", "arbaa taourirt castle", "what is the arbaa taourirt castle"],
+  "responses": ["the castle, which was built to monitor the heart of the city and its outskirts during the occupation period, looks like military towers resembling silos, which were adopted by the residents of the region to preserve crops. it consists of 99 rooms designed in a luxurious and elegant architectural style."],
+   "context": []
+   },
+
+{"tag": "clabonita beach",
+ "patterns": ["tell me about the clabonita beach", "what about the clabonita beach", "i want you to tell me about the clabonita beach", "clabonita beach", "what is the clabonita beach"],
+  "responses": ["one of the most beautiful beach spots in al hoceima, morocco, ideal for those looking for a relaxing atmosphere and quiet recreation, as well as safari, camping and mountain climbing enthusiasts"],
+   "context": []
+   },
+
+{"tag": "tores castle", 
+"patterns": ["tell me about the tores castle", "what about the tores castle", "i want you to tell me about the tores castle", "tores castle", "what is the tores castle"], 
+"responses": ["the castle of tauris or sanhaja, in other words, is distinguished by its five military towers and its magnificent panoramic view of the mediterranean coast."],
+ "context": []
+ },
+
+{"tag": "adrouz mosque", 
+"patterns": ["tell me about the adrouz mosque", "what about the adrouz mosque", "i want you to tell me about the adrouz mosque", "adrouz mosque", "what is the adrouz mosque"], 
+"responses": ["one of the most important and ancient religious monuments in the moroccan city of al hoceima, which attracts the attention of arab and foreign tourists"],
+ "context": []
+ },
+
+{"tag": "antique mosque",
+ "patterns": ["tell me about the antique mosque", "what about the antique mosque", "i want you to tell me about the antique mosque", "antique mosque", "what is the antique mosque"], 
+ "responses": ["one of the most famous and most spacious historical mosques in al hoceima, morocco, characterized by the elegant oriental architectural style and the islamic decorations and inscriptions that adorn the mosque\u2019s exterior and interior facades"],
+  "context": []
+  },
+
+{"tag": "the city of walili",
+ "patterns": ["tell me about the the city of walili", "what about the the city of walili", "i want you to tell me about the the city of walili", "the city of walili", "what is the the city of walili"], 
+ "responses": ["one of the most important tourist places in meknes, which is an archaeological city dating back to the third century bc and located 30 km west of the city of meknes. the city includes two main buildings, the main building and the roman temple."],
+  "context": []
+  },
+
+{"tag": "the archaeological museum of dar jamai", 
+"patterns": ["tell me about the the archaeological museum of dar jamai", "what about the the archaeological museum of dar jamai", "i want you to tell me about the the archaeological museum of dar jamai", "the archaeological museum of dar jamai", "what is the the archaeological museum of dar jamai"], 
+"responses": ["the archaeological museum of dar jamai a historical palace dating back to the nineteenth century and was converted into a museum in 1920 ad, in which many carved and dyed wooden art and artifacts are displayed."], 
+"context": []
+},
+
+{"tag": "the bouanania madrasa in meknes", 
+"patterns": ["tell me about the the bouanania madrasa in meknes", "what about the the bouanania madrasa in meknes", "i want you to tell me about the the bouanania madrasa in meknes", "the bouanania madrasa in meknes", "what is the the bouanania madrasa in meknes"], 
+"responses": ["the bouanania madrasa is distinguished by its columns and doors that are decorated with wonderful decorations that include inscriptions and inscriptions on wood and gypsum."],
+ "context": []
+ },
+
+{"tag": "bab el-mansour",
+ "patterns": ["bab el mansour","tell me about the bab el mansour", "what about the bab el-mansour", "i want you to tell me about the bab el-mansour", "bab el-mansour", "what is the bab el-mansour"],
+  "responses": ["bab al-mansour is considered one of the most important tourist attractions in meknes. it is a huge gate that overlooks el hedim square, east of the old city in meknes"],
+   "context": []
+   },
+
+{"tag": "the mausoleum of moulay ismail", 
+"patterns": ["tell me about the the mausoleum of moulay ismail", "what about the the mausoleum of moulay ismail", "i want you to tell me about the the mausoleum of moulay ismail", "the mausoleum of moulay ismail", "what is the the mausoleum of moulay ismail"],
+ "responses": ["one of the most important tourist places in meknes, as it includes the remains of the founder of the city of meknes, moulay ismail, along with two other kings."], 
+ "context": []
+ },
+
+{"tag": "michelvin ski resort", 
+"patterns": ["tell me about the michelvin ski resort", "what about the michelvin ski resort", "i want you to tell me about the michelvin ski resort", "michelvin ski resort", "what is the michelvin ski resort"], 
+"responses": ["it is one of the most beautiful tourist places in ifrane, so it enjoys wide popularity among locals and foreign visitors during the winter, as the area, which is 17 km from the city, has slopes covered with snow every winter."],
+ "context": []
+ },
+
+{"tag": "ifran market", 
+"patterns": ["tell me about the ifrane market", "what about the ifrane market", "i want you to tell me about the ifrane market", "ifrane market", "what is the ifrane market"], 
+"responses": ["it is a non-touristy local market but offers a great opportunity to mingle with the indigenous people and their culture and buy the best handcrafted souvenirs such as textiles and jewellery."],
+ "context": []
+ },
+
+{"tag": "ifran national park",
+ "patterns": ["tell me about the ifrane national park", "what about the ifrane national park", "i want you to tell me about the ifrane national park", "ifrane national park", "what is the ifrane national park"],
+  "responses": ["one of the most beautiful tourist places in ifrane that are popular with children, families and wildlife enthusiasts, as it is the largest national park in ifrane"], 
+  "context": []
+  },
+
+{"tag": "big lion statue",
+ "patterns": ["tell me about the big lion statue", "what about the big lion statue", "i want you to tell me about the big lion statue", "big lion statue", "what is the big lion statue"],
+  "responses": ["one of the most important tourist places in ifrane, where it attracts the attention of visitors from everywhere thanks to its wide fame, accuracy and beauty of its carving and the stories and legends associated with it."], 
+  "context": []
+  },
+
+{"tag": "koru tree", 
+"patterns": ["tell me about the koru tree", "what about the koru tree", "i want you to tell me about the koru tree", "koru tree", "what is the koru tree"], 
+"responses": ["one of the most exciting attractions that you can visit when traveling in ifrane, where the cedar tree is classified as the oldest of its kind in africa, with an age of up to 800 years."],
+ "context": []
+ },
+
+{"tag": "seder goro forest",
+ "patterns": ["tell me about the seder goro forest", "what about the seder goro forest", "i want you to tell me about the seder goro forest", "seder goro forest", "what is the seder goro forest"],
+ "responses": ["seder goro forest is one of the most beautiful tourist places in ifrane for those looking for a quiet atmosphere of recreation and relaxation away from the hustle and bustle of the city, enjoying a free tour in the open air"], 
+ "context": []
+ },
+
+{"tag": "lake daya awa", 
+"patterns": ["tell me about the lake daya awa", "what about the lake daya awa", "i want you to tell me about the lake daya awa", "lake daya awa", "what is the lake daya awa"],
+ "responses": ["one of the most beautiful tourist places in ifrane, which is 17 km away, as it enjoys a quiet, picturesque nature that urges recreation, when you visit it, you can practice fishing"],
+  "context": []
+  },
+
+{"tag": "virgin falls (ain vital)", 
+"patterns": ["tell me about the virgin falls (ain vital)", "what about the virgin falls (ain vital)", "i want you to tell me about the virgin falls (ain vital)", "virgin falls (ain vital)", "what is the virgin falls (ain vital)"],
+ "responses": ["it is one of the places that you should not miss when planning tourism in ifrane if you are looking for a breathtaking atmosphere that gives you the highest doses of recreation and activity with the beautiful appearances of nature"],
+  "context": []
+  
+  },
+
+{"tag": "ifrane city center",
+ "patterns": ["tell me about the ifrane city center", "what about the ifrane city center", "i want you to tell me about the ifrane city center", "ifrane city center", "what is the ifrane city center"], 
+ "responses": ["one of the most important tourist places in ifrane, who among us goes on tourism to a place without visiting its center and the main spot in it"],
+  "context": []
+  },
+
+{"tag": "kasbah in chefchaouen",
+ "patterns": ["tell me about the kasbah in chefchaouen", "what about the kasbah in chefchaouen", "i want you to tell me about the kasbah in chefchaouen", "kasbah in chefchaouen", "what is the kasbah in chefchaouen"], 
+ "responses": ["the kasbah is one of the most important tourist places in chefchaouen, morocco. it is located in the famous outa hammam square and is considered the nucleus of the city, as it is one of the first buildings in which it was built."], 
+ "context": []
+ },
+
+{"tag": "souika district in chefchaouen", 
+"patterns": ["tell me about the souika district in chefchaouen", "what about the souika district in chefchaouen", "i want you to tell me about the souika district in chefchaouen", "souika district in chefchaouen", "what is the souika district in chefchaouen"],
+ "responses": ["one of the places of tourism in chefchaouen, morocco, which is the second oldest residential community within the city of chefchaouen and includes the oldest houses in the city, as it belongs to andalusian families who lived in the neighborhood for a long time"], 
+ "context": []
+ },
+
+{"tag": "akchour falls", 
+"patterns": ["tell me about the akchour falls", "what about the akchour falls", "i want you to tell me about the akchour falls", "akchour falls", "what is the akchour falls"], 
+"responses": ["akchour waterfalls is one of the most beautiful tourist places in chefchaouen, morocco. it is located in the tala samtane reserve. it consists of a low waterfall resembling a small lake and another at a high altitude descending from the middle of the mountains."], 
+"context": []
+},
+
+{"tag": "agadir beach", 
+"patterns": ["tell me about the agadir beach", "what about the agadir beach", "i want you to tell me about the agadir beacagadir beach", "agadir beach", "what is the agadir beach"], 
+"responses": ["the beach is one of the most important places of tourism in agadir, as it extends over a wide area of more than 30 km. the sandy beach of agadir is characterized by its golden sand"],
+ "context": []
+ },
+
+{"tag": "olhao park", 
+"patterns": ["tell me about the olhao park", "what about the olhao park", "i want you to tell me about the olhao park", "olhao park", "what is the olhao park"],
+ "responses": ["olhao park is one of the most beautiful tourist places in agadir and is also called the garden of lovers, as it is characterized by its romantic atmosphere"],
+  "context": []
+  },
+
+{"tag": "agadir kasbah", 
+"patterns": ["tell me about the agadir kasbah", "what about the agadir kasbah", "i want you to tell me about the agadir kasbah", "agadir kasbah", "what is the agadir kasbah"], 
+"responses": ["agadir ofla, which is a fortress located at the top of the mountain, 236 meters above sea level"],
+ "context": []
+ },
+
+{"tag": "avla hope square",
+"patterns": ["tell me about the avla hope square", "what about the avla hope square", "i want you to tell me about the avla hope square", "avla hope square", "what is the avla hope square"], 
+"responses": ["the bird garden in agadir takes care of all kinds of birds in addition to other types of animals"],
+ "context": []
+ },
+
+{"tag": "agadir park", 
+"patterns": ["tell me about the agadir park", "what about the agadir park", "i want you to tell me about the agadir park", "agadir park", "what is the agadir park"],
+ "responses": ["a corniche stretches along the beach of agadir and is ready to receive its visitors from locals and tourists, where many shops, cafes and restaurants are distributed on its sides."],
+  "context": []
+  },
+
+{"tag": "bird valley park", 
+"patterns": ["tell me about the bird valley park", "what about the bird valley park", "i want you to tell me about the bird valley park", "bird valley park", "what is the bird valley park"], 
+"responses": ["al-amal square is the most important square in the moroccan city of agadir, as it is a major place to host various festivals, the most important of which are the agadir festivals and the timitar festival."], 
+"context": []
+},
+
+{"tag": "casablanca", 
+"patterns": ["casablanca", "casablanca city", "tell me about casablanca", "describe me casablanca", "what about casablanca", "what about the city of casablanca"],
+ "responses": ["casablanca is the largest city in morocco and the most beautiful city on the moroccan coast overlooking the ocean, and the economic capital of the country"],
+  "context": []
+  },
+
+{"tag": "marrakech", 
+"patterns": ["marakesh","marrakesh","marakech","marrakech", "marrakech city", "tell me about marrakech", "describe me marrakech", "what about marrakech", "what about the city of marrakech"],
+ "responses": ["marrakesh is considered one of the most important tourist cities in morocco and the capital of the andalusian empire, which is characterized by its beauty and picturesque nature. it has harmony and blending between the beauty of the present and the splendor of the past. marrakech includes many historical walls, buildings and giant gardens"], 
+ "context": []
+ },
+
+{"tag": "rabat", 
+"patterns": ["rabat", "rabat city", "tell me about rabat", "describe me rabat", "what about rabat", "what about the city of rabat"], 
+"responses": ["rabat is the moroccan capital and the second largest city in morocco. it is characterized by its beautiful location on a large plain overlooking the atlantic ocean, and in the middle of it the abouraqraq river passes."], 
+"context": []
+},
+
+{"tag": "fez", 
+"patterns": ["fes city","fes","fez", "fez city", "tell me about fez", "describe me fez", "what about fez", "what about the city of fez"],
+ "responses": ["the city of fez is the second largest city in morocco in terms of population. the city of fez is distinguished in that it is the largest car-free area in the world, and therefore its environment is very clean."], 
+ "context": []
+ },
+
+{"tag": "tangier", 
+"patterns": ["tangier", "tangier city", "tell me about tangier", "describe me tangier", "what about tangier", "what about the city of tangier"],
+ "responses": ["tangier is considered one of the sixth largest tourist cities in morocco and one of the most important cities in it, as it receives annually many foreign tourists coming to learn about the best places of tourism in morocco due to its prominent tourist attractions"],
+  "context": []
+  },
+
+{"tag": "tetouan", 
+"patterns": ["tetouan", "tetouan city", "tell me about tetouan", "describe me tetouan", "what about tetouan", "what about the city of tetouan"], 
+"responses": ["tetouan is a moroccan city with a coastal rural character with an antique andalusian touch overlooking the mediterranean coast, with a view of the rif mountains and darsa. the city of tetouan has elements that make it one of the best tourist areas in morocco"], 
+"context": []
+},
+
+{"tag": "al hoceima",
+ "patterns": ["al hocaima","al hoceima", "al hoceima city", "tell me about al hoceima", "describe me al hoceima", "what about al hoceima", "what about the city of al hoceima"], 
+ "responses": ["the city of al hoceima is one of the most beautiful tourist cities in morocco, the oldest in history and the most popular and attracts the attention of local, arab and foreign tourists, because of its beautiful, clear mountain beaches and great historical archaeological and religious sites"], 
+ "context": []
+ },
+
+{"tag": "meknes", 
+"patterns": ["mekness","meknes", "meknes city", "tell me about meknes", "describe me meknes", "what about meknes", "what about the city of meknes"],
+ "responses": ["the tourism city of meknes in morocco has a long history that tells of its walls, towers and historical places that have preserved its glory and landmarks. it is rightly considered the city of arab-islamic civilization and bright history"],
+  "context": []
+  },
+
+{"tag": "ifrane", 
+"patterns": ["ifran","ifrane", "ifrane city", "tell me about ifrane", "describe me ifrane", "what about ifrane", "what about the city of ifrane"],
+ "responses": ["ifrane, or as they call it the switzerland of morocco, is one of the cities of tourist attractions in morocco, located between the cities of fez and meknes with a long history, while it is dominated by a beautiful nature that appears in its parks, forests, waterfalls and snowy mountains, casting a shadow over its traditional homes and luxury hotels"],
+  "context": []
+  },
+
+{"tag": "chaouen",
+ "patterns": ["chefchaouen","chefchaouan","chaouen", "chaouen city", "tell me about chaouen", "describe me chaouen", "what about chaouen", "what about the city of chaouen"],
+  "responses": ["chefchaouen is one of the most beautiful cities in morocco, located on the northeastern coast of the country. it is called the blue city in relation to the blue houses in which it is spread."],
+   "context": []
+   },
+
+{"tag": "agadir", 
+"patterns": ["agadir", "agadir city", "tell me about agadir", "describe me agadir", "what about agadir", "what about the city of agadir"], 
+"responses": ["agadir is one of the tourist cities in morocco and is located on the shore of the atlantic ocean near the atlantic mountains"], 
+"context": []
+},
+
+{"tag": "tourism in casablanca",
+ "patterns": ["tourism in casablanca", "tourism in the city of casablanca", "tell me about tourism in casablanca", "tell me about tourism in the city of casablanca", "what about tourism in casablanca", "what about tourism in the city of casablanca"], 
+ "responses": ["casablanca is a city rich in diverse and wonderful tourist places, as it contains many of the most important tourist areas in morocco, which gives it a special charm and aesthetic"], 
+ "context": []
+ },
+
+
+{"tag": "tourism in marrakech", 
+"patterns": ["tourism in marakesh","tourism in marakech","tourism in marrakesh","tourism in marrakech", "tourism in the city of marrakech", "tell me about tourism in marrakech", "tell me about tourism in the city of marrakech", "what about tourism in marrakech", "what about tourism in the city of marrakech"], 
+"responses": ["in this era, marrakesh is considered a stronghold of islamic civilization and an intellectual center for science and philosophy, as it includes many museums and monuments that attract many tourists, in addition to many of the most important places of tourism in morocco, which have another taste for the holiday in a moroccan atmosphere, and there are many restaurants, cafes, markets and activities entertainment"],
+ "context": []
+ },
+
+{"tag": "tourism in rabat", 
+"patterns": ["tourism in rabat", "tourism in the city of rabat", "tell me about tourism in rabat", "tell me about tourism in the city of rabat", "what about tourism in rabat", "what about tourism in the city of rabat"],
+ "responses": ["the city of rabat has many of the most important tourist places in morocco"],
+  "context": []
+  },
+
+{"tag": "tourism in fez", 
+"patterns": ["tourism in fes","tourism in fez", "tourism in the city of fez", "tell me about tourism in fez", "tell me about tourism in the city of fez", "what about tourism in fez", "what about tourism in the city of fez"],
+ "responses": ["fez embraces many tourist areas in morocco because of its archaeological landmarks that indicate its civilization through the ancient times of islam"],
+  "context": []
+  },
+
+{"tag": "tourism in tangier",
+ "patterns": ["tourism in tangier", "tourism in the city of tangier", "tell me about tourism in tangier", "tell me about tourism in the city of tangier", "what about tourism in tangier", "what about tourism in the city of tangier"],
+  "responses": ["tourism in tangiers is one of the city's most important resources, as it is rich in tourism potentials, the most important of which is the irkel cave"], 
+  "context": []
+  },
+
+{"tag": "tourism in tetouan",
+ "patterns": ["tourism in tetouan", "tourism in the city of tetouan", "tell me about tourism in tetouan", "tell me about tourism in the city of tetouan", "what about tourism in tetouan", "what about tourism in the city of tetouan"], 
+ "responses": ["the city of tetouan has elements that make it one of the best tourist areas in morocco, such as museums, the old city with its monuments and its heritage and archaeological neighborhoods, beaches and forested mountain ranges, royal palaces and historical religious monuments, and others."],
+  "context": []
+  },
+
+{"tag": "tourism in al hoceima",
+ "patterns": ["tourism in al hocaima","tourism in al hoceima", "tourism in the city of al hoceima", "tell me about tourism in al hoceima", "tell me about tourism in the city of al hoceima", "what about tourism in al hoceima", "what about tourism in the city of al hoceima"],
+  "responses": ["the city of al hoceima is considered one of the most important tourist cities in morocco. if you are a fan of safari, camping, climbing and wildlife watching, then al hoceima morocco is definitely your ideal destination for such a vacation"], 
+  "context": []
+  },
+
+{"tag": "tourism in meknes", 
+"patterns": ["tourism in mekness","tourism in meknes", "tourism in the city of meknes", "tell me about tourism in meknes", "tell me about tourism in the city of meknes", "what about tourism in meknes", "what about tourism in the city of meknes"],
+"responses": ["meknes is one of the most important tourist cities in morocco"],
+ "context": []
+ },
+
+{"tag": "tourism in ifrane",
+ "patterns": ["tourism in ifran","tourism in ifrane", "tourism in the city of ifrane", "tell me about tourism in ifrane", "tell me about tourism in the city of ifrane", "what about tourism in ifrane", "what about tourism in the city of ifrane"],
+  "responses": ["in addition to the most beautiful tourist places in ifrane, the city of ifrane owns a series of the finest hotels in morocco, offering an outstanding level of services that suits the needs and capabilities of all levels."],
+   "context": []
+   },
+
+{"tag": "tourism in chaouen",
+ "patterns": ["tourism in chefchaouan","tourism in chaouen","tourism in chefchaouen", "tourism in the city of chaouen", "tell me about tourism in chaouen", "tell me about tourism in the city of chaouen", "what about tourism in chaouen", "what about tourism in the city of chaouen"], 
+ "responses": ["moroccan chefchaouen includes many attractions that make it a destination for many tourists, including waterfalls, natural places and historical monuments."],
+  "context": []
+  },
+
+{"tag": "tourism in agadir",
+ "patterns": ["tourism in agadir", "tourism in the city of agadir", "tell me about tourism in agadir", "tell me about tourism in the city of agadir", "what about tourism in agadir", "what about tourism in the city of agadir"],
+  "responses": ["agadir is considered one of the most important moroccan tourist destinations, as it includes many tourist attractions, health resorts, golf courses, clean beaches, gardens and parks, as it embraces many of the most important tourist areas in morocco"],
+   "context": []
+   },
+
+{"tag": "tourism in morocco", 
+"patterns": ["tell me about tourism in morocco", "what about tourism in morocco", "tourism in morocco", "tell me about the state of tourism in morocco", "what about tourism in the state of morocco", "tourism in the state of morocco"],
+ "responses": ["tourism in morocco is a country of beauty and unique landscape tourism. tourism in morocco has become a global destination thanks to the ingredients it possesses to achieve this."], 
+ "context": []
+ },
+ 
+
+{"tag": "advantages of tourism",
+ "patterns": ["what about tourism in morocco", "what distinguishes tourism in morocco", "tell me about the advantages of tourism in morocco", "what are the advantages of tourism in morocco", "advantages of tourism in morocco"], 
+ "responses": ["tourism in morocco is characterized by its diversity, as it contains many types of tourism, including mountain tourism, ancient city tourism, religious tourism, and sports tourism."],
+  "context": []
+  },
+
+{"tag": "tourism seasons",
+ "patterns": ["tourism seasons in morocco", "the best months of tourism in morocco", "what are the best seasons for tourism in morocco", "tell me about the seasons of tourism in morocco", "what about the tourism seasons in morocco"],
+  "responses": ["the preferred season of tourism in morocco extends from march to may, as this period is characterized by a moderate and beautiful weather in the cities of morocco, where light rains fall, in addition to a warm and comfortable weather for tourism in general."], 
+  "context": []
+  },
+
+{"tag": "seasons of tourism",
+ "patterns": ["tell me about tourism classes in morocco", "what are the seasons of tourism in morocco", "tourism periodes in morocco", "the best periodes classes in morocco", "the best seasons of tourism in morocco", "what about tourism classes in morocco"],
+  "responses": ["the seasons of tourism in morocco are spring and summer"],
+   "context": []
+   },
+
+{"tag": "coastal cities",
+ "patterns": ["tourist cities that overlook the coast", "tourist cities overlooking the sea", "what are the tourist cities that overlook the coast", "what are the tourist cities that overlook the sea", "tell me about the tourist cities that overlook the sea", "tell me about the tourist cities that overlook the coast", "coastal tourist cities", "tourist coastal cities", "what are the coastal tourist cities", "what are the tourist coastal cities", "tell me about the coastal tourist cities", "tell me about the coastal cities"],
+  "responses": ["the coastal tourist cities are casablanca, rabat, tangiers, tetouan, al hoceima, agadir"],
+   "context": []
+   },
+
+{"tag": "mountain cities",
+ "patterns": ["tourist cities that are located in the mountains", "what are the tourist cities in the mountains", "tell me about the tourist cities that are in the mountains", "mountain tourist cities", "tourist mountain cities", "what are the mountain tourist cities", "what are the tourist mountain cities", "tell me about the mountain tourist cities", "tell me about the tourist mountain towns"],
+  "responses": ["the mountain tourist cities are chefchaouen, tetouan, fez, ifrane, agadir, al hoceima"],
+  "context": []
+  },
+
+{"tag": "snow cities", 
+"patterns": ["tourist cities with snow", "what are the tourist cities that have snow", "tell me about the tourist cities that have snow", "snow tourist cities", "tourist snow cities", "what are the snowy tourist cities", "what are the tourist snow cities", "tell me about the snowy tourist cities", "tell me about the tourist snowy cities"],
+ "responses": ["the snowy tourist cities are ifrane and the outskirts of marrakesh"],
+  "context": []
+  },
+
+{"tag": "ports",
+ "patterns": ["morocco ports", "what are the names of the ports in morocco", "what are the ports in morocco", "tell me about the ports in morocco", "morocco's main ports", "what are the names of the main ports in morocco", "what are the main ports in morocco"], 
+ "responses": ["the main ports are the port of tangier med, the port of casablanca, the port of al hoceima, the port of agadir"], 
+ "context": []
+ },
+
+{"tag": "airports",
+ "patterns": ["what are the names of the airports in morocco", "what are the airports in morocco", "tell me about the airports in morocco", "morocco's main airports", "what are the names of the main airports in morocco", "what are the main airports in morocco", "tell me about the main airports in morocco"],
+  "responses": ["international main airports rabat-sal\u00e9 airport agadir-al massira international airport, mohammed v international airport, marrakech-menara international airport fez-sais international airport tangier ibn battuta airport"],
+   "context": []
+   },
+
+{"tag": "hotels in casablanca",
+ "patterns": ["the best hotels in casablanca", "what are the best hotels in casablanca", "tell me about the best hotels in casablanca", "luxury hotels in casablanca", "what are the luxury hotels in casablanca", "tell me about the luxury hotels in casablanca", "the best hotels in casablanca", "what are the best hotels in casablanca", "tell me about the best hotels in casablanca"],
+  "responses": ["kenzi tower, sofitel casablanca, four seasons, val d'anfa and hayat regency"],
+   "context": []
+   },
+
+{"tag": "hotels in marrakech", 
+"patterns": ["the best hotels in marakech","the best hotels in marrakech", "what are the best hotels in marrakech", "tell me about the best hotels in marrakech", "luxury hotels in marrakech", "what are the luxury hotels in marrakech", "tell me about the luxury hotels in marrakech", "the best hotels in marrakech", "what are the best hotels in marrakech", "tell me about the best hotels in marrakech"],
+ "responses": ["lawrence, ozo, spa kitsch, relax and red marrakech"], 
+ "context": []
+ },
+
+{"tag": "hotels in fes", 
+"patterns": ["the best hotels in fez", "what are the best hotels in fez", "tell me about the best hotels in fez", "luxury hotels in fez", "what are the luxury hotels in fez", "tell me about the luxury hotels in fez", "the best hotels in fez", "what are the best hotels in fez", "tell me about the best hotels in fez"],
+ "responses": ["riad laporte bleu, sahara, marriott jean palace, palais and barcelo fez"],
+  "context": []
+  },
+
+{"tag": "hotels in rabat",
+ "patterns": ["the best hotels in rabat", "what are the best hotels in rabat", "tell me about the best hotels in rabat", "luxury hotels in rabat", "what are the luxury hotels in rabat", "tell me about the luxury hotels in rabat", "the best hotels in rabat", "what are the best hotels in rabat", "tell me about the best hotels in rabat"],
+ "responses": ["latour hassan, sofitel rabat, cantor, peleg and diwan rabat"], 
+ "context": []
+ },
+
+{"tag": "hotels in tangier",
+ "patterns": ["the best hotels in tangier", "what are the best hotels in tangier", "tell me about the best hotels in tangier", "luxury hotels in tangier", "what are the luxury hotels in tangier", "tell me about the luxury hotels in tangier", "the best hotels in tangier", "what are the best hotels in tangier", "tell me about the best hotels in tangier"], 
+ "responses": ["manar tangier, la maison de tangier, dar shams, palais zahia and kasbah rose"],
+  "context": []
+  },
+
+{"tag": "hotels in tetouan", 
+"patterns": ["the best hotels in tetouan", "what are the best hotels in tetouan", "tell me about the best hotels in tetouan", "luxury hotels in tetouan", "what are the luxury hotels in tetouan", "tell me about the luxury hotels in tetouan", "the best hotels in tetouan", "what are the best hotels in tetouan", "tell me about the best hotels in tetouan"], 
+"responses": ["le redacto, el mendari, riad dar el chach, prestige tetouan, and las mili yunachis."],
+ "context": []
+ },
+{"tag": "hotels in al hociema", 
+"patterns": ["the best hotels in al hocaima","the best hotels in al hociema", "what are the best hotels in al hociema", "tell me about the best hotels in al hociema", "luxury hotels in al hociema", "what are the luxury hotels in al hociema", "tell me about the luxury hotels in al hociema", "the best hotels in al hociema", "what are the best hotels in al hociema", "tell me about the best hotels in al hociema"],
+ "responses": ["mira palace, mercury quemado, la perla, villa florida and muhammed vipaye accor"], 
+ "context": []
+ },
+
+{"tag": "hotels in meknes",
+ "patterns": ["the best hotels in mekness","the best hotels in meknes", "what are the best hotels in meknes", "tell me about the best hotels in meknes", "luxury hotels in meknes", "what are the luxury hotels in meknes", "tell me about the luxury hotels in meknes", "the best hotels in meknes", "what are the best hotels in meknes", "tell me about the best hotels in meknes"],
+  "responses": ["souani, dar meknes, tresor, bellevue spa, riad retaj and riad yakout"], 
+  "context": []
+  },
+
+{"tag": "hotels in ifrane", 
+"patterns": ["the best hotels in ifran","the best hotels in ifrane", "what are the best hotels in ifrane", "tell me about the best hotels in ifrane", "luxury hotels in ifrane", "what are the luxury hotels in ifrane", "tell me about the luxury hotels in ifrane", "the best hotels in ifrane", "what are the best hotels in ifrane", "tell me about the best hotels in ifrane"],
+ "responses": ["micheleven resort, ifrane gardens, relais ras el maa, ifrane palace resort, and la maison bleu"], 
+ "context": []
+ },
+
+{"tag": "hotels in chaouen", 
+"patterns": ["the best hotels in chefchaouan","the best hotels in chefchaouen","the best hotels in chaouen", "what are the best hotels in chaouen", "tell me about the best hotels in chaouen", "luxury hotels in chaouen", "what are the luxury hotels in chaouen", "tell me about the luxury hotels in chaouen", "the best hotels in chaouen", "what are the best hotels in chaouen", "tell me about the best hotels in chaouen"], 
+"responses": ["dar zembra, dar saba, dar meziana, cher aziz, and dar elrio"], 
+"context": []
+},
+
+{"tag": "hotels in agadir", 
+"patterns": ["the best hotels in agadir", "what are the best hotels in agadir", "tell me about the best hotels in agadir", "luxury hotels in agadir", "what are the luxury hotels in agadir", "tell me about the luxury hotels in agadir", "the best hotels in agadir", "what are the best hotels in agadir", "tell me about the best hotels in agadir"], 
+"responses": ["sofitel agadir, royal spa, iberostar, tildi spa and atlantic"],
+ "context": []
+ },
+
+{"tag": "kenzi tower location", 
+"patterns": ["kenzi tower location", "where is kenzi tower hotel located", "what is the location of the kenzi tower hotel", "tell me about the kenzi tower hotel location", "what about the location of the kenzi tower hotel", "coordinates of kenzi tower hotel", "what about the coordinates of the kenzi tower hotel", "what are the coordinates of the kenzi tower hotel", "tell me about the coordinates of the kenzi tower hotel"],
+ "responses": ["it is located in one of the twin towers of casablanca and has a view of the entire city, as it is close to the city center and the hassan ii mosque"],
+  "context": []
+  },
+
+
+{"tag": "sofitel casablanca location", 
+"patterns": ["sofitel casablanca location", "where is sofitel casablanca hotel located", "what is the location of the sofitel casablanca hotel", "tell me about the sofitel casablanca hotel location", "what about the location of the sofitel casablanca hotel", "coordinates of sofitel casablanca hotel", "what about the coordinates of the sofitel casablanca hotel", "what are the coordinates of the sofitel casablanca hotel", "tell me about the coordinates of the sofitel casablanca hotel"],
+ "responses": ["it is located near the city center and only a few minutes away from the hassan ii mosque and the port of casablanca"],
+  "context": []
+  },
+
+{"tag": "four seasons location", 
+"patterns": ["four seasons location", "where is four seasons hotel located", "what is the location of the four seasons hotel", "tell me about the four seasons hotel location", "what about the location of the four seasons hotel", "coordinates of four seasons hotel", "what about the coordinates of the four seasons hotel", "what are the coordinates of the four seasons hotel", "tell me about the coordinates of the four seasons hotel"],
+ "responses": ["located next to anfaplace, ain diab corniche is about 1.5 km from the hotel"],
+  "context": []
+  },
+
+{"tag": "val d'anfa location", 
+"patterns": ["val d'anfa location", "where is val d'anfa hotel located", "what is the location of the val d'anfa hotel", "tell me about the val d'anfa hotel location", "what about the location of the val d'anfa hotel", "coordinates of val d'anfa hotel", "what about the coordinates of the val d'anfa hotel", "what are the coordinates of the val d'anfa hotel", "tell me about the coordinates of the val d'anfa hotel"],
+ "responses": ["this hotel is located on the corniche of casablanca, where restaurants, cafes, picturesque gardens and the pulse of life"], 
+ "context": []
+ },
+
+{"tag": "hayat regency location",
+ "patterns": ["hayat regency location", "where is hayat regency hotel located", "what is the location of the hayat regency hotel", "tell me about the hayat regency hotel location", "what about the location of the hayat regency hotel", "coordinates of hayat regency hotel", "what about the coordinates of the hayat regency hotel", "what are the coordinates of the hayat regency hotel", "tell me about the coordinates of the hayat regency hotel"], 
+ "responses": ["it is located near the city center, where the port of casablanca is about 900 meters away"],
+  "context": []
+  },
+
+{"tag": "lawrence location",
+ "patterns": ["lawrence location", "where is lawrence hotel located", "what is the location of the lawrence hotel", "tell me about the lawrence hotel location", "what about the location of the lawrence hotel", "coordinates of lawrence hotel", "what about the coordinates of the lawrence hotel", "what are the coordinates of the lawrence hotel", "tell me about the coordinates of the lawrence hotel"],
+  "responses": ["the elegant lawrence darabi hotel is located just a 20-minute walk from the famous jama el fna square"],
+   "context": []
+   },
+
+{"tag": "ozo location", 
+"patterns": ["ozo location", "where is ozo hotel located", "what is the location of the ozo hotel", "tell me about the ozo hotel location", "what about the location of the ozo hotel", "coordinates of ozo hotel", "what about the coordinates of the ozo hotel", "what are the coordinates of the ozo hotel", "tell me about the coordinates of the ozo hotel"],
+ "responses": ["this hotel is approximately 4 km from majorelle gardens"], 
+ "context": []
+ },
+
+{"tag": "spa kitsch location", 
+"patterns": ["spa kitsch location", "where is spa kitsch hotel located", "what is the location of the spa kitsch hotel", "tell me about the spa kitsch hotel location", "what about the location of the spa kitsch hotel", "coordinates of spa kitsch hotel", "what about the coordinates of the spa kitsch hotel", "what are the coordinates of the spa kitsch hotel", "tell me about the coordinates of the spa kitsch hotel"], 
+"responses": ["it is located in the agdal district, which contains many entertainment areas and markets"],
+ "context": []
+ },
+
+{"tag": "relax location",
+ "patterns": ["relax location", "where is relax hotel located", "what is the location of the relax hotel", "tell me about the relax hotel location", "what about the location of the relax hotel", "coordinates of relax hotel", "what about the coordinates of the relax hotel", "what are the coordinates of the relax hotel", "tell me about the coordinates of the relax hotel"],
+ "responses": ["it is located 3.3 km from majorelle gardens, and it is about 4 km from Carreeden shopping center and marrakech plaza."],
+  "context": []
+  },
+
+{"tag": "red marrakech location", 
+"patterns": ["red marrakech location", "where is red marrakech hotel located", "what is the location of the red marrakech hotel", "tell me about the red marrakech hotel location", "what about the location of the red marrakech hotel", "coordinates of red marrakech hotel", "what about the coordinates of the red marrakech hotel", "what are the coordinates of the red marrakech hotel", "tell me about the coordinates of the red marrakech hotel"], 
+"responses": ["it is located opposite the train station and only 500 meters from the congress center of marrakech"],
+ "context": []
+ },
+
+{"tag": "riad laporte bleu location", 
+"patterns": ["riad laporte bleu location", "where is riad laporte bleu hotel located", "what is the location of the riad laporte bleu hotel", "tell me about the riad laporte bleu hotel location", "what about the location of the riad laporte bleu hotel", "coordinates of riad laporte bleu hotel", "what about the coordinates of the riad laporte bleu hotel", "what are the coordinates of the riad laporte bleu hotel", "tell me about the coordinates of the riad laporte bleu hotel"], 
+"responses": ["it is located 53 m from batha square and 16.4 km from fez Saïss airport"], 
+"context": []
+},
+
+
+{"tag": "sahara location", 
+"patterns": ["sahara location", "where is sahara hotel located", "what is the location of the sahara hotel", "tell me about the sahara hotel location", "what about the location of the sahara hotel", "coordinates of sahara hotel", "what about the coordinates of the sahara hotel", "what are the coordinates of the sahara hotel", "tell me about the coordinates of the sahara hotel"], 
+"responses": ["this hotel is only a 10-minute drive from the old town"], 
+"context": []
+},
+
+{"tag": "marriott jean palace location", 
+"patterns": ["marriott jean palace location", "where is marriott jean palace hotel located", "what is the location of the marriott jean palace hotel", "tell me about the marriott jean palace hotel location", "what about the location of the marriott jean palace hotel", "coordinates of marriott jean palace hotel", "what about the coordinates of the marriott jean palace hotel", "what are the coordinates of the marriott jean palace hotel", "tell me about the coordinates of the marriott jean palace hotel"], 
+"responses": ["the hotel is 2.7 km from bordj fez mall and 12.8 km from fez-sais airport"], 
+"context": []
+},
+
+{"tag": "palais location", 
+"patterns": ["palais location", "where is palais hotel located", "what is the location of the palais hotel", "tell me about the palais hotel location", "what about the location of the palais hotel", "coordinates of palais hotel", "what about the coordinates of the palais hotel", "what are the coordinates of the palais hotel", "tell me about the coordinates of the palais hotel"],
+ "responses": ["the hotel is located between the historical center and the new city, so it is one of the best hotels in fez"],
+  "context": []
+  },
+
+{"tag": "barcelo fez location",
+"patterns": ["barcelo fez location", "where is barcelo fez hotel located", "what is the location of the barcelo fez hotel", "tell me about the barcelo fez hotel location", "what about the location of the barcelo fez hotel", "coordinates of barcelo fez hotel", "what about the coordinates of the barcelo fez hotel", "what are the coordinates of the barcelo fez hotel", "tell me about the coordinates of the barcelo fez hotel"],
+ "responses": ["the hotel is located in the center of the new city and bab boujloud gate is 4.7 km away"],
+  "context": []
+  },
+
+{"tag": "latour hassan location", 
+"patterns": ["latour hassan location", "where is latour hassan hotel located", "what is the location of the latour hassan hotel", "tell me about the latour hassan hotel location", "what about the location of the latour hassan hotel", "coordinates of latour hassan hotel", "what about the coordinates of the latour hassan hotel", "what are the coordinates of the latour hassan hotel", "tell me about the coordinates of the latour hassan hotel"], 
+"responses": ["it is located in the hassan district in the heart of rabat and close to the old city"],
+ "context": []
+ },
+
+{"tag": "sofitel rabat location", 
+"patterns": ["sofitel rabat location", "where is sofitel rabat hotel located", "what is the location of the sofitel rabat hotel", "tell me about the sofitel rabat hotel location", "what about the location of the sofitel rabat hotel", "coordinates of sofitel rabat hotel", "what about the coordinates of the sofitel rabat hotel", "what are the coordinates of the sofitel rabat hotel", "tell me about the coordinates of the sofitel rabat hotel"], 
+"responses": ["the hotel is located 3.1 km from the national library of the kingdom of morocco"],
+ "context": []
+ },
+
+{"tag": "cantor location",
+ "patterns": ["cantor location", "where is cantor hotel located", "what is the location of the cantor hotel", "tell me about the cantor hotel location", "what about the location of the cantor hotel", "coordinates of cantor hotel", "what about the coordinates of the cantor hotel", "what are the coordinates of the cantor hotel", "tell me about the coordinates of the cantor hotel"],
+  "responses": ["it is located in the city center, close to the most important tourist attractions of rabat"],
+   "context": []
+   },
+
+{"tag": "peleg location", 
+"patterns": ["peleg location", "where is peleg hotel located", "what is the location of the peleg hotel", "tell me about the peleg hotel location", "what about the location of the peleg hotel", "coordinates of peleg hotel", "what about the coordinates of the peleg hotel", "what are the coordinates of the peleg hotel", "tell me about the coordinates of the peleg hotel"],
+ "responses": ["it is located in moulay youssef street and offers distinctive accommodation, some of which overlook the garden of the royal palace in rabat"], 
+ "context": []
+ },
+
+{"tag": "diwan rabat location", 
+"patterns": ["diwan rabat location", "where is diwan rabat hotel located", "what is the location of the diwan rabat hotel", "tell me about the diwan rabat hotel location", "what about the location of the diwan rabat hotel", "coordinates of diwan rabat hotel", "what about the coordinates of the diwan rabat hotel", "what are the coordinates of the diwan rabat hotel", "tell me about the coordinates of the diwan rabat hotel"],
+ "responses": ["the hotel is located next to rabat's tourist attractions such as hassan tower and marina bouregreg"],
+  "context": []
+  },
+
+{"tag": "manar tangier location", 
+"patterns": ["manar tangier location", "where is manar tangier hotel located", "what is the location of the manar tangier hotel", "tell me about the manar tangier hotel location", "what about the location of the manar tangier hotel", "coordinates of manar tangier hotel", "what about the coordinates of the manar tangier hotel", "what are the coordinates of the manar tangier hotel", "tell me about the coordinates of the manar tangier hotel"],
+ "responses": ["it comes with the highest standing hotels in tangier in terms of its pleasant location overlooking the sea"],
+  "context": []
+  },
+{"tag": "la maison de tangier location", 
+"patterns": ["la maison de tangier location", "where is la maison de tangier hotel located", "what is the location of the la maison de tangier hotel", "tell me about the la maison de tangier hotel location", "what about the location of the la maison de tangier hotel", "coordinates of la maison de tangier hotel", "what about the coordinates of the la maison de tangier hotel", "what are the coordinates of the la maison de tangier hotel", "tell me about the coordinates of the la maison de tangier hotel"], 
+"responses": ["located in the city center"],
+ "context": []
+ },
+
+{"tag": "dar shams location",
+ "patterns": ["dar shams location", "where is dar shams hotel located", "what is the location of the dar shams hotel", "tell me about the dar shams hotel location", "what about the location of the dar shams hotel", "coordinates of dar shams hotel", "what about the coordinates of the dar shams hotel", "what are the coordinates of the dar shams hotel", "tell me about the coordinates of the dar shams hotel"], 
+ "responses": ["it is 96 meters from the kasbah museum and 3.2 km from tangier city mall"],
+  "context": []
+  },
+
+{"tag": "palais zahia location", 
+"patterns": ["palais zahia location", "where is palais zahia hotel located", "what is the location of the palais zahia hotel", "tell me about the palais zahia hotel location", "what about the location of the palais zahia hotel", "coordinates of palais zahia hotel", "what about the coordinates of the palais zahia hotel", "what are the coordinates of the palais zahia hotel", "tell me about the coordinates of the palais zahia hotel"],
+ "responses": ["it is 450 meters from kasbah museum and 2.9 km from tangier city mall"],
+  "context": []
+  },
+
+{"tag": "kasbah rose location", 
+"patterns": ["kasbah rose location", "where is kasbah rose hotel located", "what is the location of the kasbah rose hotel", "tell me about the kasbah rose hotel location", "what about the location of the kasbah rose hotel", "coordinates of kasbah rose hotel", "what about the coordinates of the kasbah rose hotel", "what are the coordinates of the kasbah rose hotel", "tell me about the coordinates of te kasbah rose hotel"],
+ "responses": ["located 240 meters from dar el makhzen, 3.3 km from tangier city mall"], 
+ "context": []
+ },
+
+{"tag": "le redacto location", 
+"patterns": ["le redacto location", "where is le redacto hotel located", "what is the location of the le redacto hotel", "tell me about the le redacto hotel location", "what about the location of the le redacto hotel", "coordinates of le redacto hotel", "what about the coordinates of the le redacto hotel", "what are the coordinates of the le redacto hotel", "tell me about the coordinates of the le redacto hotel"], 
+"responses": ["the hotel is 3 km away from sania ramel airport"], 
+"context": []
+},
+
+{"tag": "el mendari location", 
+"patterns": ["el mendari location", "where is el mendari hotel located", "what is the location of the el mendari hotel", "tell me about the el mendari hotel location", "what about the location of the el mendari hotel", "coordinates of el mendari hotel", "what about the coordinates of the el mendari hotel", "what are the coordinates of the el mendari hotel", "tell me about the coordinate of the el mendari hotel"], 
+"responses": ["the hotel is 9 km from sania ramel airport"], 
+"context": []
+},
+
+{"tag": "riad dar el chach location", 
+"patterns": ["riad dar el chach location", "where is riad dar el chach hotel located", "what is the location of the riad dar el chach hotel", "tell me about the riad dar el chach hotel location", "what about the location of the riad dar el chach hotel", "coordinates of riad dar el chach hotel", "what about the coordinates of the riad dar el chach hotel", "what are the coordinates of the riad dar el chach hotel", "tell me about the coordinates of the riad dar el chach hotel"],
+ "responses": ["the hotel is 6 km from sania ramel airport"],
+  "context": []
+  },
+
+{"tag": "prestige tetouan location", 
+"patterns": ["prestige tetouan location", "where is prestige tetouan hotel located", "what is the location of the prestige tetouan hotel", "tell me about the prestige tetouan hotel location", "what about the location of the prestige tetouan hotel", "coordinates of prestige tetouan hotel", "what about the coordinates of the prestige tetouan hotel", "what are the coordinates of the prestige tetouan hotel", "tell me about the coordinates of the prestige tetouan hotel"],
+ "responses": ["the hotel is 11 km away from sania ramel airport"], 
+ "context": []
+ },
+
+{"tag": "las mili yunachis location", 
+"patterns": ["las mili yunachis location", "where is las mili yunachis hotel located", "what is the location of the las mili yunachis hotel", "tell me about the las mili yunachis hotel location", "what about the location of the las mili yunachis hotel", "coordinates of las mili yunachis hotel", "what about the coordinates of the las mili yunachis hotel", "what are the coordinates of the las mili yunachis hotel", "tell me about the coordinates of the las mili yunachis hotel"],
+ "responses": ["the hotel is 8 km from sania ramel airport"],
+  "context": []
+  },
+
+{"tag": "mira palace location", 
+"patterns": ["mira palace location", "where is mira palace hotel located", "what is the location of the mira palace hotel", "tell me about the mira palace hotel location", "what about the location of the mira palace hotel", "coordinates of mira palace hotel", "what about the coordinates of the mira palace hotel", "what are the coordinates of the mira palace hotel", "tell me about the coordinates of the mira palace hotel"], 
+"responses": ["the hotel is 1.7 km away from the center of al hoceima, and a number of tourist attractions are located near it"], 
+"context": []
+},
+
+{"tag": "mercury quemado location",
+ "patterns": ["mercury quemado location", "where is mercury quemado hotel located", "what is the location of the mercury quemado hotel", "tell me about the mercury quemado hotel location", "what about the location of the mercury quemado hotel", "coordinates of mercury quemado hotel", "what about the coordinates of the mercury quemado hotel", "what are the coordinates of the mercury quemado hotel", "tell me about the coordinates of the mercury quemado hotel"], 
+ "responses": ["al hoceima port is 2.4 km from the hotel, and clabonita beach is 2.9 km from the hotel"], 
+ "context": []
+ },
+
+{"tag": "la perla location",
+ "patterns": ["la perla location", "where is la perla hotel located", "what is the location of the la perla hotel", "tell me about the la perla hotel location", "what about the location of the la perla hotel", "coordinates of la perla hotel", "what about the coordinates of the la perla hotel", "what are the coordinates of the la perla hotel", "tell me about the coordinates of the la perla hotel"],
+  "responses": ["the hotel is 350 meters away from the center of al hoceima, and there are some of the most beautiful golden beaches near it"], 
+  "context": []
+  },
+
+{"tag": "villa florida location", 
+"patterns": ["villa florida location", "where is villa florida hotel located", "what is the location of the villa florida hotel", "tell me about the villa florida hotel location", "what about the location of the villa florida hotel", "coordinates of villa florida hotel", "what about the coordinates of the villa florida hotel", "what are the coordinates of the villa florida hotel", "tell me about the coordinates of the villa florida hotel"],
+ "responses": ["the hotel is 650 meters from the center of al hoceima, and quemado beach is 1.5 km away."], 
+ "context": []
+ },
+
+{"tag": "muhammed vipaye accor location", 
+"patterns": ["muhammed vipaye accor location", "where is muhammed vipaye accor hotel located", "what is the location of the muhammed vipaye accor hotel", "tell me about the muhammed vipaye accor hotel location", "what about the location of the muhammed vipaye accor hotel", "coordinates of muhammed vipaye accor hotel", "what about the coordinates of the muhammed vipaye accor hotel", "what are the coordinates of the muhammed vipaye accor hotel", "tell me about the coordinates of the muhammed vipaye accor hotel"], 
+"responses": ["the hotel is 500 meters from the center of al hoceima"],
+ "context": []
+ },
+
+{"tag": "souani location", 
+"patterns": ["souani location", "where is souani hotel located", "what is the location of the souani hotel", "tell me about the souani hotel location", "what about the location of the souani hotel", "coordinates of souani hotel", "what about the coordinates of the souani hotel", "what are the coordinates of the souani hotel", "tell me about the coordinates of the souani hotel"], 
+"responses": ["fez sa\u00efss international airport is an hour's drive from the hotel"],
+ "context": []
+ },
+
+{"tag": "dar meknes location",
+ "patterns": ["dar meknes location", "where is dar meknes hotel located", "what is the location of the dar meknes hotel", "tell me about the dar meknes hotel location", "what about the location of the dar meknes hotel", "coordinates of dar meknes hotel", "what about the coordinates of the dar meknes hotel", "what are the coordinates of the dar meknes hotel", "tell me about the coordinates of the dar meknes hotel"], 
+ "responses": ["the hotel is located near the city center of meknes, 5.6 km away"], 
+ "context": []
+ },
+
+{"tag": "tresor bellevue spa location",
+ "patterns": ["tresor bellevue spa location", "where is tresor bellevue spa hotel located", "what is the location of the tresor bellevue spa hotel", "tell me about the tresor bellevue spa hotel location", "what about the location of the tresor bellevue spa hotel", "coordinates of tresor bellevue spa hotel", "what about the coordinates of the tresor bellevue spa hotel", "what are the coordinates of the tresor bellevue spa hotel", "tell me about the coordinates of the tresor bellevue spa hotel"],
+ "responses": ["1.9 km from meknes train station"], 
+ "context": []
+ },
+
+{"tag": "riad retaj location", 
+"patterns": ["riad retaj location", "where is riad retaj hotel located", "what is the location of the riad retaj hotel", "tell me about the riad retaj hotel location", "what about the location of the riad retaj hotel", "coordinates of riad retaj hotel", "what about the coordinates of the riad retaj hotel", "what are the coordinates of the riad retaj hotel", "tell me about the coordinates of the riad retaj hotel"], 
+"responses": ["hotel ritaj is located in meknes, 550 meters from dar jamai museum"],
+ "context": []
+ },
+
+{"tag": "riad yakout location",
+ "patterns": ["riad yakout location", "where is riad yakout hotel located", "what is the location of the riad yakout hotel", "tell me about the riad yakout hotel location", "what about the location of the riad yakout hotel", "coordinates of riad yakout hotel", "what about the coordinates of the riad yakout hotel", "what are the coordinates of the riad yakout hotel", "tell me about the coordinates of the riad yakout hotel"],
+  "responses": ["it is located in a historic building dating back to 1830 in the heart of meknes"],
+   "context": []
+   },
+
+{"tag": "micheleven resor location",
+ "patterns": ["micheleven resor location", "where is micheleven resor hotel located", "what is the location of the micheleven resor hotel", "tell me about the micheleven resor hotel location", "what about the location of the micheleven resor hotel", "coordinates of micheleven resor hotel", "what about the coordinates of the micheleven resor hotel", "what are the coordinates of the micheleven resor hotel", "tell me about the coordinates of the micheleven resor hotel"], 
+ "responses": ["the hotel is located on hassan ii street, close to the national park, 0.3 km from the lion stone"],
+  "context": []
+  },
+
+{"tag": "ifrane gardens location", 
+"patterns": ["ifrane gardens location", "where is ifrane gardens hotel located", "what is the location of the ifrane gardens hotel", "tell me about the ifrane gardens hotel location", "what about the location of the ifrane gardens hotel", "coordinates of ifrane gardens hotel", "what about the coordinates of the ifrane gardens hotel", "what are the coordinates of the ifrane gardens hotel", "tell me about the coordinates of the ifrane gardens hotel"],
+ "responses": ["the property is about 3.3 km from lake ifrane"], 
+ "context": []
+ },
+
+{"tag": "relais ras el maa location", 
+"patterns": ["relais ras el maa location", "where is relais ras el maa hotel located", "what is the location of the relais ras el maa hotel", "tell me about the relais ras el maa hotel location", "what about the location of the relais ras el maa hotel", "coordinates of relais ras el maa hotel", "what about the coordinates of the relais ras el maa hotel", "what are the coordinates of the relais ras el maa hotel", "tell me about the coordinates of the relais ras el maa hotel"], 
+"responses": ["relais ras el maa is located 3.5 from the city of ifrane, a 5-minute drive from the vitel water spring park"],
+ "context": []
+ },
+
+{"tag": "ifrane palace resort location", 
+"patterns": ["ifrane palace resort location", "where is ifrane palace resort hotel located", "what is the location of the ifrane palace resort hotel", "tell me about the ifrane palace resort hotel location", "what about the location of the ifrane palace resort hotel", "coordinates of ifrane palace resort hotel", "what about the coordinates of the ifrane palace resort hotel", "what are the coordinates of the ifrane palace resort hotel", "tell me about the coordinates of the ifrane palace resort hotel"],
+ "responses": ["the resort is located 4 km from the city of ifrane, 1 km from hajar al-assad, 47 km from sais airport"],
+  "context": []
+  },
+
+{"tag": "la maison bleu location", 
+"patterns": ["la maison bleu location", "where is la maison bleu hotel located", "what is the location of the la maison bleu hotel", "tell me about the la maison bleu hotel location", "what about the location of the la maison bleu hotel", "coordinates of la maison bleu hotel", "what about the coordinates of the la maison bleu hotel", "what are the coordinates of the la maison bleu hotel", "tell me about the coordinates of the la maison bleu hotel"], 
+"responses": ["the hotel is located close to the national park"],
+ "context": []
+ },
+
+{"tag": "dar zembra location", 
+"patterns": ["dar zembra location", "where is dar zembra hotel located", "what is the location of the dar zembra hotel", "tell me about the dar zembra hotel location", "what about the location of the dar zembra hotel", "coordinates of dar zembra hotel", "what about the coordinates of the dar zembra hotel", "what are the coordinates of the dar zembra hotel", "tell me about the coordinates of the dar zembra hotel"],
+ "responses": ["it is a 10-minute drive from ras el maa area"],
+  "context": []
+  },
+
+{"tag": "dar saba location", 
+"patterns": ["dar saba location", "where is dar saba hotel located", "what is the location of the dar saba hotel", "tell me about the dar saba hotel location", "what about the location of the dar saba hotel", "coordinates of dar saba hotel", "what about the coordinates of the dar saba hotel", "what are the coordinates of the dar saba hotel", "tell me about the coordinates of the dar saba hotel"],
+ "responses": ["it is located in the tangier-tetouan region, only 200 meters from outa el hammam square"], 
+ "context": []
+ },
+
+{"tag": "dar meziana location", 
+"patterns": ["dar meziana location", "where is dar meziana hotel located", "what is the location of the dar meziana hotel", "tell me about the dar meziana hotel location", "what about the location of the dar meziana hotel", "coordinates of dar meziana hotel", "what about the coordinates of the dar meziana hotel", "what are the coordinates of the dar meziana hotel", "tell me about the coordinates of the dar meziana hotel"], 
+"responses": ["it is located 10 minutes from ras el-ma waterfalls"],
+ "context": []
+ },
+
+{"tag": "cher aziz location",
+ "patterns": ["cher aziz location", "where is cher aziz hotel located", "what is the location of the cher aziz hotel", "tell me about the cher aziz hotel location", "what about the location of the cher aziz hotel", "coordinates of cher aziz hotel", "what about the coordinates of the cher aziz hotel", "what are the coordinates of the cher aziz hotel", "tell me about the coordinates of the cher aziz hotel"], 
+ "responses": ["it is located 700 meters from the kasbah and close to shopping and dining options"], 
+ "context": []
+ },
+
+{"tag": "dar elrio location", 
+"patterns": ["dar elrio location", "where is dar elrio hotel located", "what is the location of the dar elrio hotel", "tell me about the dar elrio hotel location", "what about the location of the dar elrio hotel", "coordinates of dar elrio hotel", "what about the coordinates of the dar elrio hotel", "what are the coordinates of the . hotel", "tell me about the coordinates of the dar elrio hotel"],
+ "responses": ["it is located near the kasbah, only 200 meters away"], 
+ "context": []
+ },
+{"tag": "sofitel agadir location",
+ "patterns": ["sofitel agadir location", "where is sofitel agadir hotel located", "what is the location of the sofitel agadir hotel", "tell me about the sofitel agadir hotel location", "what about the location of the sofitel agadir hotel", "coordinates of sofitel agadir hotel", "what about the coordinates of the sofitel agadir hotel", "what are the coordinates of the sofitel agadir hotel", "tell me about the coordinates of the sofitel agadir hotel"], 
+ "responses": ["just 5 minutes walk from the seaside of the beach"],
+  "context": []
+  },
+
+{"tag": "royal spa location", 
+"patterns": ["royal spa location", "where is royal spa hotel located", "what is the location of the royal spa hotel", "tell me about the royal spa hotel location", "what about the location of the royal spa hotel", "coordinates of royal spa hotel", "what about the coordinates of the royal spa hotel", "what are the coordinates of the royal spa hotel", "tell me about the coordinates of the royal spa hotel"],
+ "responses": ["it is located only 3 minutes' walk from the seaside"], 
+ "context": []
+ },
+
+{"tag": "iberostar location",
+ "patterns": ["iberostar location", "where is iberostar hotel located", "what is the location of the iberostar hotel", "tell me about the iberostar hotel location", "what about the location of the iberostar hotel", "coordinates of iberostar hotel", "what about the coordinates of the iberostar hotel", "what are the coordinates of the iberostar hotel", "tell me about the coordinates of the iberostar hotel"], 
+ "responses": ["iberostar hotel is located a short walk from the beach and close to the city center"], 
+ "context": []
+},
+
+{"tag": "tildi spa location", 
+"patterns": ["tildi spa location", "where is tildi spa hotel located", "what is the location of the tildi spa hotel", "tell me about the tildi spa hotel location", "what about the location of the tildi spa hotel", "coordinates of tildi spa hotel", "what about the coordinates of the tildi spa hotel", "what are the coordinates of the tildi spa hotel", "tell me about the coordinates of the tildi spa hotel"],
+ "responses": ["it is located in the middel of agadir"], 
+ "context": []
+ },
+
+{"tag": "atlantic location", 
+"patterns": ["atlantic location", "where is atlantic hotel located", "what is the location of the atlantic hotel", "tell me about the atlantic hotel location", "what about the location of the atlantic hotel", "coordinates of atlantic hotel", "what about the coordinates of the atlantic hotel", "what are the coordinates of the atlantic hotel", "tell me about the coordinates of the atlantic hotel"],
+ "responses": ["the atlantic hotel is located in the middle of agadir, a 10-minute walk from the beach"],
+  "context": []
+  },
+
+{"tag": "kenzi tower",
+ "patterns": ["features of kenzi tower", "kenzi tower hotel", "what distinguishes kenzi tower hotel", "tell me about kenzi tower hotel", "kenzi tower hotel features", "tell me about the features of kenzi tower hotel", "what about the features of kenzi tower hotel", "what are the features of kenzi tower hotel"],
+  "responses": ["it has a view of the entire city, as it is close to the city center and the hassan ii mosque"],
+   "context": []
+   },
+
+{"tag": "sofitel casablanca", 
+"patterns": ["features of sofitel casablanca", "sofitel casablanca hotel", "what distinguishes sofitel casablanca hotel", "tell me about sofitel casablanca hotel", "sofitel casablanca hotel features", "tell me about the features of sofitel casablanca hotel", "what about the features of sofitel casablanca hotel", "what are the features of sofitel casablanca hotel"],
+ "responses": ["it is distinguished by its location close to the city center and only a few minutes away from the hassan ii mosque and the port of casablanca"], 
+ "context": []
+ },
+
+{"tag": "four seasons", 
+"patterns": ["features of four seasons", "four seasons hotel", "what distinguishes four seasons hotel", "tell me about four seasons hotel", "four seasons hotel features", "tell me about the features of four seasons hotel", "what about the features of four seasons hotel", "what are the features of four seasons hotel"],
+ "responses": ["it is characterized by its location near anfaplace and ain diab corniche"],
+  "context": []
+  },
+
+{"tag": "val d'anfa",
+ "patterns": ["features of val d'anfa", "val d'anfa hotel", "what distinguishes val d'anfa hotel", "tell me about val d'anfa hotel", "val d'anfa hotel features", "tell me about the features of val d'anfa hotel", "what about the features of val d'anfa hotel", "what are the features of val d'anfa hotel"],
+  "responses": ["it is located near the main commercial areas"],
+   "context": []
+   },
+
+{"tag": "hayat regency", 
+"patterns": ["features of hayat regency", "hayat regency hotel", "what distinguishes hayat regency hotel", "tell me about hayat regency hotel", "hayat regency hotel features", "tell me about the features of hayat regency hotel", "what about the features of hayat regency hotel", "what are the features of hayat regency hotel"], 
+"responses": ["it is characterized by its location near the city center, where the port of casablanca is about 900 meters away"],
+ "context": []
+ },
+
+{"tag": "lawrence", 
+"patterns": ["features of lawrence", "lawrence hotel", "what distinguishes lawrence hotel", "tell me about lawrence hotel", "lawrence hotel features", "tell me about the features of lawrence hotel", "what about the features of lawrence hotel", "what are the features of lawrence hotel"], 
+"responses": ["it is distinguished by its location near the royal theatre, conference palace, harti park and royal tennis harti"],
+ "context": []
+ },
+
+{"tag": "ozo", 
+"patterns": ["features of ozo", "ozo hotel", "what distinguishes ozo hotel", "tell me about ozo hotel", "ozo hotel features", "tell me about the features of ozo hotel", "what about the features of ozo hotel", "what are the features of ozo hotel"],
+ "responses": ["it features elegant rooms with balconies overlooking the majorelle gardens, and it also includes family rooms"],
+  "context": []
+  },
+
+{"tag": "spa kitsch", 
+"patterns": ["features of spa kitsch", "spa kitsch hotel", "what distinguishes spa kitsch hotel", "tell me about spa kitsch hotel", "spa kitsch hotel features", "tell me about the features of spa kitsch hotel", "what about the features of spa kitsch hotel", "what are the features of spa kitsch hotel"],
+ "responses": ["it is distinguished by its location near the agdal gardens and the royal equestrian club, as it is close to megarama cinema"],
+  "context": []
+  },
+
+{"tag": "relax",
+ "patterns": ["features of relax", "relax hotel", "what distinguishes relax hotel", "tell me about relax hotel", "relax hotel features", "tell me about the features of relax hotel", "what about the features of relax hotel", "what are the features of relax hotel"], 
+ "responses": ["it has a quiet location away from the hustle and bustle of the city center"],
+  "context": []
+  },
+
+{"tag": "red marrakech",
+ "patterns": ["features of red marrakech", "red marrakech hotel", "what distinguishes red marrakech hotel", "tell me about red marrakech hotel", "red marrakech hotel features", "tell me about the features of red marrakech hotel", "what about the features of red marrakech hotel", "what are the features of red marrakech hotel"],
+  "responses": ["it is located near the jama\u00e2 el fna square"],
+   "context": []
+   },
+
+{"tag": "riad laporte bleu",
+"patterns": ["features of riad laporte bleu", "riad laporte bleu hotel", "what distinguishes riad laporte bleu hotel", "tell me about riad laporte bleu hotel", "riad laporte bleu hotel features", "tell me about the features of riad laporte bleu hotel", "what about the features of riad laporte bleu hotel", "what are the features of riad laporte bleu hotel"], 
+"responses": ["it features a room service restaurant, free wi-fi and family rooms"],
+ "context": []
+ },
+
+{"tag": "sahara", 
+"patterns": ["features of sahara", "sahara hotel", "what distinguishes sahara hotel", "tell me about sahara hotel", "sahara hotel features", "tell me about the features of sahara hotel", "what about the features of sahara hotel", "what are the features of sahara hotel"],
+ "responses": ["it is especially suitable for the honeymoon and for the newlyweds due to the design of its rooms"], 
+ "context": []
+ },
+
+{"tag": "marriott jean palace", 
+"patterns": ["features of marriott jean palace", "marriott jean palace hotel", "what distinguishes marriott jean palace hotel", "tell me about marriott jean palace hotel", "marriott jean palace hotel features", "tell me about the features of marriott jean palace hotel", "what about the features of marriott jean palace hotel", "what are the features of marriott jean palace hotel"],
+ "responses": ["it features air-conditioned rooms with views of the surrounding gardens or the pool"],
+  "context": []
+  },
+
+{"tag": " palais", 
+"patterns": ["features of palais", "palais hotel", "what distinguishes palais hotel", "tell me about palais hotel", "palais hotel features", "tell me about the features of palais hotel", "what about the features of palais hotel", "what are the features of palais hotel"],
+ "responses": ["it features high-end accommodation overlooking mount zallakh and the old city of fez"],
+  "context": []
+  },
+
+{"tag": "barcelo fez",
+ "patterns": ["features of barcelo fez", "barcelo fez hotel", "what distinguishes barcelo fez hotel", "tell me about barcelo fez hotel", "barcelo fez hotel features", "tell me about the features of barcelo fez hotel", "what about the features of barcelo fez hotel", "what are the features of barcelo fez hotel"],
+  "responses": ["it is located in the center of the new city, only a 5-minute drive from the fez railway station"],
+   "context": []
+   },
+
+{"tag": "latour hassan", 
+"patterns": ["features of latour hassan", "latour hassan hotel", "what distinguishes latour hassan hotel", "tell me about latour hassan hotel", "latour hassan hotel features", "tell me about the features of latour hassan hotel", "what about the features of latour hassan hotel", "what are the features of latour hassan hotel"],
+ "responses": ["it is distinguished by owning five different international restaurants, and its style and designs bear the wonderful moroccan style"],
+  "context": []
+  },
+
+{"tag": "sofitel rabat", 
+"patterns": ["features of sofitel rabat", "sofitel rabat hotel", "what distinguishes sofitel rabat hotel", "tell me about sofitel rabat hotel", "sofitel rabat hotel features", "tell me about the features of sofitel rabat hotel", "what about the features of sofitel rabat hotel", "what are the features of sofitel rabat hotel"],
+ "responses": ["it features elegant rooms with basic amenities, a sun terrace and a fitness centre"],
+  "context": []
+  },
+
+{"tag": "cantor", 
+"patterns": ["features of cantor", "cantor hotel", "what distinguishes cantor hotel", "tell me about cantor hotel", "cantor hotel features", "tell me about the features of cantor hotel", "what about the features of cantor hotel", "what are the features of cantor hotel"],
+ "responses": ["it features many recreational activities, including horse riding, windsurfing, and fishing"],
+  "context": []
+  },
+
+{"tag": "peleg", 
+"patterns": ["features of peleg", "peleg hotel", "what distinguishes peleg hotel", "tell me about peleg hotel", "peleg hotel features", "tell me about the features of peleg hotel", "what about the features of peleg hotel", "what are the features of peleg hotel"], 
+"responses": ["it offers great views of the rabat city skyline, and there are souvenir shops at the hotel"],
+ "context": []
+ },
+
+{"tag": "diwan rabat",
+ "patterns": ["features of diwan rabat", "diwan rabat hotel", "what distinguishes diwan rabat hotel", "tell me about diwan rabat hotel", "diwan rabat hotel features", "tell me about the features of diwan rabat hotel", "what about the features of diwan rabat hotel", "what are the features of diwan rabat hotel"],
+  "responses": ["it is located in the center of the capital and its large area offers panoramic views of the andalusian gardens or the magnificent eucalyptus forest."], 
+  "context": []
+  },
+
+{"tag": "manar tangier",
+ "patterns": ["features of manar tangier", "manar tangier hotel", "what distinguishes manar tangier hotel", "tell me about manar tangier hotel", "manar tangier hotel features", "tell me about the features of manar tangier hotel", "what about the features of manar tangier hotel", "what are the features of manar tangier hotel"], 
+ "responses": ["featuring family rooms with full facilities, it also offers free internet, a babysitter, two swimming pools"], 
+ "context": []
+ },
+
+{"tag": "maison de tangier", 
+"patterns": ["features of la maison de tangier", "la maison de tangier hotel", "what distinguishes la maison de tangier hotel", "tell me about la maison de tangier hotel", "la maison de tangier hotel features", "tell me about the features of la maison de tangier hotel", "what about the features of la maison de tangier hotel", "what are the features of la maison de tangier hotel"],
+ "responses": ["it features family rooms and suites with enchanting sea views"], 
+ "context": []
+ },
+
+{"tag": "dar shams", 
+"patterns": ["features of dar shams", "dar shams hotel", "what distinguishes dar shams hotel", "tell me about dar shams hotel", "dar shams hotel features", "tell me about the features of dar shams hotel", "what about the features of dar shams hotel", "what are the features of dar shams hotel"],
+ "responses": ["it features unique and varied views of the city and the gulf of tangiers"],
+  "context": []
+  },
+
+{"tag": "palais zahia", 
+"patterns": ["features of palais zahia", "palais zahia hotel", "what distinguishes palais zahia hotel", "tell me about palais zahia hotel", "palais zahia hotel features", "tell me about the features of palais zahia hotel", "what about the features of palais zahia hotel", "what are the features of palais zahia hotel"],
+ "responses": ["it features vip facilities with spa and massage facilities, along with free internet. tour desk"],
+  "context": []
+  },
+
+{"tag": "kasbah rose", 
+"patterns": ["features of kasbah rose", "kasbah rose hotel", "what distinguishes kasbah rose hotel", "tell me about kasbah rose hotel", "kasbah rose hotel features", "tell me about the features of kasbah rose hotel", "what about the features of kasbah rose hotel", "what are the features of kasbah rose hotel"], 
+"responses": ["it offers attractive views of the city's mountains and consists of decorated rooms with a comfortable seating area"], 
+"context": []
+},
+
+{"tag": "le redacto", 
+"patterns": ["features of le redacto", "le redacto hotel", "what distinguishes le redacto hotel", "tell me about le redacto hotel", "le redacto hotel features", "tell me about the features of le redacto hotel", "what about the features of le redacto hotel", "what are the features of le redacto hotel"],
+ "responses": ["it features a range of rooms and suites with exquisite decor that mixes spanish and moroccan deco"],
+  "context": []
+  },
+
+{"tag": "el mendari", 
+"patterns": ["features of el mendari", "el mendari hotel", "what distinguishes el mendari hotel", "tell me about el mendari hotel", "el mendari hotel features", "tell me about the features of el mendari hotel", "what about the features of el mendari hotel", "what are the features of el mendari hotel"],
+ "responses": ["the hotel features a garden and an outdoor terrace for relaxing and sunbathing"],
+  "context": []
+  },
+
+{"tag": "riad dar el chach",
+ "patterns": ["features of riad dar el chach", "riad dar el chach hotel", "what distinguishes riad dar el chach hotel", "tell me about riad dar el chach hotel", "riad dar el chach hotel features", "tell me about the features of riad dar el chach hotel", "what about the features of riad dar el chach hotel", "what are the features of riad dar el chach hotel"],
+  "responses": ["the hotel features the best services, such as the hotel's reception desk, which operates around the clock"],
+   "context": []
+   },
+
+{"tag": "prestige tetouan", 
+"patterns": ["features of prestige tetouan", "prestige tetouan hotel", "what distinguishes prestige tetouan hotel", "tell me about prestige tetouan hotel", "prestige tetouan hotel features", "tell me about the features of prestige tetouan hotel", "what about the features of prestige tetouan hotel", "what are the features of prestige tetouan hotel"], 
+"responses": ["the hotel features a range of exquisitely decorated units designed to suit families and special rooms for the newlyweds"], 
+"context": []
+},
+
+{"tag": "las mili yunachis", 
+"patterns": ["features of las mili yunachis", "las mili yunachis hotel", "what distinguishes las mili yunachis hotel", "tell me about las mili yunachis hotel", "las mili yunachis hotel features", "tell me about the features of las mili yunachis hotel", "what about the features of las mili yunachis hotel", "what are the features of las mili yunachis hotel"],
+ "responses": ["it features rooms with distinctive designs that have balconies, and some of them have a terrace with a wonderful view of the mountains"],
+  "context": []
+  },
+
+{"tag": "mira palace", "patterns": ["features of mira palace", "mira palace hotel", "what distinguishes mira palace hotel", "tell me about mira palace hotel", "mira palace hotel features", "tell me about the features of mira palace hotel", "what about the features of mira palace hotel", "what are the features of mira palace hotel"],
+ "responses": ["the hotel features a vivid view of quemado beach and the shores of the mediterranean sea"], 
+ "context": []
+ },
+
+{"tag": "mercury quemado",
+ "patterns": ["features of mercury quemado", "mercury quemado hotel", "what distinguishes mercury quemado hotel", "tell me about mercury quemado hotel", "mercury quemado hotel features", "tell me about the features of mercury quemado hotel", "what about the features of mercury quemado hotel", "what are the features of mercury quemado hotel"], 
+ "responses": ["it has a year-round outdoor pool, a tour desk, and a full body massage"],
+  "context": []
+  },
+
+{"tag": "la perla",
+ "patterns": ["features of la perla", "la perla hotel", "what distinguishes la perla hotel", "tell me about la perla hotel", "la perla hotel features", "tell me about the features of la perla hotel", "what about the features of la perla hotel", "what are the features of la perla hotel"],
+  "responses": ["it offers luxurious services to guests and is suitable for businessmen, as it includes large meeting rooms"],
+   "context": []
+   },
+
+{"tag": "villa florida",
+ "patterns": ["features of villa florida", "villa florida hotel", "what distinguishes villa florida hotel", "tell me about villa florida hotel", "villa florida hotel features", "tell me about the features of villa florida hotel", "what about the features of villa florida hotel", "what are the features of villa florida hotel"], 
+ "responses": ["it is one of the most wonderful hotels in al hoceima, which offers excellent facilities, as it includes spacious rooms and suites"],
+  "context": []
+  },
+
+{"tag": "muhammed vipaye accor", 
+"patterns": ["features of muhammed vipaye accor", "muhammed vipaye accor hotel", "what distinguishes muhammed vipaye accor hotel", "tell me about muhammed vipaye accor hotel", "muhammed vipaye accor hotel features", "tell me about the features of muhammed vipaye accor hotel", "what about the features of muhammed vipaye accor hotel", "what are the features of muhammed vipaye accor hotel"], 
+"responses": ["the mer palace hotel, one of the most luxurious hotels in al hoceima, morocco, is distinguished by its elegant decorations and modern designs"],
+ "context": []
+ },
+
+{"tag": "souani",
+ "patterns": ["features of souani", "souani hotel", "what distinguishes souani hotel", "tell me about tresor hotel", "tresor hotel features", "tell me about the features of tresor hotel", "what about the features of tresor hotel", "what are the features of tresor hotel"], 
+ "responses": ["the hotel features a variety of facilities and services that we offer, including grocery delivery"],
+  "context": []
+  },
+
+{"tag": "dar meknes", 
+"patterns": ["features of dar meknes", "dar meknes hotel", "what distinguishes dar meknes hotel", "tell me about dar meknes hotel", "dar meknes hotel features", "tell me about the features of dar meknes hotel", "what about the features of dar meknes hotel", "what are the features of dar meknes hotel"],
+ "responses": ["the hotel features walking tours, a tour or an episode about local culture"], 
+ "context": []
+ },
+
+{"tag": "tresor bellevue spa",
+ "patterns": ["features of tresor bellevue spa", "tresor bellevue spa hotel", "what distinguishes tresor bellevue spa hotel", "tell me about tresor bellevue spa hotel", "tresor bellevue spa hotel features", "tell me about the features of tresor bellevue spa hotel", "what about the features of tresor bellevue spa hotel", "what are the features of tresor bellevue spa hotel"],
+  "responses": ["the hotel is located in a privileged area with many activities to do, such as mountain biking"], 
+  "context": []
+  },
+
+{"tag": "riad retaj", 
+"patterns": ["features of riad retaj", "riad retaj hotel", "what distinguishes riad retaj hotel", "tell me about riad retaj hotel", "riad retaj hotel features", "tell me about the features of riad retaj hotel", "what about the features of riad retaj hotel", "what are the features of riad retaj hotel"],
+ "responses": ["this hotel is considered one of the best hotels in meknes in terms of attractive design and decorations"],
+  "context": []
+  },
+
+{"tag": "riad yakout", 
+"patterns": ["features of riad yakout", "riad yakout hotel", "what distinguishes riad yakout hotel", "tell me about riad yakout hotel", "riad yakout hotel features", "tell me about the features of riad yakout hotel", "what about the features of riad yakout hotel", "what are the features of riad yakout hotel"], 
+"responses": ["it is distinguished by its unique courtyard that simulates the moroccan heritage and provides a huge number of activities, including tours and workshops on local culture"], 
+"context": []
+},
+
+{"tag": "micheleven resor",
+ "patterns": ["features of micheleven resor", "micheleven resor hotel", "what distinguishes micheleven resor hotel", "tell me about micheleven resor hotel", "micheleven resor hotel features", "tell me about the features of micheleven resor hotel", "what about the features of micheleven resor hotel", "what are the features of micheleven resor hotel"],
+  "responses": ["it features air-conditioned rooms with great views of the forest or the pool"],
+   "context": []
+   },
+
+{"tag": "ifrane gardens", 
+"patterns": ["features of ifrane gardens", "ifrane gardens hotel", "what distinguishes ifrane gardens hotel", "tell me about ifrane gardens hotel", "ifrane gardens hotel features", "tell me about the features of ifrane gardens hotel", "what about the features of ifrane gardens hotel", "what are the features of ifrane gardens hotel"],
+ "responses": ["it is a holiday home with two bedrooms and a fully equipped kitchen"],
+  "context": []
+  },
+
+{"tag": "relais ras el maa",
+ "patterns": ["features of relais ras el maa", "relais ras el maa hotel", "what distinguishes relais ras el maa hotel", "tell me about relais ras el maa hotel", "relais ras el maa hotel features", "tell me about the features of relais ras el maa hotel", "what about the features of relais ras el maa hotel", "what are the features of relais ras el maa hotel"], 
+ "responses": ["the hotel is close to ski sites and also offers a garden and a terrace"],
+  "context": []
+  },
+
+{"tag": "ifrane palace resort",
+ "patterns": ["features of ifrane palace resort", "ifrane palace resort hotel", "what distinguishes ifrane palace resort hotel", "tell me about ifrane palace resort hotel", "ifrane palace resort hotel features", "tell me about the features of ifrane palace resort hotel", "what about the features of ifrane palace resort hotel", "what are the features of ifrane palace resort hotel"], 
+ "responses": ["it features comfortably equipped rooms with a view of the hotel's garden"],
+  "context": []
+  },
+
+{"tag": "la maison bleu",
+ "patterns": ["features of la maison bleu", "la maison bleu hotel", "what distinguishes la maison bleu hotel", "tell me about la maison bleu hotel", "la maison bleu hotel features", "tell me about the features of la maison bleu hotel", "what about the features of la maison bleu hotel", "what are the features of la maison bleu hotel"], 
+ "responses": ["it features a health club that offers sauna, massage and beauty treatments"],
+  "context": []
+  },
+
+{"tag": "dar zembra", 
+"patterns": ["features of dar zembra", "dar zembra hotel", "what distinguishes dar zembra hotel", "tell me about dar zembra hotel", "dar zembra hotel features", "tell me about the features of dar zembra hotel", "what about the features of dar zembra hotel", "what are the features of dar zembra hotel"], 
+"responses": ["it has a traditional design and a mountain view"],
+ "context": []
+ },
+
+{"tag": "dar saba", 
+"patterns": ["features of dar saba", "dar saba hotel", "what distinguishes dar saba hotel", "tell me about dar saba hotel", "dar saba hotel features", "tell me about the features of dar saba hotel", "what about the features of dar saba hotel", "what are the features of dar saba hotel"],
+ "responses": ["the hotel has express check-in and check-out, concierge and cycling service"], 
+ "context": []
+ },
+
+{"tag": "dar meziana", 
+"patterns": ["features of dar meziana", "dar meziana hotel", "what distinguishes dar meziana hotel", "tell me about dar meziana hotel", "dar meziana hotel features", "tell me about the features of dar meziana hotel", "what about the features of dar meziana hotel", "what are the features of dar meziana hotel"],
+ "responses": ["features a 24-hour front desk, tour desk, and public bath at an additional fee"],
+  "context": []
+  },
+
+{"tag": "cher aziz", 
+"patterns": ["features of cher aziz", "cher aziz hotel", "what distinguishes cher aziz hotel", "tell me about cher aziz hotel", "cher aziz hotel features", "tell me about the features of cher aziz hotel", "what about the features of cher aziz hotel", "what are the features of cher aziz hotel"],
+ "responses": ["it offers self-catering apartments"], 
+ "context": []
+ },
+
+{"tag": "dar elrio", 
+"patterns": ["features of dar elrio", "dar elrio hotel", "what distinguishes dar elrio hotel", "tell me about dar elrio hotel", "dar elrio hotel features", "tell me about the features of dar elrio hotel", "what about the features of dar elrio hotel", "what are the features of dar elrio hotel"], 
+"responses": ["the hotel offers ticket service, express check-in and check-out, wake-up service"],
+ "context": []
+ }
+        ]
+
+}
+
+
